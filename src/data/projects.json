@@ -1,0 +1,171 @@
+{
+  "projects": [
+    {
+      "id": "todo-app",
+      "title": "Todo List Application",
+      "description": "Build a fully functional todo list with CRUD operations, local storage, and filtering capabilities",
+      "difficulty": "beginner",
+      "technologies": ["HTML", "CSS", "JavaScript", "Local Storage"],
+      "estimatedTime": "1-2 weeks",
+      "category": "Web Development",
+      "requirements": [
+        "Basic HTML, CSS, and JavaScript knowledge",
+        "Understanding of DOM manipulation",
+        "Familiarity with event handling"
+      ],
+      "features": [
+        "Add new todos",
+        "Mark todos as complete/incomplete",
+        "Delete todos",
+        "Filter todos (all, active, completed)",
+        "Persist data using localStorage",
+        "Responsive design",
+        "Clean and intuitive UI"
+      ],
+      "githubUrl": "https://github.com/example/todo-app",
+      "demoUrl": "https://example-todo-app.netlify.app"
+    },
+    {
+      "id": "weather-app",
+      "title": "Weather Dashboard",
+      "description": "Create a weather application that fetches data from a weather API and displays current conditions and forecasts",
+      "difficulty": "intermediate",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Weather API", "Axios"],
+      "estimatedTime": "2-3 weeks",
+      "category": "Web Development",
+      "requirements": [
+        "React fundamentals",
+        "Understanding of hooks (useState, useEffect)",
+        "API integration experience",
+        "TypeScript basics"
+      ],
+      "features": [
+        "Current weather display",
+        "5-day weather forecast",
+        "Search by city name",
+        "Geolocation support",
+        "Weather icons and animations",
+        "Temperature unit conversion (°C/°F)",
+        "Responsive design",
+        "Error handling for API failures"
+      ],
+      "githubUrl": "https://github.com/example/weather-dashboard",
+      "demoUrl": "https://example-weather-app.vercel.app"
+    },
+    {
+      "id": "ecommerce-store",
+      "title": "E-commerce Store",
+      "description": "Build a complete e-commerce application with product catalog, shopping cart, and checkout functionality",
+      "difficulty": "advanced",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "PostgreSQL", "Prisma"],
+      "estimatedTime": "6-8 weeks",
+      "category": "Full Stack",
+      "requirements": [
+        "Advanced React/Next.js knowledge",
+        "Database design understanding",
+        "API development experience",
+        "Payment integration familiarity"
+      ],
+      "features": [
+        "Product catalog with categories",
+        "Product search and filtering",
+        "Shopping cart functionality",
+        "User authentication and profiles",
+        "Order management",
+        "Payment processing with Stripe",
+        "Admin dashboard",
+        "Inventory management",
+        "Order tracking",
+        "Responsive design",
+        "SEO optimization"
+      ],
+      "githubUrl": "https://github.com/example/ecommerce-store",
+      "demoUrl": "https://example-store.vercel.app"
+    },
+    {
+      "id": "task-management",
+      "title": "Team Task Management Tool",
+      "description": "Create a collaborative task management application similar to Trello or Asana",
+      "difficulty": "advanced",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "JWT"],
+      "estimatedTime": "8-10 weeks",
+      "category": "Full Stack",
+      "requirements": [
+        "Full-stack development experience",
+        "Real-time communication understanding",
+        "Database modeling skills",
+        "Authentication implementation knowledge"
+      ],
+      "features": [
+        "Project and board creation",
+        "Drag-and-drop task management",
+        "Team collaboration features",
+        "Real-time updates",
+        "User roles and permissions",
+        "File attachments",
+        "Comments and activity tracking",
+        "Due dates and notifications",
+        "Search and filtering",
+        "Mobile-responsive design"
+      ],
+      "githubUrl": "https://github.com/example/task-management",
+      "demoUrl": "https://example-taskmanager.herokuapp.com"
+    },
+    {
+      "id": "portfolio-website",
+      "title": "Personal Portfolio Website",
+      "description": "Design and build a professional portfolio website to showcase your projects and skills",
+      "difficulty": "beginner",
+      "technologies": ["HTML", "CSS", "JavaScript", "GSAP", "Netlify"],
+      "estimatedTime": "1-2 weeks",
+      "category": "Web Development",
+      "requirements": [
+        "HTML and CSS fundamentals",
+        "Basic JavaScript knowledge",
+        "Design principles understanding"
+      ],
+      "features": [
+        "Hero section with introduction",
+        "About me section",
+        "Skills showcase",
+        "Project portfolio with descriptions",
+        "Contact form",
+        "Smooth scrolling and animations",
+        "Responsive design",
+        "SEO optimization",
+        "Fast loading performance"
+      ],
+      "githubUrl": "https://github.com/example/portfolio",
+      "demoUrl": "https://example-portfolio.netlify.app"
+    },
+    {
+      "id": "blog-platform",
+      "title": "Personal Blog Platform",
+      "description": "Build a full-featured blog platform with content management and reader engagement features",
+      "difficulty": "intermediate",
+      "technologies": ["Next.js", "MDX", "Tailwind CSS", "Vercel", "GitHub API"],
+      "estimatedTime": "3-4 weeks",
+      "category": "Web Development",
+      "requirements": [
+        "Next.js fundamentals",
+        "Markdown processing knowledge",
+        "Static site generation understanding",
+        "Content management concepts"
+      ],
+      "features": [
+        "Blog post creation with MDX",
+        "Syntax highlighting for code",
+        "Tag-based categorization",
+        "Search functionality",
+        "Reading time estimation",
+        "Social sharing buttons",
+        "Comment system",
+        "RSS feed generation",
+        "SEO optimization",
+        "Dark/light theme toggle"
+      ],
+      "githubUrl": "https://github.com/example/blog-platform",
+      "demoUrl": "https://example-blog.vercel.app"
+    }
+  ]
+}

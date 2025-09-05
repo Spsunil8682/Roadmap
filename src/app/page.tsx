@@ -1,103 +1,274 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { Search, Filter, ArrowRight, Clock, Users, Star } from 'lucide-react';
+import Link from 'next/link';
+import { Roadmap } from '@/types';
+import roadmapsData from '@/data/roadmaps.json';
+
+export default function HomePage() {
+  const [roadmaps, setRoadmaps] = useState<Roadmap[]>([]);
+  const [filteredRoadmaps, setFilteredRoadmaps] = useState<Roadmap[]>([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<'all' | 'role-based' | 'skill-based'>('all');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<'all' | 'beginner' | 'intermediate' | 'advanced'>('all');
+
+  useEffect(() => {
+    setRoadmaps(roadmapsData.roadmaps as Roadmap[]);
+    setFilteredRoadmaps(roadmapsData.roadmaps as Roadmap[]);
+  }, []);
+
+  useEffect(() => {
+    let filtered = roadmaps;
+
+    // Filter by search term
+    if (searchTerm) {
+      filtered = filtered.filter(roadmap =>
+        roadmap.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        roadmap.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        roadmap.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+      );
+    }
+
+    // Filter by category
+    if (selectedCategory !== 'all') {
+      filtered = filtered.filter(roadmap => roadmap.category === selectedCategory);
+    }
+
+    // Filter by difficulty
+    if (selectedDifficulty !== 'all') {
+      filtered = filtered.filter(roadmap => roadmap.difficulty === selectedDifficulty);
+    }
+
+    setFilteredRoadmaps(filtered);
+  }, [roadmaps, searchTerm, selectedCategory, selectedDifficulty]);
+
+  const categories = [
+    { value: 'all', label: 'All Roadmaps', count: roadmaps.length },
+    { value: 'role-based', label: 'Role-based', count: roadmaps.filter(r => r.category === 'role-based').length },
+    { value: 'skill-based', label: 'Skill-based', count: roadmaps.filter(r => r.category === 'skill-based').length },
+  ];
+
+  const difficulties = [
+    { value: 'all', label: 'All Levels' },
+    { value: 'beginner', label: 'Beginner' },
+    { value: 'intermediate', label: 'Intermediate' },
+    { value: 'advanced', label: 'Advanced' },
+  ];
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 }
+  };
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+      {/* Hero Section */}
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+              Developer{' '}
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                Roadmaps
+              </span>
+            </h1>
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+              Interactive roadmaps, guides, and projects to help you choose your path and grow as a developer.
+              Learn with a structured approach and track your progress.
+            </p>
+          </motion.div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          {/* Stats */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex flex-wrap justify-center gap-8 mb-12"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-300">
+              <Users size={20} />
+              <span>10k+ Developers</span>
+            </div>
+            <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-300">
+              <Star size={20} />
+              <span>50+ Roadmaps</span>
+            </div>
+            <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-300">
+              <Clock size={20} />
+              <span>Always Updated</span>
+            </div>
+          </motion.div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Search and Filters */}
+      <section className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 mb-8"
+          >
+            {/* Search Bar */}
+            <div className="relative mb-6">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+              <input
+                type="text"
+                placeholder="Search roadmaps, technologies, or skills..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
+              />
+            </div>
+
+            {/* Filters */}
+            <div className="flex flex-wrap gap-4">
+              {/* Category Filter */}
+              <div className="flex flex-wrap gap-2">
+                {categories.map((category) => (
+                  <button
+                    key={category.value}
+                    onClick={() => setSelectedCategory(category.value as 'all' | 'role-based' | 'skill-based')}
+                    className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+                      selectedCategory === category.value
+                        ? 'bg-blue-600 text-white shadow-lg'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                  >
+                    {category.label} ({category.count})
+                  </button>
+                ))}
+              </div>
+
+              {/* Difficulty Filter */}
+              <div className="flex flex-wrap gap-2">
+                {difficulties.map((difficulty) => (
+                  <button
+                    key={difficulty.value}
+                    onClick={() => setSelectedDifficulty(difficulty.value as 'all' | 'beginner' | 'intermediate' | 'advanced')}
+                    className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+                      selectedDifficulty === difficulty.value
+                        ? 'bg-purple-600 text-white shadow-lg'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                  >
+                    {difficulty.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Roadmaps Grid */}
+      <section className="py-8 px-4 sm:px-6 lg:px-8 pb-20">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            {filteredRoadmaps.map((roadmap) => (
+              <motion.div
+                key={roadmap.id}
+                variants={itemVariants}
+                whileHover={{ y: -5, scale: 1.02 }}
+                className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
+              >
+                <div className="p-6">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                        {roadmap.title}
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                        {roadmap.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between mb-4">
+                    <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                      roadmap.difficulty === 'beginner'
+                        ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
+                        : roadmap.difficulty === 'intermediate'
+                        ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200'
+                        : 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
+                    }`}>
+                      {roadmap.difficulty}
+                    </span>
+                    <span className="text-sm text-gray-500 dark:text-gray-400 flex items-center">
+                      <Clock size={14} className="mr-1" />
+                      {roadmap.estimatedTime}
+                    </span>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {roadmap.tags.slice(0, 3).map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded-md"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                    {roadmap.tags.length > 3 && (
+                      <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs rounded-md">
+                        +{roadmap.tags.length - 3}
+                      </span>
+                    )}
+                  </div>
+
+                  <Link
+                    href={`/roadmap/${roadmap.id}`}
+                    className="flex items-center justify-between w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 group"
+                  >
+                    <span className="font-medium">View Roadmap</span>
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+
+          {filteredRoadmaps.length === 0 && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center py-12"
+            >
+              <div className="text-gray-400 dark:text-gray-500 mb-4">
+                <Filter size={48} className="mx-auto" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                No roadmaps found
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Try adjusting your search terms or filters to find what you&apos;re looking for.
+              </p>
+            </motion.div>
+          )}
+        </div>
+      </section>
     </div>
   );
 }

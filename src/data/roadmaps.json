@@ -1,0 +1,213 @@
+{
+  "roadmaps": [
+    {
+      "id": "frontend-developer",
+      "title": "Frontend Developer",
+      "description": "Step by step guide to becoming a modern frontend developer",
+      "category": "role-based",
+      "subcategory": "Development",
+      "estimatedTime": "6-12 months",
+      "difficulty": "beginner",
+      "tags": ["html", "css", "javascript", "react", "frontend"],
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01",
+      "nodes": [
+        {
+          "id": "html-basics",
+          "title": "HTML Basics",
+          "description": "Learn the fundamentals of HTML markup language",
+          "position": { "x": 100, "y": 100 },
+          "difficulty": "beginner",
+          "resources": [
+            {
+              "title": "MDN HTML Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+              "type": "documentation"
+            },
+            {
+              "title": "HTML Crash Course",
+              "url": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "css-basics",
+          "title": "CSS Basics",
+          "description": "Learn styling with CSS",
+          "position": { "x": 300, "y": 100 },
+          "difficulty": "beginner",
+          "prerequisites": ["html-basics"],
+          "resources": [
+            {
+              "title": "MDN CSS Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+              "type": "documentation"
+            },
+            {
+              "title": "CSS Complete Course",
+              "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+              "type": "video"
+            }
+          ]
+        },
+        {
+          "id": "javascript-basics",
+          "title": "JavaScript Fundamentals",
+          "description": "Learn JavaScript programming language basics",
+          "position": { "x": 500, "y": 100 },
+          "difficulty": "beginner",
+          "prerequisites": ["html-basics", "css-basics"],
+          "resources": [
+            {
+              "title": "JavaScript.info",
+              "url": "https://javascript.info/",
+              "type": "tutorial"
+            },
+            {
+              "title": "MDN JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+              "type": "documentation"
+            }
+          ]
+        },
+        {
+          "id": "dom-manipulation",
+          "title": "DOM Manipulation",
+          "description": "Learn to interact with the Document Object Model",
+          "position": { "x": 300, "y": 250 },
+          "difficulty": "beginner",
+          "prerequisites": ["javascript-basics"],
+          "resources": [
+            {
+              "title": "DOM Manipulation Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+              "type": "documentation"
+            }
+          ]
+        },
+        {
+          "id": "responsive-design",
+          "title": "Responsive Design",
+          "description": "Learn to create responsive layouts",
+          "position": { "x": 100, "y": 250 },
+          "difficulty": "intermediate",
+          "prerequisites": ["css-basics"],
+          "resources": [
+            {
+              "title": "Responsive Web Design",
+              "url": "https://web.dev/responsive-web-design-basics/",
+              "type": "article"
+            }
+          ]
+        },
+        {
+          "id": "react-basics",
+          "title": "React Fundamentals",
+          "description": "Learn React library for building user interfaces",
+          "position": { "x": 500, "y": 250 },
+          "difficulty": "intermediate",
+          "prerequisites": ["javascript-basics", "dom-manipulation"],
+          "resources": [
+            {
+              "title": "React Official Tutorial",
+              "url": "https://react.dev/learn",
+              "type": "tutorial"
+            },
+            {
+              "title": "React Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+              "type": "video"
+            }
+          ]
+        }
+      ],
+      "connections": [
+        { "from": "html-basics", "to": "css-basics" },
+        { "from": "css-basics", "to": "javascript-basics" },
+        { "from": "html-basics", "to": "javascript-basics" },
+        { "from": "javascript-basics", "to": "dom-manipulation" },
+        { "from": "css-basics", "to": "responsive-design" },
+        { "from": "dom-manipulation", "to": "react-basics" }
+      ]
+    },
+    {
+      "id": "react-roadmap",
+      "title": "React Developer",
+      "description": "Complete guide to mastering React",
+      "category": "skill-based",
+      "subcategory": "Framework",
+      "estimatedTime": "3-6 months",
+      "difficulty": "intermediate",
+      "tags": ["react", "javascript", "frontend", "components"],
+      "createdAt": "2024-01-01",
+      "updatedAt": "2024-01-01",
+      "nodes": [
+        {
+          "id": "react-fundamentals",
+          "title": "React Fundamentals",
+          "description": "Learn the core concepts of React",
+          "position": { "x": 200, "y": 100 },
+          "difficulty": "beginner",
+          "resources": [
+            {
+              "title": "React Official Docs",
+              "url": "https://react.dev/",
+              "type": "documentation"
+            }
+          ]
+        },
+        {
+          "id": "jsx-components",
+          "title": "JSX & Components",
+          "description": "Understanding JSX syntax and component creation",
+          "position": { "x": 400, "y": 100 },
+          "difficulty": "beginner",
+          "prerequisites": ["react-fundamentals"],
+          "resources": [
+            {
+              "title": "JSX Introduction",
+              "url": "https://react.dev/learn/writing-markup-with-jsx",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "state-props",
+          "title": "State & Props",
+          "description": "Managing component state and passing data",
+          "position": { "x": 300, "y": 250 },
+          "difficulty": "intermediate",
+          "prerequisites": ["jsx-components"],
+          "resources": [
+            {
+              "title": "State: A Component's Memory",
+              "url": "https://react.dev/learn/state-a-components-memory",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "hooks",
+          "title": "React Hooks",
+          "description": "Using useState, useEffect, and other hooks",
+          "position": { "x": 500, "y": 250 },
+          "difficulty": "intermediate",
+          "prerequisites": ["state-props"],
+          "resources": [
+            {
+              "title": "React Hooks Guide",
+              "url": "https://react.dev/reference/react",
+              "type": "documentation"
+            }
+          ]
+        }
+      ],
+      "connections": [
+        { "from": "react-fundamentals", "to": "jsx-components" },
+        { "from": "jsx-components", "to": "state-props" },
+        { "from": "state-props", "to": "hooks" }
+      ]
+    }
+  ]
+}
