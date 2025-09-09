@@ -17,7 +17,7 @@ export default function RoadmapVisualization({
   onNodeClick,
 }: RoadmapVisualizationProps) {
   const svgRef = useRef<SVGSVGElement>(null);
-  const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
+  const [dimensions, setDimensions] = useState({ width: 1400, height: 1000 });
 
   useEffect(() => {
     const updateDimensions = () => {
@@ -51,7 +51,7 @@ export default function RoadmapVisualization({
   };
 
   const bounds = getNodeBounds();
-  const padding = 100;
+  const padding = 200;
   const contentWidth = bounds.maxX - bounds.minX + padding * 2;
   const contentHeight = bounds.maxY - bounds.minY + padding * 2;
 
