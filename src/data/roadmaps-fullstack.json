@@ -1,0 +1,586 @@
+{
+  "id": "fullstack-developer",
+  "title": "Full Stack Developer",
+  "description": "Step by step guide to becoming a modern full stack developer in 2025",
+  "category": "role-based",
+  "subcategory": "Development",
+  "estimatedTime": "12-18 months",
+  "difficulty": "intermediate",
+  "tags": ["html", "css", "javascript", "react", "nodejs", "database", "devops", "fullstack"],
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01",
+  "nodes": [
+    {
+      "id": "html",
+      "title": "HTML",
+      "description": "Learn HTML fundamentals and semantic markup",
+      "position": { "x": 400, "y": 100 },
+      "difficulty": "beginner",
+      "resources": [
+        {
+          "title": "MDN HTML Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "css",
+      "title": "CSS",
+      "description": "Master CSS styling, layouts, and responsive design",
+      "position": { "x": 400, "y": 250 },
+      "difficulty": "beginner",
+      "prerequisites": ["html"],
+      "resources": [
+        {
+          "title": "MDN CSS Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript",
+      "description": "Learn JavaScript fundamentals and ES6+ features",
+      "position": { "x": 400, "y": 400 },
+      "difficulty": "beginner",
+      "prerequisites": ["css"],
+      "resources": [
+        {
+          "title": "JavaScript.info",
+          "url": "https://javascript.info/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "npm",
+      "title": "NPM",
+      "description": "Package management with NPM",
+      "position": { "x": 650, "y": 400 },
+      "difficulty": "beginner",
+      "prerequisites": ["javascript"],
+      "resources": [
+        {
+          "title": "NPM Documentation",
+          "url": "https://docs.npmjs.com/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "static-webpages",
+      "title": "Static Webpages",
+      "description": "Build static websites with HTML, CSS, and JavaScript",
+      "position": { "x": 200, "y": 550 },
+      "difficulty": "beginner",
+      "prerequisites": ["html", "css", "javascript"],
+      "resources": [
+        {
+          "title": "Static Site Tutorial",
+          "url": "https://www.freecodecamp.org/news/how-to-build-a-website-with-html-css-javascript/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "interactivity",
+      "title": "Interactivity",
+      "description": "Add interactive features with JavaScript",
+      "position": { "x": 600, "y": 550 },
+      "difficulty": "beginner",
+      "prerequisites": ["javascript", "npm"],
+      "resources": [
+        {
+          "title": "DOM Manipulation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "collaborative-work",
+      "title": "Collaborative Work",
+      "description": "Version control with Git and GitHub",
+      "position": { "x": 200, "y": 700 },
+      "difficulty": "beginner",
+      "prerequisites": ["static-webpages"],
+      "resources": [
+        {
+          "title": "Git Handbook",
+          "url": "https://guides.github.com/introduction/git-handbook/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "external-packages",
+      "title": "External Packages",
+      "description": "Using third-party libraries and frameworks",
+      "position": { "x": 600, "y": 700 },
+      "difficulty": "beginner",
+      "prerequisites": ["interactivity"],
+      "resources": [
+        {
+          "title": "Package Management Guide",
+          "url": "https://www.npmjs.com/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "title": "React",
+      "description": "Build modern UIs with React",
+      "position": { "x": 100, "y": 850 },
+      "difficulty": "intermediate",
+      "prerequisites": ["collaborative-work"],
+      "resources": [
+        {
+          "title": "React Official Tutorial",
+          "url": "https://react.dev/learn",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "tailwind-css",
+      "title": "Tailwind CSS",
+      "description": "Utility-first CSS framework",
+      "position": { "x": 300, "y": 850 },
+      "difficulty": "intermediate",
+      "prerequisites": ["collaborative-work"],
+      "resources": [
+        {
+          "title": "Tailwind CSS Docs",
+          "url": "https://tailwindcss.com/docs",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "description": "Code hosting and collaboration",
+      "position": { "x": 500, "y": 850 },
+      "difficulty": "beginner",
+      "prerequisites": ["external-packages"],
+      "resources": [
+        {
+          "title": "GitHub Guides",
+          "url": "https://guides.github.com/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "title": "Git",
+      "description": "Version control system",
+      "position": { "x": 700, "y": 850 },
+      "difficulty": "beginner",
+      "prerequisites": ["external-packages"],
+      "resources": [
+        {
+          "title": "Pro Git Book",
+          "url": "https://git-scm.com/book",
+          "type": "book"
+        }
+      ]
+    },
+    {
+      "id": "frontend-apps",
+      "title": "Frontend Apps",
+      "description": "Build complete frontend applications",
+      "position": { "x": 200, "y": 1000 },
+      "difficulty": "intermediate",
+      "prerequisites": ["react", "tailwind-css"],
+      "resources": [
+        {
+          "title": "Frontend Project Ideas",
+          "url": "https://github.com/florinpop17/app-ideas",
+          "type": "repository"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "title": "Node.js",
+      "description": "Server-side JavaScript runtime",
+      "position": { "x": 600, "y": 1000 },
+      "difficulty": "intermediate",
+      "prerequisites": ["github", "git"],
+      "resources": [
+        {
+          "title": "Node.js Documentation",
+          "url": "https://nodejs.org/en/docs/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "cli-apps",
+      "title": "CLI Apps",
+      "description": "Build command line applications",
+      "position": { "x": 500, "y": 1150 },
+      "difficulty": "intermediate",
+      "prerequisites": ["nodejs"],
+      "resources": [
+        {
+          "title": "Building CLI Apps with Node.js",
+          "url": "https://blog.logrocket.com/building-typescript-cli-node-js-commander/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "postgresql",
+      "title": "PostgreSQL",
+      "description": "Relational database management",
+      "position": { "x": 700, "y": 1150 },
+      "difficulty": "intermediate",
+      "prerequisites": ["nodejs"],
+      "resources": [
+        {
+          "title": "PostgreSQL Tutorial",
+          "url": "https://www.postgresql.org/docs/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "simple-crud-apps",
+      "title": "Simple CRUD Apps",
+      "description": "Create, Read, Update, Delete applications",
+      "position": { "x": 600, "y": 1300 },
+      "difficulty": "intermediate",
+      "prerequisites": ["cli-apps", "postgresql"],
+      "resources": [
+        {
+          "title": "CRUD Operations Guide",
+          "url": "https://www.freecodecamp.org/news/crud-operations/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "redis",
+      "title": "Redis",
+      "description": "In-memory data structure store",
+      "position": { "x": 300, "y": 1450 },
+      "difficulty": "intermediate",
+      "prerequisites": ["simple-crud-apps"],
+      "resources": [
+        {
+          "title": "Redis Documentation",
+          "url": "https://redis.io/documentation",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "jwt-auth",
+      "title": "JWT Auth",
+      "description": "JSON Web Token authentication",
+      "position": { "x": 500, "y": 1450 },
+      "difficulty": "intermediate",
+      "prerequisites": ["simple-crud-apps"],
+      "resources": [
+        {
+          "title": "JWT Introduction",
+          "url": "https://jwt.io/introduction/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "restful-apis",
+      "title": "RESTful APIs",
+      "description": "Build REST API endpoints",
+      "position": { "x": 700, "y": 1450 },
+      "difficulty": "intermediate",
+      "prerequisites": ["simple-crud-apps"],
+      "resources": [
+        {
+          "title": "REST API Tutorial",
+          "url": "https://restfulapi.net/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "complete-app",
+      "title": "Complete App",
+      "description": "Build full-stack applications",
+      "position": { "x": 500, "y": 1600 },
+      "difficulty": "advanced",
+      "prerequisites": ["redis", "jwt-auth", "restful-apis"],
+      "resources": [
+        {
+          "title": "Full Stack Project Ideas",
+          "url": "https://github.com/florinpop17/app-ideas",
+          "type": "repository"
+        }
+      ]
+    },
+    {
+      "id": "route53",
+      "title": "Route53",
+      "description": "DNS web service",
+      "position": { "x": 200, "y": 1750 },
+      "difficulty": "advanced",
+      "prerequisites": ["complete-app"],
+      "resources": [
+        {
+          "title": "Route53 Documentation",
+          "url": "https://docs.aws.amazon.com/route53/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "ses",
+      "title": "SES",
+      "description": "Simple Email Service",
+      "position": { "x": 400, "y": 1750 },
+      "difficulty": "advanced",
+      "prerequisites": ["complete-app"],
+      "resources": [
+        {
+          "title": "SES Documentation",
+          "url": "https://docs.aws.amazon.com/ses/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "S3",
+      "description": "Simple Storage Service",
+      "position": { "x": 600, "y": 1750 },
+      "difficulty": "advanced",
+      "prerequisites": ["complete-app"],
+      "resources": [
+        {
+          "title": "S3 Documentation",
+          "url": "https://docs.aws.amazon.com/s3/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "linux-basics",
+      "title": "Linux Basics",
+      "description": "Command line and system administration",
+      "position": { "x": 100, "y": 1900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["route53"],
+      "resources": [
+        {
+          "title": "Linux Command Line",
+          "url": "https://linuxcommand.org/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "basic-aws-services",
+      "title": "Basic AWS Services",
+      "description": "Core AWS services and concepts",
+      "position": { "x": 500, "y": 1900 },
+      "difficulty": "advanced",
+      "prerequisites": ["ses", "s3"],
+      "resources": [
+        {
+          "title": "AWS Getting Started",
+          "url": "https://aws.amazon.com/getting-started/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "title": "Deployment",
+      "description": "Deploy applications to production",
+      "position": { "x": 700, "y": 1900 },
+      "difficulty": "advanced",
+      "prerequisites": ["basic-aws-services"],
+      "resources": [
+        {
+          "title": "Deployment Best Practices",
+          "url": "https://12factor.net/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "monit",
+      "title": "Monit",
+      "description": "System monitoring and management",
+      "position": { "x": 800, "y": 1900 },
+      "difficulty": "advanced",
+      "prerequisites": ["deployment"],
+      "resources": [
+        {
+          "title": "Monit Documentation",
+          "url": "https://mmonit.com/monit/documentation/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "Automation",
+      "description": "CI/CD and automated deployments",
+      "position": { "x": 200, "y": 2050 },
+      "difficulty": "advanced",
+      "prerequisites": ["linux-basics"],
+      "resources": [
+        {
+          "title": "CI/CD Best Practices",
+          "url": "https://docs.github.com/en/actions",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "title": "CI / CD",
+      "description": "Continuous Integration and Deployment",
+      "position": { "x": 500, "y": 2050 },
+      "difficulty": "advanced",
+      "prerequisites": ["deployment"],
+      "resources": [
+        {
+          "title": "GitHub Actions",
+          "url": "https://docs.github.com/en/actions",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "title": "Monitoring",
+      "description": "Application and infrastructure monitoring",
+      "position": { "x": 700, "y": 2050 },
+      "difficulty": "advanced",
+      "prerequisites": ["monit"],
+      "resources": [
+        {
+          "title": "Monitoring Best Practices",
+          "url": "https://prometheus.io/docs/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "ansible",
+      "title": "Ansible",
+      "description": "Configuration management and automation",
+      "position": { "x": 350, "y": 2200 },
+      "difficulty": "advanced",
+      "prerequisites": ["automation", "ci-cd"],
+      "resources": [
+        {
+          "title": "Ansible Documentation",
+          "url": "https://docs.ansible.com/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "github-actions",
+      "title": "GitHub Actions",
+      "description": "Workflow automation for GitHub",
+      "position": { "x": 600, "y": 2200 },
+      "difficulty": "advanced",
+      "prerequisites": ["ci-cd", "monitoring"],
+      "resources": [
+        {
+          "title": "GitHub Actions Guide",
+          "url": "https://docs.github.com/en/actions/learn-github-actions",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "terraform",
+      "title": "Terraform",
+      "description": "Infrastructure as Code",
+      "position": { "x": 475, "y": 2350 },
+      "difficulty": "advanced",
+      "prerequisites": ["ansible", "github-actions"],
+      "resources": [
+        {
+          "title": "Terraform Documentation",
+          "url": "https://www.terraform.io/docs",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "title": "Infrastructure",
+      "description": "Cloud infrastructure management",
+      "position": { "x": 475, "y": 2500 },
+      "difficulty": "advanced",
+      "prerequisites": ["terraform"],
+      "resources": [
+        {
+          "title": "Cloud Infrastructure Guide",
+          "url": "https://cloud.google.com/docs/overview",
+          "type": "documentation"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    { "from": "html", "to": "css" },
+    { "from": "css", "to": "javascript" },
+    { "from": "javascript", "to": "npm" },
+    { "from": "html", "to": "static-webpages" },
+    { "from": "css", "to": "static-webpages" },
+    { "from": "javascript", "to": "static-webpages" },
+    { "from": "javascript", "to": "interactivity" },
+    { "from": "npm", "to": "interactivity" },
+    { "from": "static-webpages", "to": "collaborative-work" },
+    { "from": "interactivity", "to": "external-packages" },
+    { "from": "collaborative-work", "to": "react" },
+    { "from": "collaborative-work", "to": "tailwind-css" },
+    { "from": "external-packages", "to": "github" },
+    { "from": "external-packages", "to": "git" },
+    { "from": "react", "to": "frontend-apps" },
+    { "from": "tailwind-css", "to": "frontend-apps" },
+    { "from": "github", "to": "nodejs" },
+    { "from": "git", "to": "nodejs" },
+    { "from": "nodejs", "to": "cli-apps" },
+    { "from": "nodejs", "to": "postgresql" },
+    { "from": "cli-apps", "to": "simple-crud-apps" },
+    { "from": "postgresql", "to": "simple-crud-apps" },
+    { "from": "simple-crud-apps", "to": "redis" },
+    { "from": "simple-crud-apps", "to": "jwt-auth" },
+    { "from": "simple-crud-apps", "to": "restful-apis" },
+    { "from": "redis", "to": "complete-app" },
+    { "from": "jwt-auth", "to": "complete-app" },
+    { "from": "restful-apis", "to": "complete-app" },
+    { "from": "complete-app", "to": "route53" },
+    { "from": "complete-app", "to": "ses" },
+    { "from": "complete-app", "to": "s3" },
+    { "from": "route53", "to": "linux-basics" },
+    { "from": "ses", "to": "basic-aws-services" },
+    { "from": "s3", "to": "basic-aws-services" },
+    { "from": "basic-aws-services", "to": "deployment" },
+    { "from": "deployment", "to": "monit" },
+    { "from": "linux-basics", "to": "automation" },
+    { "from": "deployment", "to": "ci-cd" },
+    { "from": "monit", "to": "monitoring" },
+    { "from": "automation", "to": "ansible" },
+    { "from": "ci-cd", "to": "ansible" },
+    { "from": "ci-cd", "to": "github-actions" },
+    { "from": "monitoring", "to": "github-actions" },
+    { "from": "ansible", "to": "terraform" },
+    { "from": "github-actions", "to": "terraform" },
+    { "from": "terraform", "to": "infrastructure" }
+  ]
+}
