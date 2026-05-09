@@ -1,0 +1,99 @@
+{
+  "name": "Sunil Kumar Patidar",
+  "title": "Associate Software Developer",
+  "tagline": "Building scalable web apps with Next.js, React, and TypeScript.",
+  "location": "Kota, Rajasthan, India",
+  "email": "sunil.dev9928@gmail.com",
+  "phone": "+91 7062006971",
+  "github": "https://github.com/Spsunil8682",
+  "linkedin": "https://www.linkedin.com/in/sunil-kumar-patidar-71b26b213/",
+  "summary": "I'm a software developer focused on building modern, scalable e-commerce and learning experiences. I work day-to-day with Next.js, React, TypeScript, and Tailwind CSS, and I love turning complex problems into clean, fast, accessible UIs. Outside work I solve algorithm problems and ship side projects to keep sharpening my craft.",
+  "education": [
+    {
+      "school": "Indian Institute of Information Technology, Dharwad",
+      "degree": "Bachelor of Technology in Computer Science",
+      "duration": "2020 – 2024",
+      "location": "Karnataka, India",
+      "details": "CPI: 7.5"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Associate Software Developer",
+      "company": "Primathon",
+      "location": "Indore, India",
+      "duration": "April 2025 – Present",
+      "highlights": [
+        "Built scalable web applications using Next.js, React.js, TypeScript, and Tailwind CSS.",
+        "Developed and deployed 5+ live e-commerce projects using Shopify Storefront APIs, custom APIs, GoKwik, and KwikPass integrations.",
+        "Worked on projects like Weryze, Plix Kids, Kilrr, BBlunt, GetElevate, and Aqualogica.",
+        "Optimized frontend performance and responsive UI — improved Lighthouse scores, SEO, and user engagement.",
+        "Used Claude Code, GitHub Copilot, and AI-assisted workflows for faster development and rapid feature delivery.",
+        "Collaborated with clients and cross-functional teams in an agile environment using Git/GitHub."
+      ]
+    },
+    {
+      "role": "Software Development Engineer Intern",
+      "company": "Primathon",
+      "location": "Indore, India",
+      "duration": "Jan 2025 – March 2025",
+      "highlights": [
+        "Developed responsive frontend applications using React.js, Next.js, and TypeScript.",
+        "Built reusable UI components and integrated APIs using Tailwind CSS.",
+        "Worked on frontend optimization, bug fixing, and improving responsiveness.",
+        "Collaborated with senior developers to implement scalable frontend features.",
+        "Maintained code quality and collaboration using Git/GitHub."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Weryze",
+      "url": "https://www.weryze.com/",
+      "description": "Scalable e-commerce platform with Shopify Storefront APIs, custom APIs, KwikPass and GoKwik integrations. SEO-optimized, mobile-first responsive UI.",
+      "tech": ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Shopify API", "GoKwik"]
+    },
+    {
+      "name": "Easy Roadmap",
+      "url": "/",
+      "description": "Developer roadmap platform with categorized learning resources, interview-style quizzes, and progress tracking. The site you're on right now.",
+      "tech": ["Next.js", "React", "Tailwind CSS", "Framer Motion"]
+    },
+    {
+      "name": "Hand-off in Wireless Network",
+      "url": "https://github.com/Spsunil8682",
+      "description": "Wireless network handoff visualizer simulating signal transitions between base stations to make wireless concepts approachable.",
+      "tech": ["React.js", "JavaScript", "HTML", "CSS"]
+    }
+  ],
+  "skills": {
+    "Languages": ["C", "C++", "Java", "JavaScript", "TypeScript", "HTML", "CSS"],
+    "Frontend": ["React.js", "Next.js", "Redux", "Tailwind CSS", "SSR", "SEO Optimization", "Responsive Design"],
+    "Backend & APIs": ["REST APIs", "Shopify APIs", "API Integration", "Authentication"],
+    "Tools & Platforms": ["Git", "GitHub", "VS Code", "Postman", "Figma", "Jira"],
+    "Deployment": ["Vercel", "Netlify", "AWS"],
+    "AI & Productivity": ["ChatGPT", "GitHub Copilot", "Claude Code", "Roo Code", "Prompt Engineering"]
+  },
+  "achievements": [
+    {
+      "title": "700+ DSA Problems Solved",
+      "description": "Across LeetCode, GeeksforGeeks, Codeforces, and CodeChef.",
+      "icon": "Code2"
+    },
+    {
+      "title": "1700+ LeetCode Rating",
+      "description": "Active competitive coder pushing for higher ratings.",
+      "icon": "Trophy"
+    },
+    {
+      "title": "3-Star on CodeChef",
+      "description": "Earned through consistent contest participation.",
+      "icon": "Star"
+    },
+    {
+      "title": "Pupil on Codeforces",
+      "description": "Active competitive programming presence.",
+      "icon": "Award"
+    }
+  ]
+}

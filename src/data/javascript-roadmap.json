@@ -1,0 +1,589 @@
+{
+  "id": "javascript-roadmap",
+  "title": "JavaScript",
+  "description": "Complete roadmap to master JavaScript from fundamentals to advanced concepts",
+  "estimatedTime": "6-8 months",
+  "difficulty": "beginner",
+  "tags": [
+    "javascript",
+    "programming",
+    "web-development",
+    "frontend",
+    "backend"
+  ],
+  "nodes": [
+    {
+      "id": "what-is-javascript",
+      "title": "What is JavaScript?",
+      "description": "Introduction to JavaScript programming language and its uses",
+      "difficulty": "beginner",
+      "position": { "x": 400, "y": 100 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "Introduction to JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction"
+        }
+      ]
+    },
+    {
+      "id": "history-of-javascript",
+      "title": "History of JavaScript",
+      "description": "Learn about the evolution and history of JavaScript",
+      "difficulty": "beginner",
+      "position": { "x": 200, "y": 180 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "History of JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+        }
+      ]
+    },
+    {
+      "id": "javascript-versions",
+      "title": "JavaScript Versions",
+      "description": "Understanding different versions of JavaScript (ES5, ES6+)",
+      "difficulty": "beginner",
+      "position": { "x": 200, "y": 240 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript Versions",
+          "url": "https://www.w3schools.com/js/js_versions.asp"
+        }
+      ]
+    },
+    {
+      "id": "how-to-run-javascript",
+      "title": "How to run JavaScript",
+      "description": "Different ways to execute JavaScript code",
+      "difficulty": "beginner",
+      "position": { "x": 200, "y": 300 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Running JavaScript",
+          "url": "https://javascript.info/hello-world"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-javascript",
+      "title": "Introduction to JavaScript",
+      "description": "Getting started with JavaScript fundamentals",
+      "difficulty": "beginner",
+      "position": { "x": 600, "y": 200 },
+      "resources": [
+        {
+          "type": "course",
+          "title": "JavaScript Basics",
+          "url": "https://javascript.info/"
+        }
+      ]
+    },
+    {
+      "id": "all-about-variables",
+      "title": "All about Variables",
+      "description": "Understanding variables in JavaScript",
+      "difficulty": "beginner",
+      "position": { "x": 600, "y": 280 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Variables",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+        }
+      ]
+    },
+    {
+      "id": "var",
+      "title": "var",
+      "description": "Understanding var keyword for variable declaration",
+      "difficulty": "beginner",
+      "position": { "x": 800, "y": 200 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "var keyword",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+        }
+      ]
+    },
+    {
+      "id": "let",
+      "title": "let",
+      "description": "Understanding let keyword for block-scoped variables",
+      "difficulty": "beginner",
+      "position": { "x": 880, "y": 200 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "let keyword",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+        }
+      ]
+    },
+    {
+      "id": "const",
+      "title": "const",
+      "description": "Understanding const keyword for constants",
+      "difficulty": "beginner",
+      "position": { "x": 960, "y": 200 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "const keyword",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+        }
+      ]
+    },
+    {
+      "id": "variable-declarations",
+      "title": "Variable Declarations",
+      "description": "Different ways to declare variables",
+      "difficulty": "beginner",
+      "position": { "x": 880, "y": 260 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Variable Declarations",
+          "url": "https://javascript.info/variables"
+        }
+      ]
+    },
+    {
+      "id": "hoisting",
+      "title": "Hoisting",
+      "description": "Understanding JavaScript hoisting behavior",
+      "difficulty": "intermediate",
+      "position": { "x": 880, "y": 320 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript Hoisting",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+        }
+      ]
+    },
+    {
+      "id": "variable-naming-rules",
+      "title": "Variable Naming Rules",
+      "description": "Rules and conventions for naming variables",
+      "difficulty": "beginner",
+      "position": { "x": 880, "y": 380 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "Variable Naming",
+          "url": "https://javascript.info/variables#variable-naming"
+        }
+      ]
+    },
+    {
+      "id": "variable-scopes",
+      "title": "Variable Scopes",
+      "description": "Understanding global, function, and block scope",
+      "difficulty": "intermediate",
+      "position": { "x": 880, "y": 440 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Scope",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+        }
+      ]
+    },
+    {
+      "id": "data-types",
+      "title": "Data Types",
+      "description": "Understanding JavaScript data types",
+      "difficulty": "beginner",
+      "position": { "x": 400, "y": 400 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Data Types",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+        }
+      ]
+    },
+    {
+      "id": "string",
+      "title": "string",
+      "description": "Working with string data type",
+      "difficulty": "beginner",
+      "position": { "x": 200, "y": 480 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Strings",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
+        }
+      ]
+    },
+    {
+      "id": "number",
+      "title": "number",
+      "description": "Working with number data type",
+      "difficulty": "beginner",
+      "position": { "x": 200, "y": 540 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Numbers",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"
+        }
+      ]
+    },
+    {
+      "id": "boolean",
+      "title": "boolean",
+      "description": "Working with boolean data type",
+      "difficulty": "beginner",
+      "position": { "x": 200, "y": 600 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Booleans",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"
+        }
+      ]
+    },
+    {
+      "id": "undefined",
+      "title": "undefined",
+      "description": "Understanding undefined value",
+      "difficulty": "beginner",
+      "position": { "x": 300, "y": 480 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "undefined in JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined"
+        }
+      ]
+    },
+    {
+      "id": "null",
+      "title": "null",
+      "description": "Understanding null value",
+      "difficulty": "beginner",
+      "position": { "x": 300, "y": 540 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "null in JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null"
+        }
+      ]
+    },
+    {
+      "id": "bigint",
+      "title": "bigint",
+      "description": "Working with BigInt for large integers",
+      "difficulty": "intermediate",
+      "position": { "x": 300, "y": 600 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript BigInt",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt"
+        }
+      ]
+    },
+    {
+      "id": "symbol",
+      "title": "Symbol",
+      "description": "Understanding Symbol primitive type",
+      "difficulty": "advanced",
+      "position": { "x": 250, "y": 660 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript Symbol",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol"
+        }
+      ]
+    },
+    {
+      "id": "object",
+      "title": "Object",
+      "description": "Working with objects in JavaScript",
+      "difficulty": "beginner",
+      "position": { "x": 600, "y": 500 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Objects",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
+        }
+      ]
+    },
+    {
+      "id": "typeof-operator",
+      "title": "typeof operator",
+      "description": "Using typeof to check data types",
+      "difficulty": "beginner",
+      "position": { "x": 600, "y": 560 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "typeof operator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+        }
+      ]
+    },
+    {
+      "id": "type-casting",
+      "title": "Type Casting",
+      "description": "Converting between different data types",
+      "difficulty": "intermediate",
+      "position": { "x": 400, "y": 700 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Type Conversion",
+          "url": "https://javascript.info/type-conversions"
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "title": "Data Structures",
+      "description": "Built-in data structures in JavaScript",
+      "difficulty": "intermediate",
+      "position": { "x": 700, "y": 700 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Data Structures",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+        }
+      ]
+    },
+    {
+      "id": "arrays",
+      "title": "Arrays",
+      "description": "Working with arrays in JavaScript",
+      "difficulty": "beginner",
+      "position": { "x": 900, "y": 650 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Arrays",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "description": "Creating and using functions in JavaScript",
+      "difficulty": "beginner",
+      "position": { "x": 400, "y": 800 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Functions",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+        }
+      ]
+    },
+    {
+      "id": "control-flow",
+      "title": "Control Flow",
+      "description": "Controlling program execution flow",
+      "difficulty": "beginner",
+      "position": { "x": 700, "y": 800 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Control Flow",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
+        }
+      ]
+    },
+    {
+      "id": "loops-and-iterations",
+      "title": "Loops and Iterations",
+      "description": "Using loops to repeat code execution",
+      "difficulty": "beginner",
+      "position": { "x": 700, "y": 900 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Loops",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+        }
+      ]
+    },
+    {
+      "id": "expressions-and-operators",
+      "title": "Expressions & Operators",
+      "description": "Working with JavaScript expressions and operators",
+      "difficulty": "beginner",
+      "position": { "x": 400, "y": 900 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Expressions and Operators",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-javascript",
+      "title": "Asynchronous JavaScript",
+      "description": "Understanding async programming in JavaScript",
+      "difficulty": "intermediate",
+      "position": { "x": 700, "y": 1000 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Asynchronous JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"
+        }
+      ]
+    },
+    {
+      "id": "promises",
+      "title": "Promises",
+      "description": "Working with JavaScript Promises",
+      "difficulty": "intermediate",
+      "position": { "x": 850, "y": 1000 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Promises",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+        }
+      ]
+    },
+    {
+      "id": "async-await",
+      "title": "async/await",
+      "description": "Modern async programming with async/await",
+      "difficulty": "intermediate",
+      "position": { "x": 850, "y": 1060 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "async/await",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+        }
+      ]
+    },
+    {
+      "id": "working-with-apis",
+      "title": "Working with APIs",
+      "description": "Making API calls and handling responses",
+      "difficulty": "intermediate",
+      "position": { "x": 700, "y": 1100 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Working with APIs",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
+        }
+      ]
+    },
+    {
+      "id": "classes",
+      "title": "Classes",
+      "description": "Object-oriented programming with classes",
+      "difficulty": "intermediate",
+      "position": { "x": 500, "y": 1000 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Classes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+        }
+      ]
+    },
+    {
+      "id": "modules-in-javascript",
+      "title": "Modules in JavaScript",
+      "description": "Organizing code with ES6 modules",
+      "difficulty": "intermediate",
+      "position": { "x": 300, "y": 1000 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "JavaScript Modules",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+        }
+      ]
+    },
+    {
+      "id": "memory-management",
+      "title": "Memory Management",
+      "description": "Understanding JavaScript memory management",
+      "difficulty": "advanced",
+      "position": { "x": 300, "y": 1100 },
+      "resources": [
+        {
+          "type": "article",
+          "title": "Memory Management",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+        }
+      ]
+    },
+    {
+      "id": "using-browser-devtools",
+      "title": "Using Browser DevTools",
+      "description": "Debugging and profiling JavaScript code",
+      "difficulty": "intermediate",
+      "position": { "x": 500, "y": 1100 },
+      "resources": [
+        {
+          "type": "tutorial",
+          "title": "Chrome DevTools",
+          "url": "https://developers.google.com/web/tools/chrome-devtools"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    { "from": "what-is-javascript", "to": "history-of-javascript" },
+    { "from": "what-is-javascript", "to": "javascript-versions" },
+    { "from": "what-is-javascript", "to": "how-to-run-javascript" },
+    { "from": "what-is-javascript", "to": "introduction-to-javascript" },
+    { "from": "introduction-to-javascript", "to": "all-about-variables" },
+    { "from": "all-about-variables", "to": "var" },
+    { "from": "all-about-variables", "to": "let" },
+    { "from": "all-about-variables", "to": "const" },
+    { "from": "var", "to": "variable-declarations" },
+    { "from": "let", "to": "variable-declarations" },
+    { "from": "const", "to": "variable-declarations" },
+    { "from": "variable-declarations", "to": "hoisting" },
+    { "from": "variable-declarations", "to": "variable-naming-rules" },
+    { "from": "variable-declarations", "to": "variable-scopes" },
+    { "from": "introduction-to-javascript", "to": "data-types" },
+    { "from": "data-types", "to": "string" },
+    { "from": "data-types", "to": "number" },
+    { "from": "data-types", "to": "boolean" },
+    { "from": "data-types", "to": "undefined" },
+    { "from": "data-types", "to": "null" },
+    { "from": "data-types", "to": "bigint" },
+    { "from": "data-types", "to": "symbol" },
+    { "from": "data-types", "to": "object" },
+    { "from": "data-types", "to": "typeof-operator" },
+    { "from": "data-types", "to": "type-casting" },
+    { "from": "object", "to": "data-structures" },
+    { "from": "data-structures", "to": "arrays" },
+    { "from": "all-about-variables", "to": "functions" },
+    { "from": "data-types", "to": "expressions-and-operators" },
+    { "from": "expressions-and-operators", "to": "control-flow" },
+    { "from": "control-flow", "to": "loops-and-iterations" },
+    { "from": "functions", "to": "asynchronous-javascript" },
+    { "from": "asynchronous-javascript", "to": "promises" },
+    { "from": "promises", "to": "async-await" },
+    { "from": "asynchronous-javascript", "to": "working-with-apis" },
+    { "from": "functions", "to": "classes" },
+    { "from": "functions", "to": "modules-in-javascript" },
+    { "from": "modules-in-javascript", "to": "memory-management" },
+    { "from": "asynchronous-javascript", "to": "using-browser-devtools" }
+  ]
+}

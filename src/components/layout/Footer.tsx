@@ -2,17 +2,20 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Github, Twitter, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import aboutData from '@/data/about.json';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
     roadmaps: [
-      { href: '/roadmaps/frontend', label: 'Frontend Developer' },
-      { href: '/roadmaps/backend', label: 'Backend Developer' },
-      { href: '/roadmaps/devops', label: 'DevOps Engineer' },
-      { href: '/roadmaps/react', label: 'React Developer' },
+      { href: '/roadmap/frontend-roadmap', label: 'Frontend Developer' },
+      { href: '/roadmap/backend-developer', label: 'Backend Developer' },
+      { href: '/roadmap/fullstack-developer', label: 'Full Stack Developer' },
+      { href: '/roadmap/react-roadmap', label: 'React Developer' },
+      { href: '/roadmap/dsa-roadmap', label: 'DSA' },
+      { href: '/roadmap/javascript-roadmap', label: 'JavaScript' },
     ],
     resources: [
       { href: '/guides', label: 'Guides' },
@@ -23,16 +26,14 @@ export default function Footer() {
     company: [
       { href: '/about', label: 'About' },
       { href: '/contact', label: 'Contact' },
-      { href: '/privacy', label: 'Privacy Policy' },
-      { href: '/terms', label: 'Terms of Service' },
+      { href: '/roadmaps', label: 'All Roadmaps' },
     ],
   };
 
   const socialLinks = [
-    { href: 'https://github.com', icon: Github, label: 'GitHub' },
-    { href: 'https://twitter.com', icon: Twitter, label: 'Twitter' },
-    { href: 'https://linkedin.com', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'mailto:contact@roadmaps.dev', icon: Mail, label: 'Email' },
+    { href: aboutData.github, icon: Github, label: 'GitHub' },
+    { href: aboutData.linkedin, icon: Linkedin, label: 'LinkedIn' },
+    { href: `mailto:${aboutData.email}`, icon: Mail, label: 'Email' },
   ];
 
   return (
@@ -135,31 +136,40 @@ export default function Footer() {
 
         {/* Bottom section */}
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-3">
             <p className="text-gray-600 dark:text-gray-300 text-sm flex items-center">
               © {currentYear} Roadmaps. Made with{' '}
               <Heart size={16} className="mx-1 text-red-500" fill="currentColor" />
-              for developers worldwide.
+              by{' '}
+              <Link
+                href="/about"
+                className="ml-1 font-semibold text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                {aboutData.name}
+              </Link>
+              .
             </p>
-            <div className="mt-4 md:mt-0 flex space-x-6">
+            <div className="flex space-x-6 text-sm">
               <Link
-                href="/privacy"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 text-sm"
+                href="/about"
+                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
               >
-                Privacy
+                About
               </Link>
               <Link
-                href="/terms"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 text-sm"
+                href="/contact"
+                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
               >
-                Terms
+                Contact
               </Link>
-              <Link
-                href="/cookies"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 text-sm"
+              <a
+                href={aboutData.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
               >
-                Cookies
-              </Link>
+                GitHub
+              </a>
             </div>
           </div>
         </div>

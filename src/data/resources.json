@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "title": "Frontend Development",
+      "icon": "Layout",
+      "description": "HTML, CSS, JavaScript, React, accessibility, and responsive design.",
+      "resources": [
+        { "title": "MDN Web Docs", "description": "The single best reference for HTML, CSS, JavaScript, and Web APIs. Always up-to-date.", "url": "https://developer.mozilla.org/", "type": "documentation", "level": "all", "free": true },
+        { "title": "JavaScript.info", "description": "The modern JavaScript tutorial. Beginner to advanced — clearly written.", "url": "https://javascript.info/", "type": "tutorial", "level": "all", "free": true },
+        { "title": "web.dev (by Google)", "description": "Modern best practices for performance, accessibility, and PWAs.", "url": "https://web.dev/", "type": "documentation", "level": "intermediate", "free": true },
+        { "title": "CSS Tricks", "description": "Articles, guides, and almanac for CSS. Great for solving real layout problems.", "url": "https://css-tricks.com/", "type": "article", "level": "all", "free": true },
+        { "title": "Flexbox Froggy", "description": "Game to learn CSS Flexbox by playing — fun and effective.", "url": "https://flexboxfroggy.com/", "type": "tutorial", "level": "beginner", "free": true },
+        { "title": "CSS Grid Garden", "description": "Same idea as Flexbox Froggy but for CSS Grid.", "url": "https://cssgridgarden.com/", "type": "tutorial", "level": "beginner", "free": true },
+        { "title": "React Official Docs", "description": "The new React docs are excellent — interactive examples and clear explanations.", "url": "https://react.dev/learn", "type": "documentation", "level": "all", "free": true },
+        { "title": "Tailwind CSS Docs", "description": "Comprehensive utility-first CSS framework documentation.", "url": "https://tailwindcss.com/docs", "type": "documentation", "level": "all", "free": true },
+        { "title": "The Odin Project — Frontend Path", "description": "Free, open-source full curriculum from beginner to job-ready frontend dev.", "url": "https://www.theodinproject.com/paths/foundations/courses/foundations", "type": "course", "level": "beginner", "free": true },
+        { "title": "Frontend Masters", "description": "Premium courses by industry experts. Worth it once you have basics.", "url": "https://frontendmasters.com/", "type": "course", "level": "intermediate", "free": false },
+        { "title": "Kevin Powell (YouTube)", "description": "Best free CSS teacher on YouTube. Modern CSS techniques explained clearly.", "url": "https://www.youtube.com/@KevinPowell", "type": "video", "level": "all", "free": true },
+        { "title": "Josh Comeau's CSS for JS Devs", "description": "Paid course but the free articles on his blog are gold for modern CSS.", "url": "https://www.joshwcomeau.com/", "type": "article", "level": "intermediate", "free": true }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend Development",
+      "icon": "Server",
+      "description": "APIs, databases, caching, message queues, scaling, and architecture.",
+      "resources": [
+        { "title": "Node.js Docs", "description": "Official Node.js documentation. Reference for the runtime and standard library.", "url": "https://nodejs.org/en/docs/", "type": "documentation", "level": "all", "free": true },
+        { "title": "Express.js Guide", "description": "The most popular Node web framework — clean, minimal, easy to start.", "url": "https://expressjs.com/en/starter/installing.html", "type": "documentation", "level": "beginner", "free": true },
+        { "title": "FastAPI Docs", "description": "Modern Python framework with auto-generated docs and type hints.", "url": "https://fastapi.tiangolo.com/", "type": "documentation", "level": "all", "free": true },
+        { "title": "Go by Example", "description": "Hands-on introduction to Go through annotated example programs.", "url": "https://gobyexample.com/", "type": "tutorial", "level": "beginner", "free": true },
+        { "title": "Spring Boot Guides", "description": "Step-by-step guides for building Java backends with Spring.", "url": "https://spring.io/guides", "type": "tutorial", "level": "intermediate", "free": true },
+        { "title": "Backend Roadmap on roadmap.sh", "description": "Visual step-by-step path to becoming a backend developer.", "url": "https://roadmap.sh/backend", "type": "documentation", "level": "all", "free": true },
+        { "title": "Designing Data-Intensive Applications", "description": "By Martin Kleppmann. The book for backend engineers — distributed systems, databases, scaling.", "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/", "type": "book", "level": "advanced", "free": false },
+        { "title": "System Design Primer (GitHub)", "description": "Open-source GitHub repo to prep for system design interviews.", "url": "https://github.com/donnemartin/system-design-primer", "type": "documentation", "level": "intermediate", "free": true },
+        { "title": "ByteByteGo Newsletter", "description": "Weekly visual deep-dives into system design topics by Alex Xu.", "url": "https://blog.bytebytego.com/", "type": "article", "level": "intermediate", "free": true },
+        { "title": "Hussein Nasser (YouTube)", "description": "Backend, databases, and networking explained simply. Highly recommended.", "url": "https://www.youtube.com/@hnasr", "type": "video", "level": "all", "free": true }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript",
+      "icon": "Code2",
+      "description": "Master modern JavaScript: closures, async, prototypes, ES6+ features.",
+      "resources": [
+        { "title": "JavaScript.info", "description": "Best free modern JS tutorial. Beginner to advanced topics.", "url": "https://javascript.info/", "type": "tutorial", "level": "all", "free": true },
+        { "title": "Eloquent JavaScript (4th Edition)", "description": "Free online book teaching JS through small projects and clear writing.", "url": "https://eloquentjavascript.net/", "type": "book", "level": "all", "free": true },
+        { "title": "You Don't Know JS Yet", "description": "Kyle Simpson's free book series digging deep into JS internals.", "url": "https://github.com/getify/You-Dont-Know-JS", "type": "book", "level": "intermediate", "free": true },
+        { "title": "MDN JavaScript Guide", "description": "Reference and guide to JavaScript — always reliable.", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "type": "documentation", "level": "all", "free": true },
+        { "title": "Lydia Hallie's JS Visualized", "description": "Beautiful visual explanations of event loop, prototypes, hoisting.", "url": "https://dev.to/lydiahallie", "type": "article", "level": "intermediate", "free": true },
+        { "title": "JavaScript30", "description": "30 JS challenges in 30 days — vanilla JS, no frameworks.", "url": "https://javascript30.com/", "type": "course", "level": "beginner", "free": true },
+        { "title": "Fun Fun Function (YouTube)", "description": "Funcadelic JS deep dives — closures, currying, FP. Classic content.", "url": "https://www.youtube.com/@funfunfunction", "type": "video", "level": "intermediate", "free": true },
+        { "title": "TypeScript Handbook", "description": "Official guide to TypeScript — types, generics, utility types.", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "documentation", "level": "all", "free": true }
+      ]
+    },
+    {
+      "id": "react",
+      "title": "React",
+      "icon": "Atom",
+      "description": "Components, hooks, state management, and the React ecosystem.",
+      "resources": [
+        { "title": "React.dev (Official)", "description": "The new React docs are excellent — interactive, clear, and modern.", "url": "https://react.dev/learn", "type": "documentation", "level": "all", "free": true },
+        { "title": "Next.js Docs", "description": "The most popular React framework. Learn App Router, SSR, RSC.", "url": "https://nextjs.org/docs", "type": "documentation", "level": "intermediate", "free": true },
+        { "title": "React Patterns", "description": "Common patterns for writing maintainable React code.", "url": "https://reactpatterns.com/", "type": "article", "level": "intermediate", "free": true },
+        { "title": "TanStack Query (React Query)", "description": "The defacto data-fetching library — caching, sync, mutations.", "url": "https://tanstack.com/query/latest/docs/framework/react/overview", "type": "documentation", "level": "intermediate", "free": true },
+        { "title": "Epic React by Kent C. Dodds", "description": "Premium video course covering React deeply (paid but excellent).", "url": "https://epicreact.dev/", "type": "course", "level": "intermediate", "free": false },
+        { "title": "Web Dev Simplified (YouTube)", "description": "Clear short tutorials on React, hooks, and modern web dev.", "url": "https://www.youtube.com/@WebDevSimplified", "type": "video", "level": "all", "free": true },
+        { "title": "React Hooks Cheatsheet", "description": "Quick reference for all built-in React hooks.", "url": "https://react.dev/reference/react/hooks", "type": "documentation", "level": "all", "free": true },
+        { "title": "Beautiful Component Libraries (shadcn/ui)", "description": "Copy-paste accessible React components built on Radix + Tailwind.", "url": "https://ui.shadcn.com/", "type": "documentation", "level": "intermediate", "free": true }
+      ]
+    },
+    {
+      "id": "dsa",
+      "title": "Data Structures & Algorithms",
+      "icon": "Network",
+      "description": "Master algorithms, data structures, and competitive programming for interviews.",
+      "resources": [
+        { "title": "NeetCode 150", "description": "150 hand-picked LeetCode problems covering essential patterns. The fastest path to interview ready.", "url": "https://neetcode.io/practice", "type": "practice", "level": "intermediate", "free": true },
+        { "title": "LeetCode", "description": "The most popular platform for coding interview prep. Filter by company and difficulty.", "url": "https://leetcode.com/", "type": "practice", "level": "all", "free": true },
+        { "title": "Visualgo", "description": "Visualize data structures and algorithms in motion — invaluable for understanding.", "url": "https://visualgo.net/en", "type": "tutorial", "level": "beginner", "free": true },
+        { "title": "Cracking the Coding Interview", "description": "Classic prep book by Gayle McDowell. 189 questions with detailed solutions.", "url": "https://www.crackingthecodinginterview.com/", "type": "book", "level": "intermediate", "free": false },
+        { "title": "Introduction to Algorithms (CLRS)", "description": "The bible of algorithms. Dense but rigorous; great reference.", "url": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/", "type": "book", "level": "advanced", "free": false },
+        { "title": "Algorithms by Robert Sedgewick", "description": "Free Coursera course from Princeton — clear and visual.", "url": "https://www.coursera.org/learn/algorithms-part1", "type": "course", "level": "intermediate", "free": true },
+        { "title": "GeeksforGeeks DSA Self-Paced", "description": "Comprehensive DSA tutorials with examples in many languages.", "url": "https://www.geeksforgeeks.org/data-structures/", "type": "tutorial", "level": "all", "free": true },
+        { "title": "Big-O Cheat Sheet", "description": "Quick reference for time and space complexities.", "url": "https://www.bigocheatsheet.com/", "type": "documentation", "level": "all", "free": true },
+        { "title": "Codeforces", "description": "Competitive programming contests — sharpens problem-solving speed.", "url": "https://codeforces.com/", "type": "practice", "level": "advanced", "free": true },
+        { "title": "AlgoExpert", "description": "Curated DSA problems with video explanations. Paid but well-produced.", "url": "https://www.algoexpert.io/", "type": "course", "level": "intermediate", "free": false }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "icon": "Database",
+      "description": "SQL, NoSQL, indexing, transactions, scaling, and database design.",
+      "resources": [
+        { "title": "PostgreSQL Tutorial", "description": "Comprehensive Postgres tutorial — SQL basics through advanced features.", "url": "https://www.postgresqltutorial.com/", "type": "tutorial", "level": "all", "free": true },
+        { "title": "SQL Bolt", "description": "Interactive SQL lessons — type queries and see results immediately.", "url": "https://sqlbolt.com/", "type": "tutorial", "level": "beginner", "free": true },
+        { "title": "Use The Index, Luke!", "description": "Free book on database indexes — required reading for backend engineers.", "url": "https://use-the-index-luke.com/", "type": "book", "level": "intermediate", "free": true },
+        { "title": "MongoDB University", "description": "Free official MongoDB courses — excellent for learning document databases.", "url": "https://learn.mongodb.com/", "type": "course", "level": "all", "free": true },
+        { "title": "Redis Docs", "description": "Comprehensive guide to Redis data types and patterns.", "url": "https://redis.io/docs/latest/", "type": "documentation", "level": "all", "free": true },
+        { "title": "SQL Murder Mystery", "description": "Solve a murder using SQL — fun way to learn querying.", "url": "https://mystery.knightlab.com/", "type": "practice", "level": "beginner", "free": true },
+        { "title": "Database Internals", "description": "Book by Alex Petrov on how databases actually work under the hood.", "url": "https://www.databass.dev/", "type": "book", "level": "advanced", "free": false }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps & Cloud",
+      "icon": "Cloud",
+      "description": "Linux, Docker, Kubernetes, AWS, CI/CD, monitoring, and infrastructure.",
+      "resources": [
+        { "title": "Docker — Get Started", "description": "Official Docker getting-started guide — clear and practical.", "url": "https://docs.docker.com/get-started/", "type": "documentation", "level": "beginner", "free": true },
+        { "title": "Kubernetes Basics", "description": "Step-by-step interactive tutorials directly from kubernetes.io.", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "tutorial", "level": "intermediate", "free": true },
+        { "title": "AWS Free Tier", "description": "12 months free for many AWS services — best way to learn cloud hands-on.", "url": "https://aws.amazon.com/free/", "type": "practice", "level": "all", "free": true },
+        { "title": "Linux Journey", "description": "Free, structured tutorials for learning Linux from scratch.", "url": "https://linuxjourney.com/", "type": "tutorial", "level": "beginner", "free": true },
+        { "title": "TechWorld with Nana (YouTube)", "description": "DevOps, Docker, Kubernetes, Terraform — clearly explained.", "url": "https://www.youtube.com/@TechWorldwithNana", "type": "video", "level": "all", "free": true },
+        { "title": "Terraform Documentation", "description": "Official Terraform docs — Infrastructure as Code with HCL.", "url": "https://developer.hashicorp.com/terraform/docs", "type": "documentation", "level": "intermediate", "free": true },
+        { "title": "DevOps Roadmap", "description": "Visual path to becoming a DevOps engineer.", "url": "https://roadmap.sh/devops", "type": "documentation", "level": "all", "free": true },
+        { "title": "Google SRE Books", "description": "Free books from Google on Site Reliability Engineering — production excellence.", "url": "https://sre.google/books/", "type": "book", "level": "advanced", "free": true }
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design",
+      "icon": "Network",
+      "description": "Distributed systems, scaling, caching, databases, and architecture interviews.",
+      "resources": [
+        { "title": "System Design Primer (GitHub)", "description": "The most-starred system design resource on GitHub. Comprehensive.", "url": "https://github.com/donnemartin/system-design-primer", "type": "documentation", "level": "intermediate", "free": true },
+        { "title": "ByteByteGo (Alex Xu)", "description": "Visual system design content — newsletter, books, YouTube.", "url": "https://bytebytego.com/", "type": "course", "level": "intermediate", "free": false },
+        { "title": "System Design Interview Vol. 1 & 2", "description": "Books by Alex Xu — best-selling system design interview prep.", "url": "https://www.amazon.com/System-Design-Interview-Insiders-Guide/dp/1736049119", "type": "book", "level": "intermediate", "free": false },
+        { "title": "High Scalability Blog", "description": "Real-world architectures of how big companies built and scaled their systems.", "url": "http://highscalability.com/", "type": "article", "level": "intermediate", "free": true },
+        { "title": "Designing Data-Intensive Applications", "description": "By Martin Kleppmann. The most respected book in distributed systems.", "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/", "type": "book", "level": "advanced", "free": false },
+        { "title": "Gaurav Sen (YouTube)", "description": "System design interview prep videos — clear and practical.", "url": "https://www.youtube.com/@gkcs", "type": "video", "level": "intermediate", "free": true },
+        { "title": "InfoQ Architecture Articles", "description": "Real engineering architecture write-ups from major companies.", "url": "https://www.infoq.com/architecture-design/", "type": "article", "level": "intermediate", "free": true }
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Career & Soft Skills",
+      "icon": "Briefcase",
+      "description": "Interview prep, resumes, salary negotiation, and developer career growth.",
+      "resources": [
+        { "title": "Tech Interview Handbook", "description": "Free, well-structured interview prep covering coding, system design, behavioral.", "url": "https://www.techinterviewhandbook.org/", "type": "documentation", "level": "all", "free": true },
+        { "title": "Pramp", "description": "Free peer-to-peer mock interviews — practice with real engineers.", "url": "https://www.pramp.com/", "type": "practice", "level": "all", "free": true },
+        { "title": "Cracking the PM Interview", "description": "Even for engineers — understanding the PM mindset improves cross-team work.", "url": "https://www.crackingthepminterview.com/", "type": "book", "level": "all", "free": false },
+        { "title": "Levels.fyi", "description": "Real software engineer salaries by company and level — invaluable for negotiation.", "url": "https://www.levels.fyi/", "type": "documentation", "level": "all", "free": true },
+        { "title": "Patrick Mahomes — Salary Negotiation", "description": "Classic article on negotiating tech offers — every dev should read.", "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/", "type": "article", "level": "all", "free": true },
+        { "title": "Staff Engineer (Will Larson)", "description": "Book on what staff+ engineering really looks like — career growth roadmap.", "url": "https://staffeng.com/", "type": "book", "level": "advanced", "free": true },
+        { "title": "The Pragmatic Programmer", "description": "Timeless book on craftsmanship in software — every dev should read this.", "url": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/", "type": "book", "level": "all", "free": false }
+      ]
+    }
+  ]
+}

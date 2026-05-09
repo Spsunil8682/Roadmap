@@ -3,10 +3,12 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Users, BookOpen, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Clock, Users, BookOpen } from 'lucide-react';
 import Link from 'next/link';
-import { Roadmap, RoadmapNode } from '@/types';
+import { LeetCodeMap, QuizMap, Roadmap, RoadmapNode } from '@/types';
 import roadmapsData from '@/data/roadmaps.json';
+import quizzesData from '@/data/quizzes.json';
+import leetcodeData from '@/data/leetcode-problems.json';
 import RoadmapVisualization from '@/components/roadmap/RoadmapVisualization';
 import NodeModal from '@/components/roadmap/NodeModal';
 
@@ -148,27 +150,28 @@ export default function RoadmapPage() {
       <div className="flex-1 p-4 sm:p-6 lg:p-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.15 }}
             className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden"
           >
             <div className="p-6 border-b border-gray-200 dark:border-gray-700">
               <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                Learning Path
+                Your learning path
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Click on any node to view details and resources. Track your progress as you learn.
+                Follow the steps in order. Tap any step to expand resources, then mark your progress to keep moving.
               </p>
             </div>
-            
-            <div className="h-[600px] relative">
-              <RoadmapVisualization
-                roadmap={roadmap}
-                nodeProgress={nodeProgress}
-                onNodeClick={handleNodeClick}
-              />
-            </div>
+
+            <RoadmapVisualization
+              roadmap={roadmap}
+              nodeProgress={nodeProgress}
+              onNodeClick={handleNodeClick}
+              onStatusChange={handleNodeStatusChange}
+              quizMap={(quizzesData as QuizMap)}
+              leetcodeMap={(leetcodeData as LeetCodeMap)}
+            />
           </motion.div>
         </div>
       </div>
