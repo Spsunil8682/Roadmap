@@ -1,134 +1,1025 @@
 {
   "roadmaps": [
     {
-      "id": "frontend-developer",
-      "title": "Frontend Developer",
-      "description": "Step by step guide to becoming a modern frontend developer",
-      "category": "role-based",
-      "subcategory": "Development",
-      "estimatedTime": "6-12 months",
+      "id": "javascript-roadmap",
+      "title": "JavaScript",
+      "description": "Complete roadmap to master JavaScript from fundamentals to advanced concepts",
+      "estimatedTime": "6-8 months",
       "difficulty": "beginner",
-      "tags": ["html", "css", "javascript", "react", "frontend"],
-      "createdAt": "2024-01-01",
-      "updatedAt": "2024-01-01",
+      "tags": [
+        "javascript",
+        "programming",
+        "web-development",
+        "frontend",
+        "backend"
+      ],
       "nodes": [
         {
-          "id": "html-basics",
-          "title": "HTML Basics",
-          "description": "Learn the fundamentals of HTML markup language",
-          "position": { "x": 100, "y": 100 },
+          "id": "what-is-javascript",
+          "title": "What is JavaScript?",
+          "description": "Introduction to JavaScript programming language and its uses",
           "difficulty": "beginner",
+          "position": { "x": 400, "y": 100 },
           "resources": [
             {
-              "title": "MDN HTML Guide",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-              "type": "documentation"
-            },
-            {
-              "title": "HTML Crash Course",
-              "url": "https://www.youtube.com/watch?v=UB1O30fR-EE",
-              "type": "video"
+              "type": "article",
+              "title": "Introduction to JavaScript",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction"
             }
           ]
         },
         {
-          "id": "css-basics",
-          "title": "CSS Basics",
-          "description": "Learn styling with CSS",
-          "position": { "x": 300, "y": 100 },
+          "id": "history-of-javascript",
+          "title": "History of JavaScript",
+          "description": "Learn about the evolution and history of JavaScript",
           "difficulty": "beginner",
-          "prerequisites": ["html-basics"],
+          "position": { "x": 200, "y": 180 },
           "resources": [
             {
-              "title": "MDN CSS Guide",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-              "type": "documentation"
-            },
-            {
-              "title": "CSS Complete Course",
-              "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
-              "type": "video"
+              "type": "article",
+              "title": "History of JavaScript",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
             }
           ]
         },
         {
-          "id": "javascript-basics",
-          "title": "JavaScript Fundamentals",
-          "description": "Learn JavaScript programming language basics",
-          "position": { "x": 500, "y": 100 },
+          "id": "javascript-versions",
+          "title": "JavaScript Versions",
+          "description": "Understanding different versions of JavaScript (ES5, ES6+)",
           "difficulty": "beginner",
-          "prerequisites": ["html-basics", "css-basics"],
+          "position": { "x": 200, "y": 240 },
           "resources": [
             {
-              "title": "JavaScript.info",
-              "url": "https://javascript.info/",
-              "type": "tutorial"
-            },
-            {
-              "title": "MDN JavaScript Guide",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-              "type": "documentation"
+              "type": "article",
+              "title": "JavaScript Versions",
+              "url": "https://www.w3schools.com/js/js_versions.asp"
             }
           ]
         },
         {
-          "id": "dom-manipulation",
-          "title": "DOM Manipulation",
-          "description": "Learn to interact with the Document Object Model",
-          "position": { "x": 300, "y": 250 },
+          "id": "how-to-run-javascript",
+          "title": "How to run JavaScript",
+          "description": "Different ways to execute JavaScript code",
           "difficulty": "beginner",
-          "prerequisites": ["javascript-basics"],
+          "position": { "x": 200, "y": 300 },
           "resources": [
             {
-              "title": "DOM Manipulation Guide",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
-              "type": "documentation"
+              "type": "tutorial",
+              "title": "Running JavaScript",
+              "url": "https://javascript.info/hello-world"
             }
           ]
         },
         {
-          "id": "responsive-design",
-          "title": "Responsive Design",
-          "description": "Learn to create responsive layouts",
-          "position": { "x": 100, "y": 250 },
+          "id": "introduction-to-javascript",
+          "title": "Introduction to JavaScript",
+          "description": "Getting started with JavaScript fundamentals",
+          "difficulty": "beginner",
+          "position": { "x": 600, "y": 200 },
+          "resources": [
+            {
+              "type": "course",
+              "title": "JavaScript Basics",
+              "url": "https://javascript.info/"
+            }
+          ]
+        },
+        {
+          "id": "all-about-variables",
+          "title": "All about Variables",
+          "description": "Understanding variables in JavaScript",
+          "difficulty": "beginner",
+          "position": { "x": 600, "y": 280 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Variables",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+            }
+          ]
+        },
+        {
+          "id": "var",
+          "title": "var",
+          "description": "Understanding var keyword for variable declaration",
+          "difficulty": "beginner",
+          "position": { "x": 800, "y": 200 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "var keyword",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+            }
+          ]
+        },
+        {
+          "id": "let",
+          "title": "let",
+          "description": "Understanding let keyword for block-scoped variables",
+          "difficulty": "beginner",
+          "position": { "x": 880, "y": 200 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "let keyword",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+            }
+          ]
+        },
+        {
+          "id": "const",
+          "title": "const",
+          "description": "Understanding const keyword for constants",
+          "difficulty": "beginner",
+          "position": { "x": 960, "y": 200 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "const keyword",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+            }
+          ]
+        },
+        {
+          "id": "variable-declarations",
+          "title": "Variable Declarations",
+          "description": "Different ways to declare variables",
+          "difficulty": "beginner",
+          "position": { "x": 880, "y": 260 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Variable Declarations",
+              "url": "https://javascript.info/variables"
+            }
+          ]
+        },
+        {
+          "id": "hoisting",
+          "title": "Hoisting",
+          "description": "Understanding JavaScript hoisting behavior",
           "difficulty": "intermediate",
-          "prerequisites": ["css-basics"],
+          "position": { "x": 880, "y": 320 },
           "resources": [
             {
-              "title": "Responsive Web Design",
-              "url": "https://web.dev/responsive-web-design-basics/",
-              "type": "article"
+              "type": "article",
+              "title": "JavaScript Hoisting",
+              "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
             }
           ]
         },
         {
-          "id": "react-basics",
-          "title": "React Fundamentals",
-          "description": "Learn React library for building user interfaces",
-          "position": { "x": 500, "y": 250 },
-          "difficulty": "intermediate",
-          "prerequisites": ["javascript-basics", "dom-manipulation"],
+          "id": "variable-naming-rules",
+          "title": "Variable Naming Rules",
+          "description": "Rules and conventions for naming variables",
+          "difficulty": "beginner",
+          "position": { "x": 880, "y": 380 },
           "resources": [
             {
-              "title": "React Official Tutorial",
-              "url": "https://react.dev/learn",
-              "type": "tutorial"
-            },
+              "type": "article",
+              "title": "Variable Naming",
+              "url": "https://javascript.info/variables#variable-naming"
+            }
+          ]
+        },
+        {
+          "id": "variable-scopes",
+          "title": "Variable Scopes",
+          "description": "Understanding global, function, and block scope",
+          "difficulty": "intermediate",
+          "position": { "x": 880, "y": 440 },
+          "resources": [
             {
-              "title": "React Course for Beginners",
-              "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
-              "type": "video"
+              "type": "tutorial",
+              "title": "JavaScript Scope",
+              "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+            }
+          ]
+        },
+        {
+          "id": "data-types",
+          "title": "Data Types",
+          "description": "Understanding JavaScript data types",
+          "difficulty": "beginner",
+          "position": { "x": 400, "y": 400 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Data Types",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+            }
+          ]
+        },
+        {
+          "id": "string",
+          "title": "string",
+          "description": "Working with string data type",
+          "difficulty": "beginner",
+          "position": { "x": 200, "y": 480 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Strings",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "title": "number",
+          "description": "Working with number data type",
+          "difficulty": "beginner",
+          "position": { "x": 200, "y": 540 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Numbers",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"
+            }
+          ]
+        },
+        {
+          "id": "boolean",
+          "title": "boolean",
+          "description": "Working with boolean data type",
+          "difficulty": "beginner",
+          "position": { "x": 200, "y": 600 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Booleans",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"
+            }
+          ]
+        },
+        {
+          "id": "undefined",
+          "title": "undefined",
+          "description": "Understanding undefined value",
+          "difficulty": "beginner",
+          "position": { "x": 300, "y": 480 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "undefined in JavaScript",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined"
+            }
+          ]
+        },
+        {
+          "id": "null",
+          "title": "null",
+          "description": "Understanding null value",
+          "difficulty": "beginner",
+          "position": { "x": 300, "y": 540 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "null in JavaScript",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null"
+            }
+          ]
+        },
+        {
+          "id": "bigint",
+          "title": "bigint",
+          "description": "Working with BigInt for large integers",
+          "difficulty": "intermediate",
+          "position": { "x": 300, "y": 600 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "JavaScript BigInt",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt"
+            }
+          ]
+        },
+        {
+          "id": "symbol",
+          "title": "Symbol",
+          "description": "Understanding Symbol primitive type",
+          "difficulty": "advanced",
+          "position": { "x": 250, "y": 660 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "JavaScript Symbol",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol"
+            }
+          ]
+        },
+        {
+          "id": "object",
+          "title": "Object",
+          "description": "Working with objects in JavaScript",
+          "difficulty": "beginner",
+          "position": { "x": 600, "y": 500 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Objects",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
+            }
+          ]
+        },
+        {
+          "id": "typeof-operator",
+          "title": "typeof operator",
+          "description": "Using typeof to check data types",
+          "difficulty": "beginner",
+          "position": { "x": 600, "y": 560 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "typeof operator",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+            }
+          ]
+        },
+        {
+          "id": "type-casting",
+          "title": "Type Casting",
+          "description": "Converting between different data types",
+          "difficulty": "intermediate",
+          "position": { "x": 400, "y": 700 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Type Conversion",
+              "url": "https://javascript.info/type-conversions"
+            }
+          ]
+        },
+        {
+          "id": "data-structures",
+          "title": "Data Structures",
+          "description": "Built-in data structures in JavaScript",
+          "difficulty": "intermediate",
+          "position": { "x": 700, "y": 700 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Data Structures",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+            }
+          ]
+        },
+        {
+          "id": "arrays",
+          "title": "Arrays",
+          "description": "Working with arrays in JavaScript",
+          "difficulty": "beginner",
+          "position": { "x": 900, "y": 650 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Arrays",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+            }
+          ]
+        },
+        {
+          "id": "functions",
+          "title": "Functions",
+          "description": "Creating and using functions in JavaScript",
+          "difficulty": "beginner",
+          "position": { "x": 400, "y": 800 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Functions",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+            }
+          ]
+        },
+        {
+          "id": "control-flow",
+          "title": "Control Flow",
+          "description": "Controlling program execution flow",
+          "difficulty": "beginner",
+          "position": { "x": 700, "y": 800 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Control Flow",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
+            }
+          ]
+        },
+        {
+          "id": "loops-and-iterations",
+          "title": "Loops and Iterations",
+          "description": "Using loops to repeat code execution",
+          "difficulty": "beginner",
+          "position": { "x": 700, "y": 900 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Loops",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+            }
+          ]
+        },
+        {
+          "id": "expressions-and-operators",
+          "title": "Expressions & Operators",
+          "description": "Working with JavaScript expressions and operators",
+          "difficulty": "beginner",
+          "position": { "x": 400, "y": 900 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Expressions and Operators",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+            }
+          ]
+        },
+        {
+          "id": "asynchronous-javascript",
+          "title": "Asynchronous JavaScript",
+          "description": "Understanding async programming in JavaScript",
+          "difficulty": "intermediate",
+          "position": { "x": 700, "y": 1000 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Asynchronous JavaScript",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"
+            }
+          ]
+        },
+        {
+          "id": "promises",
+          "title": "Promises",
+          "description": "Working with JavaScript Promises",
+          "difficulty": "intermediate",
+          "position": { "x": 850, "y": 1000 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Promises",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+            }
+          ]
+        },
+        {
+          "id": "async-await",
+          "title": "async/await",
+          "description": "Modern async programming with async/await",
+          "difficulty": "intermediate",
+          "position": { "x": 850, "y": 1060 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "async/await",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+            }
+          ]
+        },
+        {
+          "id": "working-with-apis",
+          "title": "Working with APIs",
+          "description": "Making API calls and handling responses",
+          "difficulty": "intermediate",
+          "position": { "x": 700, "y": 1100 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Working with APIs",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
+            }
+          ]
+        },
+        {
+          "id": "classes",
+          "title": "Classes",
+          "description": "Object-oriented programming with classes",
+          "difficulty": "intermediate",
+          "position": { "x": 500, "y": 1000 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Classes",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+            }
+          ]
+        },
+        {
+          "id": "modules-in-javascript",
+          "title": "Modules in JavaScript",
+          "description": "Organizing code with ES6 modules",
+          "difficulty": "intermediate",
+          "position": { "x": 300, "y": 1000 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "JavaScript Modules",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+            }
+          ]
+        },
+        {
+          "id": "memory-management",
+          "title": "Memory Management",
+          "description": "Understanding JavaScript memory management",
+          "difficulty": "advanced",
+          "position": { "x": 300, "y": 1100 },
+          "resources": [
+            {
+              "type": "article",
+              "title": "Memory Management",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management"
+            }
+          ]
+        },
+        {
+          "id": "using-browser-devtools",
+          "title": "Using Browser DevTools",
+          "description": "Debugging and profiling JavaScript code",
+          "difficulty": "intermediate",
+          "position": { "x": 500, "y": 1100 },
+          "resources": [
+            {
+              "type": "tutorial",
+              "title": "Chrome DevTools",
+              "url": "https://developers.google.com/web/tools/chrome-devtools"
             }
           ]
         }
       ],
       "connections": [
-        { "from": "html-basics", "to": "css-basics" },
-        { "from": "css-basics", "to": "javascript-basics" },
-        { "from": "html-basics", "to": "javascript-basics" },
-        { "from": "javascript-basics", "to": "dom-manipulation" },
-        { "from": "css-basics", "to": "responsive-design" },
-        { "from": "dom-manipulation", "to": "react-basics" }
+        { "from": "what-is-javascript", "to": "history-of-javascript" },
+        { "from": "what-is-javascript", "to": "javascript-versions" },
+        { "from": "what-is-javascript", "to": "how-to-run-javascript" },
+        { "from": "what-is-javascript", "to": "introduction-to-javascript" },
+        { "from": "introduction-to-javascript", "to": "all-about-variables" },
+        { "from": "all-about-variables", "to": "var" },
+        { "from": "all-about-variables", "to": "let" },
+        { "from": "all-about-variables", "to": "const" },
+        { "from": "var", "to": "variable-declarations" },
+        { "from": "let", "to": "variable-declarations" },
+        { "from": "const", "to": "variable-declarations" },
+        { "from": "variable-declarations", "to": "hoisting" },
+        { "from": "variable-declarations", "to": "variable-naming-rules" },
+        { "from": "variable-declarations", "to": "variable-scopes" },
+        { "from": "introduction-to-javascript", "to": "data-types" },
+        { "from": "data-types", "to": "string" },
+        { "from": "data-types", "to": "number" },
+        { "from": "data-types", "to": "boolean" },
+        { "from": "data-types", "to": "undefined" },
+        { "from": "data-types", "to": "null" },
+        { "from": "data-types", "to": "bigint" },
+        { "from": "data-types", "to": "symbol" },
+        { "from": "data-types", "to": "object" },
+        { "from": "data-types", "to": "typeof-operator" },
+        { "from": "data-types", "to": "type-casting" },
+        { "from": "object", "to": "data-structures" },
+        { "from": "data-structures", "to": "arrays" },
+        { "from": "all-about-variables", "to": "functions" },
+        { "from": "data-types", "to": "expressions-and-operators" },
+        { "from": "expressions-and-operators", "to": "control-flow" },
+        { "from": "control-flow", "to": "loops-and-iterations" },
+        { "from": "functions", "to": "asynchronous-javascript" },
+        { "from": "asynchronous-javascript", "to": "promises" },
+        { "from": "promises", "to": "async-await" },
+        { "from": "asynchronous-javascript", "to": "working-with-apis" },
+        { "from": "functions", "to": "classes" },
+        { "from": "functions", "to": "modules-in-javascript" },
+        { "from": "modules-in-javascript", "to": "memory-management" },
+        { "from": "asynchronous-javascript", "to": "using-browser-devtools" }
+      ]
+    },
+    {
+      "id": "frontend-roadmap",
+      "title": "Frontend Developer",
+      "description": "Step by step guide to becoming a modern frontend developer in 2025. Data extracted from roadmap.sh/frontend.",
+      "category": "role-based",
+      "subcategory": "Development",
+      "estimatedTime": "6-12 months",
+      "difficulty": "beginner",
+      "tags": ["html", "css", "javascript", "react", "frontend", "web-development"],
+      "createdAt": "2026-05-10",
+      "updatedAt": "2026-05-10",
+      "nodes": [
+        {
+          "id": "internet",
+          "title": "Internet",
+          "description": "Understand how the internet, browsers, and the web work end-to-end before writing any code.",
+          "position": { "x": 0, "y": 100 },
+          "difficulty": "beginner",
+          "children": [
+            { "id": "how-internet-works", "title": "How does the internet work?" },
+            { "id": "http", "title": "What is HTTP?" },
+            { "id": "domain-name", "title": "What is a Domain Name?" },
+            { "id": "hosting", "title": "What is hosting?" },
+            { "id": "dns", "title": "DNS and how it works" },
+            { "id": "browsers", "title": "Browsers and how they work" }
+          ],
+          "resources": [
+            { "title": "How the Internet Works", "url": "https://roadmap.sh/guides/how-does-the-internet-work", "type": "article" },
+            { "title": "MDN: HTTP", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "html",
+          "title": "HTML",
+          "description": "The skeleton of every webpage. Learn semantic markup, forms, accessibility, and SEO basics.",
+          "position": { "x": 0, "y": 200 },
+          "difficulty": "beginner",
+          "prerequisites": ["internet"],
+          "children": [
+            { "id": "html-basics", "title": "Learn the basics" },
+            { "id": "semantic-html", "title": "Writing Semantic HTML" },
+            { "id": "forms-validation", "title": "Forms and Validations" },
+            { "id": "accessibility", "title": "Accessibility" },
+            { "id": "seo-basics", "title": "SEO Basics" }
+          ],
+          "resources": [
+            { "title": "MDN HTML Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML", "type": "documentation" },
+            { "title": "HTML Crash Course", "url": "https://www.youtube.com/watch?v=UB1O30fR-EE", "type": "video" }
+          ]
+        },
+        {
+          "id": "css",
+          "title": "CSS",
+          "description": "Style your pages, build layouts, and make them responsive across devices.",
+          "position": { "x": 0, "y": 300 },
+          "difficulty": "beginner",
+          "prerequisites": ["html"],
+          "children": [
+            { "id": "css-basics", "title": "Learn the basics" },
+            { "id": "making-layouts", "title": "Making Layouts (Flexbox & Grid)" },
+            { "id": "responsive-design", "title": "Responsive Design" }
+          ],
+          "resources": [
+            { "title": "MDN CSS Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS", "type": "documentation" },
+            { "title": "Flexbox Froggy", "url": "https://flexboxfroggy.com/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "javascript",
+          "title": "JavaScript",
+          "description": "The programming language of the web. Learn syntax, the DOM, and how to talk to APIs.",
+          "position": { "x": 0, "y": 400 },
+          "difficulty": "beginner",
+          "prerequisites": ["css"],
+          "children": [
+            { "id": "js-basics", "title": "Learn the basics" },
+            { "id": "dom-manipulation", "title": "DOM Manipulation" },
+            { "id": "fetch-ajax", "title": "Fetch API / Ajax (XHR)" }
+          ],
+          "resources": [
+            { "title": "JavaScript.info", "url": "https://javascript.info/", "type": "tutorial" },
+            { "title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "version-control",
+          "title": "Version Control Systems",
+          "description": "Track changes, collaborate, and never lose work. Git is the de-facto standard.",
+          "position": { "x": 0, "y": 500 },
+          "difficulty": "beginner",
+          "prerequisites": ["javascript"],
+          "children": [
+            { "id": "git", "title": "Git" }
+          ],
+          "resources": [
+            { "title": "Pro Git Book", "url": "https://git-scm.com/book/en/v2", "type": "documentation" },
+            { "title": "Learn Git Branching", "url": "https://learngitbranching.js.org/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "vcs-hosting",
+          "title": "VCS Hosting",
+          "description": "Cloud platforms that host your Git repositories and enable team collaboration.",
+          "position": { "x": 0, "y": 600 },
+          "difficulty": "beginner",
+          "prerequisites": ["version-control"],
+          "children": [
+            { "id": "github", "title": "GitHub" },
+            { "id": "gitlab", "title": "GitLab" },
+            { "id": "bitbucket", "title": "Bitbucket" }
+          ],
+          "resources": [
+            { "title": "GitHub Skills", "url": "https://skills.github.com/", "type": "course" }
+          ]
+        },
+        {
+          "id": "package-managers",
+          "title": "Package Managers",
+          "description": "Install, share, and manage dependencies for your projects.",
+          "position": { "x": 0, "y": 700 },
+          "difficulty": "beginner",
+          "prerequisites": ["vcs-hosting"],
+          "children": [
+            { "id": "npm", "title": "npm" },
+            { "id": "pnpm", "title": "pnpm" },
+            { "id": "yarn", "title": "yarn" }
+          ],
+          "resources": [
+            { "title": "npm Docs", "url": "https://docs.npmjs.com/", "type": "documentation" },
+            { "title": "pnpm Motivation", "url": "https://pnpm.io/motivation", "type": "article" }
+          ]
+        },
+        {
+          "id": "pick-framework",
+          "title": "Pick a Framework",
+          "description": "Choose a component-based UI framework. Start with one and learn it deeply before exploring others.",
+          "position": { "x": 0, "y": 800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["package-managers"],
+          "children": [
+            { "id": "react", "title": "React" },
+            { "id": "vue", "title": "Vue.js" },
+            { "id": "angular", "title": "Angular" },
+            { "id": "svelte", "title": "Svelte" },
+            { "id": "solid", "title": "Solid JS" },
+            { "id": "qwik", "title": "Qwik" }
+          ],
+          "resources": [
+            { "title": "React Docs", "url": "https://react.dev/", "type": "documentation" },
+            { "title": "Vue.js Docs", "url": "https://vuejs.org/guide/introduction.html", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "writing-css",
+          "title": "Writing CSS",
+          "description": "Modern utility-first and component-friendly approaches to writing styles.",
+          "position": { "x": 0, "y": 900 },
+          "difficulty": "intermediate",
+          "prerequisites": ["pick-framework"],
+          "children": [
+            { "id": "tailwind", "title": "Tailwind CSS" }
+          ],
+          "resources": [
+            { "title": "Tailwind CSS Docs", "url": "https://tailwindcss.com/docs", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "css-architecture",
+          "title": "CSS Architecture",
+          "description": "Naming conventions and structure that scale to large codebases.",
+          "position": { "x": 0, "y": 1000 },
+          "difficulty": "intermediate",
+          "prerequisites": ["writing-css"],
+          "children": [
+            { "id": "bem", "title": "BEM" }
+          ],
+          "resources": [
+            { "title": "BEM Methodology", "url": "https://en.bem.info/methodology/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "css-preprocessors",
+          "title": "CSS Preprocessors",
+          "description": "Add variables, nesting, mixins, and more to CSS with preprocessing tools.",
+          "position": { "x": 0, "y": 1100 },
+          "difficulty": "intermediate",
+          "prerequisites": ["css-architecture"],
+          "children": [
+            { "id": "sass", "title": "Sass" },
+            { "id": "postcss", "title": "PostCSS" }
+          ],
+          "resources": [
+            { "title": "Sass Docs", "url": "https://sass-lang.com/documentation/", "type": "documentation" },
+            { "title": "PostCSS", "url": "https://postcss.org/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "linters-formatters",
+          "title": "Linters and Formatters",
+          "description": "Catch bugs and keep code style consistent automatically.",
+          "position": { "x": 0, "y": 1200 },
+          "difficulty": "intermediate",
+          "prerequisites": ["css-preprocessors"],
+          "children": [
+            { "id": "eslint", "title": "ESLint" },
+            { "id": "prettier", "title": "Prettier" }
+          ],
+          "resources": [
+            { "title": "ESLint", "url": "https://eslint.org/", "type": "documentation" },
+            { "title": "Prettier", "url": "https://prettier.io/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "module-bundlers",
+          "title": "Module Bundlers",
+          "description": "Bundle and optimize your JavaScript, CSS, and assets for the browser.",
+          "position": { "x": 0, "y": 1300 },
+          "difficulty": "intermediate",
+          "prerequisites": ["linters-formatters"],
+          "children": [
+            { "id": "vite", "title": "Vite" },
+            { "id": "esbuild", "title": "esbuild" },
+            { "id": "webpack", "title": "Webpack" },
+            { "id": "rollup", "title": "Rollup" },
+            { "id": "parcel", "title": "Parcel" }
+          ],
+          "resources": [
+            { "title": "Vite Guide", "url": "https://vitejs.dev/guide/", "type": "documentation" },
+            { "title": "Webpack Concepts", "url": "https://webpack.js.org/concepts/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "testing",
+          "title": "Testing",
+          "description": "Unit, integration, and end-to-end tests give you confidence to ship.",
+          "position": { "x": 0, "y": 1400 },
+          "difficulty": "intermediate",
+          "prerequisites": ["module-bundlers"],
+          "children": [
+            { "id": "jest", "title": "Jest" },
+            { "id": "vitest", "title": "Vitest" },
+            { "id": "playwright", "title": "Playwright" },
+            { "id": "cypress", "title": "Cypress" }
+          ],
+          "resources": [
+            { "title": "Vitest", "url": "https://vitest.dev/", "type": "documentation" },
+            { "title": "Playwright", "url": "https://playwright.dev/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "web-security",
+          "title": "Web Security Basics",
+          "description": "Protect users and data: HTTPS, CORS, CSP, and the OWASP top risks.",
+          "position": { "x": 0, "y": 1500 },
+          "difficulty": "intermediate",
+          "prerequisites": ["testing"],
+          "children": [
+            { "id": "https", "title": "HTTPS" },
+            { "id": "cors", "title": "CORS" },
+            { "id": "csp", "title": "Content Security Policy" },
+            { "id": "owasp", "title": "OWASP Security Risks" }
+          ],
+          "resources": [
+            { "title": "OWASP Top 10", "url": "https://owasp.org/www-project-top-ten/", "type": "documentation" },
+            { "title": "MDN: CORS", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "auth-strategies",
+          "title": "Authentication Strategies",
+          "description": "JWT, OAuth, sessions, SSO — know when to use each.",
+          "position": { "x": 0, "y": 1600 },
+          "difficulty": "intermediate",
+          "prerequisites": ["web-security"],
+          "children": [],
+          "resources": [
+            { "title": "JWT vs Sessions", "url": "https://roadmap.sh/guides/jwt-vs-sessions", "type": "article" }
+          ]
+        },
+        {
+          "id": "type-checkers",
+          "title": "Type Checkers",
+          "description": "Add static types to JavaScript for safer, more maintainable code.",
+          "position": { "x": 0, "y": 1700 },
+          "difficulty": "intermediate",
+          "prerequisites": ["auth-strategies"],
+          "children": [
+            { "id": "typescript", "title": "TypeScript" }
+          ],
+          "resources": [
+            { "title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "web-components",
+          "title": "Web Components",
+          "description": "Browser-native, reusable components without a framework.",
+          "position": { "x": 0, "y": 1800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["type-checkers"],
+          "children": [
+            { "id": "custom-elements", "title": "Custom Elements" },
+            { "id": "shadow-dom", "title": "Shadow DOM" },
+            { "id": "html-templates", "title": "HTML Templates" }
+          ],
+          "resources": [
+            { "title": "MDN: Web Components", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_components", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "ssr",
+          "title": "Server Side Rendering (SSR)",
+          "description": "Render apps on the server for faster first paint and better SEO.",
+          "position": { "x": 0, "y": 1900 },
+          "difficulty": "advanced",
+          "prerequisites": ["web-components"],
+          "children": [
+            { "id": "nextjs", "title": "Next.js (React)" },
+            { "id": "nuxtjs", "title": "Nuxt.js (Vue)" },
+            { "id": "sveltekit", "title": "SvelteKit" },
+            { "id": "astro", "title": "Astro" }
+          ],
+          "resources": [
+            { "title": "Next.js Docs", "url": "https://nextjs.org/docs", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "graphql",
+          "title": "GraphQL",
+          "description": "A query language for APIs — ask for exactly the data you need.",
+          "position": { "x": 0, "y": 2000 },
+          "difficulty": "advanced",
+          "prerequisites": ["ssr"],
+          "children": [
+            { "id": "apollo", "title": "Apollo" },
+            { "id": "relay", "title": "Relay Modern" }
+          ],
+          "resources": [
+            { "title": "GraphQL.org", "url": "https://graphql.org/learn/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "static-site-generators",
+          "title": "Static Site Generators",
+          "description": "Pre-render at build time for blazing fast static sites.",
+          "position": { "x": 0, "y": 2100 },
+          "difficulty": "advanced",
+          "prerequisites": ["graphql"],
+          "children": [
+            { "id": "ssg-nextjs", "title": "Next.js" },
+            { "id": "ssg-astro", "title": "Astro" },
+            { "id": "ssg-eleventy", "title": "Eleventy" },
+            { "id": "ssg-vuepress", "title": "VuePress" }
+          ],
+          "resources": [
+            { "title": "Astro Docs", "url": "https://docs.astro.build/en/getting-started/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "pwas",
+          "title": "Progressive Web Apps (PWAs)",
+          "description": "Offline-capable, installable web apps with native-like features.",
+          "position": { "x": 0, "y": 2200 },
+          "difficulty": "advanced",
+          "prerequisites": ["static-site-generators"],
+          "children": [
+            { "id": "storage", "title": "Storage APIs" },
+            { "id": "web-sockets", "title": "Web Sockets" },
+            { "id": "lighthouse", "title": "Using Lighthouse" },
+            { "id": "performance-metrics", "title": "Performance Metrics" }
+          ],
+          "resources": [
+            { "title": "web.dev: PWA", "url": "https://web.dev/explore/progressive-web-apps", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "mobile-apps",
+          "title": "Mobile Apps",
+          "description": "Build native mobile apps with the same web skills you already have.",
+          "position": { "x": 0, "y": 2300 },
+          "difficulty": "advanced",
+          "prerequisites": ["pwas"],
+          "children": [
+            { "id": "react-native", "title": "React Native" },
+            { "id": "flutter", "title": "Flutter" },
+            { "id": "ionic", "title": "Ionic" }
+          ],
+          "resources": [
+            { "title": "React Native Docs", "url": "https://reactnative.dev/docs/getting-started", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "desktop-apps",
+          "title": "Desktop Apps",
+          "description": "Ship cross-platform desktop apps with web technologies.",
+          "position": { "x": 0, "y": 2400 },
+          "difficulty": "advanced",
+          "prerequisites": ["mobile-apps"],
+          "children": [
+            { "id": "electron", "title": "Electron" },
+            { "id": "tauri", "title": "Tauri" }
+          ],
+          "resources": [
+            { "title": "Electron Docs", "url": "https://www.electronjs.org/docs/latest", "type": "documentation" }
+          ]
+        }
+      ],
+      "connections": [
+        { "from": "internet", "to": "html" },
+        { "from": "html", "to": "css" },
+        { "from": "css", "to": "javascript" },
+        { "from": "javascript", "to": "version-control" },
+        { "from": "version-control", "to": "vcs-hosting" },
+        { "from": "vcs-hosting", "to": "package-managers" },
+        { "from": "package-managers", "to": "pick-framework" },
+        { "from": "pick-framework", "to": "writing-css" },
+        { "from": "writing-css", "to": "css-architecture" },
+        { "from": "css-architecture", "to": "css-preprocessors" },
+        { "from": "css-preprocessors", "to": "linters-formatters" },
+        { "from": "linters-formatters", "to": "module-bundlers" },
+        { "from": "module-bundlers", "to": "testing" },
+        { "from": "testing", "to": "web-security" },
+        { "from": "web-security", "to": "auth-strategies" },
+        { "from": "auth-strategies", "to": "type-checkers" },
+        { "from": "type-checkers", "to": "web-components" },
+        { "from": "web-components", "to": "ssr" },
+        { "from": "ssr", "to": "graphql" },
+        { "from": "graphql", "to": "static-site-generators" },
+        { "from": "static-site-generators", "to": "pwas" },
+        { "from": "pwas", "to": "mobile-apps" },
+        { "from": "mobile-apps", "to": "desktop-apps" }
       ]
     },
     {
@@ -217,733 +1108,1229 @@
       "subcategory": "Computer Science",
       "estimatedTime": "8-12 months",
       "difficulty": "intermediate",
-      "tags": ["algorithms", "data-structures", "problem-solving", "coding-interviews", "competitive-programming"],
+      "tags": [
+        "algorithms",
+        "data-structures",
+        "problem-solving",
+        "coding-interviews",
+        "competitive-programming"
+      ],
       "createdAt": "2024-01-01",
       "updatedAt": "2024-01-01",
       "nodes": [
         {
-          "id": "foundations",
-          "title": "Foundations",
-          "description": "Programming basics, complexity analysis, and mathematical foundations",
-          "position": { "x": 200, "y": 100 },
+          "id": "pick-language",
+          "title": "Pick a Language",
+          "description": "Choose a programming language to implement DSA concepts (C#, JavaScript, C++, Java, Python, Go, Rust, Ruby)",
+          "position": { "x": 400, "y": 100 },
           "difficulty": "beginner",
           "resources": [
             {
-              "title": "Big O Notation Guide",
+              "title": "Programming Languages for DSA",
+              "url": "https://www.geeksforgeeks.org/programming-languages-for-competitive-programming/",
+              "type": "article"
+            }
+          ]
+        },
+        {
+          "id": "programming-fundamentals",
+          "title": "Programming Fundamentals",
+          "description": "Basic programming concepts, syntax, and control structures",
+          "position": { "x": 400, "y": 200 },
+          "difficulty": "beginner",
+          "prerequisites": ["pick-language"],
+          "resources": [
+            {
+              "title": "Programming Basics",
+              "url": "https://www.codecademy.com/learn/learn-how-to-code",
+              "type": "course"
+            }
+          ]
+        },
+        {
+          "id": "language-syntax",
+          "title": "Language Syntax",
+          "description": "Master the syntax of your chosen programming language",
+          "position": { "x": 650, "y": 150 },
+          "difficulty": "beginner",
+          "prerequisites": ["pick-language"],
+          "resources": [
+            {
+              "title": "Python Syntax Guide",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "documentation"
+            }
+          ]
+        },
+        {
+          "id": "control-structures",
+          "title": "Control Structures",
+          "description": "If-else statements, loops, switch statements",
+          "position": { "x": 650, "y": 250 },
+          "difficulty": "beginner",
+          "prerequisites": ["language-syntax"],
+          "resources": [
+            {
+              "title": "Control Flow Statements",
+              "url": "https://www.programiz.com/python-programming/if-elif-else",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "pseudo-code",
+          "title": "Pseudo Code",
+          "description": "Writing algorithm logic in pseudo code",
+          "position": { "x": 650, "y": 350 },
+          "difficulty": "beginner",
+          "prerequisites": ["control-structures"],
+          "resources": [
+            {
+              "title": "Pseudocode Guide",
+              "url": "https://www.khanacademy.org/computing/computer-programming/programming/good-practices/a/planning-with-pseudo-code",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "functions",
+          "title": "Functions",
+          "description": "Function definition, parameters, return values, scope",
+          "position": { "x": 650, "y": 450 },
+          "difficulty": "beginner",
+          "prerequisites": ["pseudo-code"],
+          "resources": [
+            {
+              "title": "Functions in Programming",
+              "url": "https://www.programiz.com/python-programming/function",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "oop-basics",
+          "title": "OOP Basics",
+          "description": "Object-oriented programming concepts: classes, objects, inheritance",
+          "position": { "x": 650, "y": 550 },
+          "difficulty": "intermediate",
+          "prerequisites": ["functions"],
+          "resources": [
+            {
+              "title": "OOP Concepts",
+              "url": "https://www.programiz.com/python-programming/object-oriented-programming",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "what-are-data-structures",
+          "title": "What are Data Structures?",
+          "description": "Introduction to data structures and their importance in programming",
+          "position": { "x": 400, "y": 350 },
+          "difficulty": "beginner",
+          "prerequisites": ["programming-fundamentals"],
+          "resources": [
+            {
+              "title": "Introduction to Data Structures",
+              "url": "https://www.geeksforgeeks.org/data-structures/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "why-data-structures-important",
+          "title": "Why are Data Structures Important?",
+          "description": "Understanding the significance and benefits of using proper data structures",
+          "position": { "x": 400, "y": 450 },
+          "difficulty": "beginner",
+          "prerequisites": ["what-are-data-structures"],
+          "resources": [
+            {
+              "title": "Importance of Data Structures",
+              "url": "https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/",
+              "type": "article"
+            }
+          ]
+        },
+        {
+          "id": "basic-data-structures",
+          "title": "Basic Data Structures",
+          "description": "Foundation data structures: Arrays, Linked Lists, Stacks, Queues, Hash Tables",
+          "position": { "x": 400, "y": 550 },
+          "difficulty": "beginner",
+          "prerequisites": ["why-data-structures-important"],
+          "resources": [
+            {
+              "title": "Basic Data Structures Guide",
+              "url": "https://www.programiz.com/dsa",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "array",
+          "title": "Array",
+          "description": "Linear data structure with elements stored in contiguous memory",
+          "position": { "x": 150, "y": 650 },
+          "difficulty": "beginner",
+          "prerequisites": ["basic-data-structures"],
+          "resources": [
+            {
+              "title": "Array Data Structure",
+              "url": "https://www.programiz.com/dsa/array",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "linked-lists",
+          "title": "Linked Lists",
+          "description": "Dynamic linear data structure with nodes containing data and pointers",
+          "position": { "x": 250, "y": 650 },
+          "difficulty": "beginner",
+          "prerequisites": ["basic-data-structures"],
+          "resources": [
+            {
+              "title": "Linked List Tutorial",
+              "url": "https://www.programiz.com/dsa/linked-list",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "queues",
+          "title": "Queues",
+          "description": "FIFO (First In First Out) linear data structure",
+          "position": { "x": 350, "y": 650 },
+          "difficulty": "beginner",
+          "prerequisites": ["basic-data-structures"],
+          "resources": [
+            {
+              "title": "Queue Data Structure",
+              "url": "https://www.programiz.com/dsa/queue",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "stacks",
+          "title": "Stacks",
+          "description": "LIFO (Last In First Out) linear data structure",
+          "position": { "x": 450, "y": 650 },
+          "difficulty": "beginner",
+          "prerequisites": ["basic-data-structures"],
+          "resources": [
+            {
+              "title": "Stack Data Structure",
+              "url": "https://www.programiz.com/dsa/stack",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "hash-tables",
+          "title": "Hash Tables",
+          "description": "Key-value pair data structure with O(1) average access time",
+          "position": { "x": 400, "y": 750 },
+          "difficulty": "intermediate",
+          "prerequisites": ["array", "linked-lists", "queues", "stacks"],
+          "resources": [
+            {
+              "title": "Hash Table Implementation",
+              "url": "https://www.programiz.com/dsa/hash-table",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "algorithmic-complexity",
+          "title": "Algorithmic Complexity",
+          "description": "Time and space complexity analysis of algorithms",
+          "position": { "x": 400, "y": 900 },
+          "difficulty": "intermediate",
+          "prerequisites": ["hash-tables"],
+          "resources": [
+            {
+              "title": "Big O Notation Cheat Sheet",
               "url": "https://www.bigocheatsheet.com/",
               "type": "documentation"
-            },
-            {
-              "title": "Time & Space Complexity",
-              "url": "https://www.youtube.com/watch?v=D6xkbGLQesk",
-              "type": "video"
             }
           ]
         },
         {
-          "id": "advanced-data-structures",
-          "title": "Advanced Data Structures",
-          "description": "Heaps, Hash Tables, Disjoint Sets, and advanced tree structures",
-          "position": { "x": 400, "y": 100 },
+          "id": "time-space-complexity",
+          "title": "Time vs Space Complexity",
+          "description": "Understanding trade-offs between time and space efficiency",
+          "position": { "x": 150, "y": 1000 },
           "difficulty": "intermediate",
-          "prerequisites": ["foundations"],
+          "prerequisites": ["algorithmic-complexity"],
           "resources": [
             {
-              "title": "Advanced Data Structures",
-              "url": "https://www.geeksforgeeks.org/advanced-data-structures/",
+              "title": "Time and Space Complexity Guide",
+              "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
               "type": "tutorial"
             }
           ]
         },
         {
-          "id": "algorithms",
-          "title": "Algorithms",
-          "description": "Greedy algorithms, divide and conquer, dynamic programming",
-          "position": { "x": 600, "y": 100 },
+          "id": "calculate-complexity",
+          "title": "How to Calculate Complexity?",
+          "description": "Methods and techniques to analyze algorithm complexity",
+          "position": { "x": 150, "y": 1100 },
           "difficulty": "intermediate",
-          "prerequisites": ["advanced-data-structures"],
+          "prerequisites": ["time-space-complexity"],
           "resources": [
             {
-              "title": "Algorithm Design Manual",
-              "url": "https://www.algorist.com/",
-              "type": "book"
-            }
-          ]
-        },
-        {
-          "id": "linear-data-structure",
-          "title": "Linear Data Structure",
-          "description": "Arrays, Linked Lists, Stacks, and Queues",
-          "position": { "x": 100, "y": 250 },
-          "difficulty": "beginner",
-          "prerequisites": ["foundations"],
-          "resources": [
-            {
-              "title": "Linear Data Structures",
-              "url": "https://www.programiz.com/dsa/linear-data-structure",
+              "title": "Complexity Analysis Methods",
+              "url": "https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation",
               "type": "tutorial"
             }
           ]
         },
         {
-          "id": "trees-graph",
-          "title": "Trees & Graph",
-          "description": "Binary trees, BST, graph representation and traversal",
-          "position": { "x": 300, "y": 250 },
+          "id": "asymptotic-notation",
+          "title": "Asymptotic Notation",
+          "description": "Mathematical notation for describing algorithm complexity",
+          "position": { "x": 150, "y": 1200 },
           "difficulty": "intermediate",
-          "prerequisites": ["linear-data-structure"],
+          "prerequisites": ["calculate-complexity"],
           "resources": [
             {
-              "title": "Tree Data Structure",
-              "url": "https://www.programiz.com/dsa/trees",
-              "type": "tutorial"
-            },
-            {
-              "title": "Graph Algorithms",
-              "url": "https://www.programiz.com/dsa/graph",
+              "title": "Asymptotic Analysis",
+              "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/",
               "type": "tutorial"
             }
           ]
         },
         {
-          "id": "advanced-topics",
-          "title": "Advanced Topics",
-          "description": "Backtracking, string algorithms, bit manipulation",
-          "position": { "x": 500, "y": 250 },
-          "difficulty": "advanced",
-          "prerequisites": ["trees-graph", "algorithms"],
+          "id": "big-o-notation",
+          "title": "Big-O Notation",
+          "description": "Upper bound complexity analysis - worst case scenario",
+          "position": { "x": 100, "y": 1300 },
+          "difficulty": "intermediate",
+          "prerequisites": ["asymptotic-notation"],
           "resources": [
             {
-              "title": "Advanced Algorithm Topics",
-              "url": "https://cp-algorithms.com/",
+              "title": "Big O Notation Explained",
+              "url": "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+              "type": "article"
+            }
+          ]
+        },
+        {
+          "id": "big-theta-notation",
+          "title": "Big-θ Notation",
+          "description": "Tight bound complexity analysis - average case",
+          "position": { "x": 150, "y": 1300 },
+          "difficulty": "intermediate",
+          "prerequisites": ["asymptotic-notation"],
+          "resources": [
+            {
+              "title": "Big Theta Notation",
+              "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "big-omega-notation",
+          "title": "Big-Ω Notation",
+          "description": "Lower bound complexity analysis - best case scenario",
+          "position": { "x": 200, "y": 1300 },
+          "difficulty": "intermediate",
+          "prerequisites": ["asymptotic-notation"],
+          "resources": [
+            {
+              "title": "Big Omega Notation",
+              "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "common-runtimes",
+          "title": "Common Runtimes",
+          "description": "Understanding different time complexity categories",
+          "position": { "x": 650, "y": 1000 },
+          "difficulty": "intermediate",
+          "prerequisites": ["algorithmic-complexity"],
+          "resources": [
+            {
+              "title": "Common Time Complexities",
+              "url": "https://www.bigocheatsheet.com/",
               "type": "documentation"
             }
           ]
         },
         {
-          "id": "searching-sorting",
-          "title": "Searching & Sorting",
-          "description": "Linear & binary search, sorting algorithms, graph implementation",
-          "position": { "x": 200, "y": 400 },
+          "id": "constant",
+          "title": "Constant",
+          "description": "O(1) - Constant time complexity, independent of input size",
+          "position": { "x": 650, "y": 1100 },
           "difficulty": "beginner",
-          "prerequisites": ["linear-data-structure"],
+          "prerequisites": ["common-runtimes"],
           "resources": [
             {
-              "title": "Sorting Algorithms",
+              "title": "Constant Time Operations",
+              "url": "https://stackoverflow.com/questions/1592649/examples-of-algorithms-which-has-o1-on-and-olog-n-complexities",
+              "type": "article"
+            }
+          ]
+        },
+        {
+          "id": "logarithmic",
+          "title": "Logarithmic",
+          "description": "O(log n) - Logarithmic time complexity, divides problem in half",
+          "position": { "x": 650, "y": 1200 },
+          "difficulty": "intermediate",
+          "prerequisites": ["constant"],
+          "resources": [
+            {
+              "title": "Logarithmic Time Complexity",
+              "url": "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "linear",
+          "title": "Linear",
+          "description": "O(n) - Linear time complexity, proportional to input size",
+          "position": { "x": 650, "y": 1300 },
+          "difficulty": "beginner",
+          "prerequisites": ["logarithmic"],
+          "resources": [
+            {
+              "title": "Linear Time Algorithms",
+              "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "polynomial",
+          "title": "Polynomial",
+          "description": "O(n²), O(n³) - Polynomial time complexity with nested loops",
+          "position": { "x": 650, "y": 1400 },
+          "difficulty": "intermediate",
+          "prerequisites": ["linear"],
+          "resources": [
+            {
+              "title": "Polynomial Time Complexity",
+              "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "exponential",
+          "title": "Exponential",
+          "description": "O(2ⁿ) - Exponential time complexity, doubles with each input increase",
+          "position": { "x": 650, "y": 1500 },
+          "difficulty": "advanced",
+          "prerequisites": ["polynomial"],
+          "resources": [
+            {
+              "title": "Exponential Time Algorithms",
+              "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "factorial",
+          "title": "Factorial",
+          "description": "O(n!) - Factorial time complexity, extremely slow growth",
+          "position": { "x": 650, "y": 1600 },
+          "difficulty": "advanced",
+          "prerequisites": ["exponential"],
+          "resources": [
+            {
+              "title": "Factorial Time Complexity",
+              "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "sorting-algorithms",
+          "title": "Sorting Algorithms",
+          "description": "Various algorithms to arrange data in order",
+          "position": { "x": 400, "y": 1700 },
+          "difficulty": "intermediate",
+          "prerequisites": [
+            "big-o-notation",
+            "big-theta-notation",
+            "big-omega-notation"
+          ],
+          "resources": [
+            {
+              "title": "Sorting Algorithms Overview",
               "url": "https://www.geeksforgeeks.org/sorting-algorithms/",
               "type": "tutorial"
-            },
+            }
+          ]
+        },
+        {
+          "id": "bubble-sort",
+          "title": "Bubble Sort",
+          "description": "Simple comparison-based sorting algorithm with O(n²) complexity",
+          "position": { "x": 300, "y": 1800 },
+          "difficulty": "beginner",
+          "prerequisites": ["sorting-algorithms"],
+          "resources": [
             {
-              "title": "Searching Algorithms",
+              "title": "Bubble Sort Algorithm",
+              "url": "https://www.programiz.com/dsa/bubble-sort",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "merge-sort",
+          "title": "Merge Sort",
+          "description": "Efficient divide and conquer sorting algorithm with O(n log n) complexity",
+          "position": { "x": 400, "y": 1800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["sorting-algorithms"],
+          "resources": [
+            {
+              "title": "Merge Sort Algorithm",
+              "url": "https://www.programiz.com/dsa/merge-sort",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "insertion-sort",
+          "title": "Insertion Sort",
+          "description": "Simple sorting algorithm that builds sorted array one element at a time",
+          "position": { "x": 300, "y": 1900 },
+          "difficulty": "beginner",
+          "prerequisites": ["bubble-sort"],
+          "resources": [
+            {
+              "title": "Insertion Sort Algorithm",
+              "url": "https://www.programiz.com/dsa/insertion-sort",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "quick-sort",
+          "title": "Quick Sort",
+          "description": "Efficient divide and conquer sorting with average O(n log n) complexity",
+          "position": { "x": 400, "y": 1900 },
+          "difficulty": "intermediate",
+          "prerequisites": ["merge-sort"],
+          "resources": [
+            {
+              "title": "Quick Sort Algorithm",
+              "url": "https://www.programiz.com/dsa/quick-sort",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "selection-sort",
+          "title": "Selection Sort",
+          "description": "Simple sorting algorithm that selects minimum element repeatedly",
+          "position": { "x": 400, "y": 2000 },
+          "difficulty": "beginner",
+          "prerequisites": ["insertion-sort", "quick-sort"],
+          "resources": [
+            {
+              "title": "Selection Sort Algorithm",
+              "url": "https://www.programiz.com/dsa/selection-sort",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "heap-sort",
+          "title": "Heap Sort",
+          "description": "Comparison-based sorting using heap data structure",
+          "position": { "x": 400, "y": 2100 },
+          "difficulty": "intermediate",
+          "prerequisites": ["selection-sort"],
+          "resources": [
+            {
+              "title": "Heap Sort Algorithm",
+              "url": "https://www.programiz.com/dsa/heap-sort",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "search-algorithms",
+          "title": "Search Algorithms",
+          "description": "Algorithms to find specific elements in data structures",
+          "position": { "x": 750, "y": 1700 },
+          "difficulty": "intermediate",
+          "prerequisites": ["factorial"],
+          "resources": [
+            {
+              "title": "Search Algorithms Guide",
               "url": "https://www.geeksforgeeks.org/searching-algorithms/",
               "type": "tutorial"
             }
           ]
         },
         {
-          "id": "recursion",
-          "title": "Recursion",
-          "description": "Understanding recursion, recursive algorithms",
-          "position": { "x": 400, "y": 400 },
+          "id": "binary-search",
+          "title": "Binary Search",
+          "description": "Efficient O(log n) search algorithm for sorted arrays",
+          "position": { "x": 750, "y": 1800 },
           "difficulty": "intermediate",
-          "prerequisites": ["searching-sorting"],
+          "prerequisites": ["search-algorithms"],
           "resources": [
             {
-              "title": "Recursion in Programming",
-              "url": "https://www.programiz.com/java-programming/recursion",
+              "title": "Binary Search Algorithm",
+              "url": "https://www.programiz.com/dsa/binary-search",
               "type": "tutorial"
             }
           ]
         },
         {
-          "id": "problem-solving",
-          "title": "Problem Solving",
-          "description": "Pattern recognition, optimization techniques, competitive programming",
-          "position": { "x": 600, "y": 400 },
-          "difficulty": "advanced",
-          "prerequisites": ["recursion", "advanced-topics"],
+          "id": "linear-search",
+          "title": "Linear Search",
+          "description": "Simple O(n) search algorithm that checks every element",
+          "position": { "x": 750, "y": 1900 },
+          "difficulty": "beginner",
+          "prerequisites": ["binary-search"],
           "resources": [
             {
-              "title": "LeetCode Practice",
-              "url": "https://leetcode.com/",
-              "type": "practice"
-            },
-            {
-              "title": "Codeforces",
-              "url": "https://codeforces.com/",
-              "type": "practice"
+              "title": "Linear Search Algorithm",
+              "url": "https://www.programiz.com/dsa/linear-search",
+              "type": "tutorial"
             }
           ]
         },
         {
-          "id": "projects-portfolio",
-          "title": "Projects & Portfolio",
-          "description": "Build real-world projects, create GitHub portfolio, showcase skills",
-          "position": { "x": 400, "y": 550 },
+          "id": "tree-data-structures",
+          "title": "Tree Data Structures",
+          "description": "Hierarchical data structures with parent-child relationships",
+          "position": { "x": 1000, "y": 1700 },
           "difficulty": "intermediate",
-          "prerequisites": ["problem-solving"],
+          "prerequisites": ["search-algorithms"],
           "resources": [
             {
-              "title": "DSA Project Ideas",
-              "url": "https://github.com/topics/data-structures-algorithms",
-              "type": "repository"
-            },
+              "title": "Tree Data Structure Guide",
+              "url": "https://www.programiz.com/dsa/trees",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "binary-trees",
+          "title": "Binary Trees",
+          "description": "Tree structure where each node has at most two children",
+          "position": { "x": 900, "y": 1800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["tree-data-structures"],
+          "resources": [
             {
-              "title": "Building a Portfolio",
-              "url": "https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio/",
+              "title": "Binary Tree Implementation",
+              "url": "https://www.programiz.com/dsa/binary-tree",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "tree-traversal",
+          "title": "Tree Traversal",
+          "description": "Methods to visit all nodes: In-order, Pre-order, Post-order",
+          "position": { "x": 1000, "y": 1800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["tree-data-structures"],
+          "children": [
+            { "id": "in-order", "title": "In-Order Traversal" },
+            { "id": "pre-order", "title": "Pre-Order Traversal" },
+            { "id": "post-order", "title": "Post-Order Traversal" },
+            { "id": "tree-bfs", "title": "Breadth First Search" },
+            { "id": "tree-dfs", "title": "Depth First Search" }
+          ],
+          "resources": [
+            {
+              "title": "Tree Traversal Methods",
+              "url": "https://www.programiz.com/dsa/tree-traversal",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "graph-data-structures",
+          "title": "Graph Data Structures",
+          "description": "Networks of nodes and edges — represent relationships and power maps, social networks, and dependency systems.",
+          "position": { "x": 700, "y": 1900 },
+          "difficulty": "advanced",
+          "prerequisites": ["tree-data-structures"],
+          "children": [
+            { "id": "directed-graph", "title": "Directed Graph" },
+            { "id": "undirected-graph", "title": "Undirected Graph" },
+            { "id": "graph-bfs", "title": "Breadth First Search" },
+            { "id": "graph-dfs", "title": "Depth First Search" },
+            { "id": "shortest-path", "title": "Shortest Path Algorithms" },
+            { "id": "dijkstra", "title": "Dijkstra's Algorithm" },
+            { "id": "bellman-ford", "title": "Bellman-Ford Algorithm" },
+            { "id": "a-star", "title": "A* Algorithm" },
+            { "id": "mst", "title": "Minimum Spanning Tree" },
+            { "id": "prims", "title": "Prim's Algorithm" },
+            { "id": "kruskals", "title": "Kruskal's Algorithm" }
+          ],
+          "resources": [
+            { "title": "Graph Data Structure", "url": "https://www.programiz.com/dsa/graph", "type": "tutorial" },
+            { "title": "Graph Algorithms (CLRS)", "url": "https://www.geeksforgeeks.org/graph-and-its-representations/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "advanced-data-structures",
+          "title": "Advanced Data Structures",
+          "description": "Specialized structures for prefix queries, range updates, and union-find operations.",
+          "position": { "x": 800, "y": 2000 },
+          "difficulty": "advanced",
+          "prerequisites": ["graph-data-structures"],
+          "children": [
+            { "id": "trie", "title": "Trie" },
+            { "id": "segment-trees", "title": "Segment Trees" },
+            { "id": "fenwick-trees", "title": "Fenwick Trees (BIT)" },
+            { "id": "disjoint-set", "title": "Disjoint Set (Union-Find)" },
+            { "id": "suffix-trees", "title": "Suffix Trees and Arrays" }
+          ],
+          "resources": [
+            { "title": "Trie Data Structure", "url": "https://www.programiz.com/dsa/trie", "type": "tutorial" },
+            { "title": "Segment Trees", "url": "https://cp-algorithms.com/data_structures/segment_tree.html", "type": "tutorial" },
+            { "title": "Disjoint Set Union", "url": "https://cp-algorithms.com/data_structures/disjoint_set_union.html", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "complex-data-structures",
+          "title": "Complex Data Structures",
+          "description": "Self-balancing trees and probabilistic structures used in databases and systems.",
+          "position": { "x": 700, "y": 2100 },
+          "difficulty": "advanced",
+          "prerequisites": ["advanced-data-structures"],
+          "children": [
+            { "id": "two-three-trees", "title": "2-3 Trees" },
+            { "id": "b-b-plus-trees", "title": "B / B+ Trees" },
+            { "id": "skip-list", "title": "Skip List" }
+          ],
+          "resources": [
+            { "title": "B-Tree Introduction", "url": "https://www.geeksforgeeks.org/introduction-of-b-tree-2/", "type": "tutorial" },
+            { "title": "Skip List", "url": "https://www.geeksforgeeks.org/skip-list/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "indexing",
+          "title": "Indexing",
+          "description": "Techniques to make lookups fast — used by databases and search engines.",
+          "position": { "x": 900, "y": 2200 },
+          "difficulty": "advanced",
+          "prerequisites": ["complex-data-structures"],
+          "children": [
+            { "id": "linear-indexing", "title": "Linear Indexing" },
+            { "id": "tree-based-indexing", "title": "Tree-Based Indexing" },
+            { "id": "isam", "title": "ISAM (Indexed Sequential Access Method)" }
+          ],
+          "resources": [
+            { "title": "Database Indexing", "url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "problem-solving-techniques",
+          "title": "Problem Solving Techniques",
+          "description": "Advanced problem-solving strategies and techniques",
+          "position": { "x": 800, "y": 2400 },
+          "difficulty": "advanced",
+          "prerequisites": ["indexing"],
+          "children": [
+            { "id": "backtracking", "title": "Backtracking" },
+            { "id": "brute-force", "title": "Brute Force" },
+            { "id": "greedy", "title": "Greedy Algorithms" },
+            { "id": "divide-and-conquer", "title": "Divide and Conquer" },
+            { "id": "recursion", "title": "Recursion" },
+            { "id": "two-pointer", "title": "Two Pointer Technique" },
+            { "id": "fast-slow-pointers", "title": "Fast and Slow Pointers" },
+            { "id": "sliding-window", "title": "Sliding Window Technique" },
+            { "id": "merge-intervals", "title": "Merge Intervals" },
+            { "id": "two-heaps", "title": "Two Heaps" },
+            { "id": "kth-element", "title": "Kth Element" },
+            { "id": "cyclic-sort", "title": "Cyclic Sort" },
+            { "id": "island-traversal", "title": "Island Traversal" }
+          ],
+          "resources": [
+            {
+              "title": "Problem Solving Strategies",
+              "url": "https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-programming",
+          "title": "Dynamic Programming",
+          "description": "Optimization technique using overlapping subproblems",
+          "position": { "x": 900, "y": 2800 },
+          "difficulty": "advanced",
+          "prerequisites": ["problem-solving-techniques"],
+          "resources": [
+            {
+              "title": "Dynamic Programming",
+              "url": "https://www.geeksforgeeks.org/dynamic-programming/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "platforms-to-practice",
+          "title": "Platforms to Practice",
+          "description": "Online platforms for practicing DSA problems",
+          "position": { "x": 900, "y": 3000 },
+          "difficulty": "beginner",
+          "prerequisites": ["dynamic-programming"],
+          "resources": [
+            {
+              "title": "Best Coding Practice Platforms",
+              "url": "https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/",
               "type": "article"
+            }
+          ]
+        },
+        {
+          "id": "leetcode",
+          "title": "Leetcode",
+          "description": "Popular platform for coding interview preparation",
+          "position": { "x": 850, "y": 3100 },
+          "difficulty": "beginner",
+          "prerequisites": ["platforms-to-practice"],
+          "resources": [
+            {
+              "title": "LeetCode Platform",
+              "url": "https://leetcode.com/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "edabit",
+          "title": "Edabit",
+          "description": "Interactive coding challenges platform",
+          "position": { "x": 950, "y": 3100 },
+          "difficulty": "beginner",
+          "prerequisites": ["platforms-to-practice"],
+          "resources": [
+            {
+              "title": "Edabit Platform",
+              "url": "https://edabit.com/",
+              "type": "tutorial"
             }
           ]
         }
       ],
       "connections": [
-        { "from": "foundations", "to": "advanced-data-structures" },
-        { "from": "advanced-data-structures", "to": "algorithms" },
-        { "from": "foundations", "to": "linear-data-structure" },
-        { "from": "linear-data-structure", "to": "trees-graph" },
-        { "from": "trees-graph", "to": "advanced-topics" },
-        { "from": "algorithms", "to": "advanced-topics" },
-        { "from": "linear-data-structure", "to": "searching-sorting" },
-        { "from": "searching-sorting", "to": "recursion" },
-        { "from": "recursion", "to": "problem-solving" },
-        { "from": "advanced-topics", "to": "problem-solving" },
-        { "from": "problem-solving", "to": "projects-portfolio" }
+        { "from": "pick-language", "to": "programming-fundamentals" },
+        { "from": "pick-language", "to": "language-syntax" },
+        {
+          "from": "programming-fundamentals",
+          "to": "what-are-data-structures"
+        },
+        { "from": "language-syntax", "to": "control-structures" },
+        { "from": "control-structures", "to": "pseudo-code" },
+        { "from": "pseudo-code", "to": "functions" },
+        { "from": "functions", "to": "oop-basics" },
+        {
+          "from": "what-are-data-structures",
+          "to": "why-data-structures-important"
+        },
+        {
+          "from": "why-data-structures-important",
+          "to": "basic-data-structures"
+        },
+        { "from": "basic-data-structures", "to": "array" },
+        { "from": "basic-data-structures", "to": "linked-lists" },
+        { "from": "basic-data-structures", "to": "queues" },
+        { "from": "basic-data-structures", "to": "stacks" },
+        { "from": "array", "to": "hash-tables" },
+        { "from": "linked-lists", "to": "hash-tables" },
+        { "from": "queues", "to": "hash-tables" },
+        { "from": "stacks", "to": "hash-tables" },
+        { "from": "hash-tables", "to": "algorithmic-complexity" },
+        { "from": "algorithmic-complexity", "to": "time-space-complexity" },
+        { "from": "algorithmic-complexity", "to": "common-runtimes" },
+        { "from": "time-space-complexity", "to": "calculate-complexity" },
+        { "from": "calculate-complexity", "to": "asymptotic-notation" },
+        { "from": "asymptotic-notation", "to": "big-o-notation" },
+        { "from": "asymptotic-notation", "to": "big-theta-notation" },
+        { "from": "asymptotic-notation", "to": "big-omega-notation" },
+        { "from": "common-runtimes", "to": "constant" },
+        { "from": "constant", "to": "logarithmic" },
+        { "from": "logarithmic", "to": "linear" },
+        { "from": "linear", "to": "polynomial" },
+        { "from": "polynomial", "to": "exponential" },
+        { "from": "exponential", "to": "factorial" },
+        { "from": "big-o-notation", "to": "sorting-algorithms" },
+        { "from": "big-theta-notation", "to": "sorting-algorithms" },
+        { "from": "big-omega-notation", "to": "sorting-algorithms" },
+        { "from": "factorial", "to": "search-algorithms" },
+        { "from": "sorting-algorithms", "to": "bubble-sort" },
+        { "from": "sorting-algorithms", "to": "merge-sort" },
+        { "from": "bubble-sort", "to": "insertion-sort" },
+        { "from": "merge-sort", "to": "quick-sort" },
+        { "from": "insertion-sort", "to": "selection-sort" },
+        { "from": "quick-sort", "to": "selection-sort" },
+        { "from": "selection-sort", "to": "heap-sort" },
+        { "from": "search-algorithms", "to": "binary-search" },
+        { "from": "search-algorithms", "to": "tree-data-structures" },
+        { "from": "binary-search", "to": "linear-search" },
+        { "from": "tree-data-structures", "to": "binary-trees" },
+        { "from": "tree-data-structures", "to": "tree-traversal" },
+        { "from": "tree-data-structures", "to": "graph-data-structures" },
+        { "from": "graph-data-structures", "to": "advanced-data-structures" },
+        { "from": "advanced-data-structures", "to": "complex-data-structures" },
+        { "from": "complex-data-structures", "to": "indexing" },
+        { "from": "indexing", "to": "problem-solving-techniques" },
+        { "from": "tree-traversal", "to": "problem-solving-techniques" },
+        { "from": "problem-solving-techniques", "to": "dynamic-programming" },
+        { "from": "dynamic-programming", "to": "platforms-to-practice" },
+        { "from": "platforms-to-practice", "to": "leetcode" },
+        { "from": "platforms-to-practice", "to": "edabit" }
       ]
     },
     {
       "id": "fullstack-developer",
       "title": "Full Stack Developer",
-      "description": "Step by step guide to becoming a modern full stack developer in 2025",
+      "description": "Step by step guide to becoming a modern full stack developer in 2025. Data extracted from roadmap.sh/full-stack.",
       "category": "role-based",
       "subcategory": "Development",
       "estimatedTime": "12-18 months",
       "difficulty": "intermediate",
-      "tags": ["html", "css", "javascript", "react", "nodejs", "database", "devops", "fullstack"],
-      "createdAt": "2024-01-01",
-      "updatedAt": "2024-01-01",
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "nodejs",
+        "postgresql",
+        "redis",
+        "aws",
+        "devops",
+        "fullstack"
+      ],
+      "createdAt": "2026-05-10",
+      "updatedAt": "2026-05-10",
       "nodes": [
         {
           "id": "html",
           "title": "HTML",
-          "description": "Learn HTML fundamentals and semantic markup",
-          "position": { "x": 100, "y": 100 },
+          "description": "The skeleton of every webpage. Learn semantic markup, forms, and accessibility.",
+          "position": { "x": 0, "y": 100 },
           "difficulty": "beginner",
+          "children": [
+            { "id": "fs-html-basics", "title": "Learn the basics" },
+            { "id": "fs-semantic-html", "title": "Writing Semantic HTML" },
+            { "id": "fs-forms", "title": "Forms and Validations" },
+            { "id": "fs-accessibility", "title": "Accessibility" }
+          ],
           "resources": [
-            {
-              "title": "MDN HTML Guide",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-              "type": "documentation"
-            }
+            { "title": "MDN HTML Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML", "type": "documentation" }
           ]
         },
         {
           "id": "css",
           "title": "CSS",
-          "description": "Master CSS styling, layouts, and responsive design",
-          "position": { "x": 400, "y": 100 },
+          "description": "Style your pages, build responsive layouts with Flexbox and Grid.",
+          "position": { "x": 0, "y": 200 },
           "difficulty": "beginner",
           "prerequisites": ["html"],
+          "children": [
+            { "id": "fs-css-basics", "title": "Learn the basics" },
+            { "id": "fs-layouts", "title": "Making Layouts" },
+            { "id": "fs-responsive", "title": "Responsive Design" }
+          ],
           "resources": [
-            {
-              "title": "MDN CSS Guide",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-              "type": "documentation"
-            }
+            { "title": "MDN CSS Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS", "type": "documentation" }
           ]
         },
         {
           "id": "javascript",
           "title": "JavaScript",
-          "description": "Learn JavaScript fundamentals and ES6+ features",
-          "position": { "x": 700, "y": 100 },
+          "description": "The programming language of the web. Add interactivity to your pages.",
+          "position": { "x": 0, "y": 300 },
           "difficulty": "beginner",
           "prerequisites": ["css"],
+          "children": [
+            { "id": "fs-js-basics", "title": "Learn the basics" },
+            { "id": "fs-dom", "title": "DOM Manipulation" },
+            { "id": "fs-fetch", "title": "Fetch API / Ajax" }
+          ],
           "resources": [
-            {
-              "title": "JavaScript.info",
-              "url": "https://javascript.info/",
-              "type": "tutorial"
-            }
+            { "title": "JavaScript.info", "url": "https://javascript.info/", "type": "tutorial" }
           ]
         },
         {
           "id": "npm",
-          "title": "NPM",
-          "description": "Package management with NPM",
-          "position": { "x": 1000, "y": 100 },
+          "title": "npm",
+          "description": "The package manager for JavaScript. Install dependencies, run scripts, publish modules.",
+          "position": { "x": 0, "y": 400 },
           "difficulty": "beginner",
           "prerequisites": ["javascript"],
+          "children": [
+            { "id": "fs-package-json", "title": "package.json" },
+            { "id": "fs-lockfile", "title": "package-lock.json" },
+            { "id": "fs-semver", "title": "Semantic Versioning" }
+          ],
           "resources": [
-            {
-              "title": "NPM Documentation",
-              "url": "https://docs.npmjs.com/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "static-webpages",
-          "title": "Static Webpages",
-          "description": "Build static websites with HTML, CSS, and JavaScript",
-          "position": { "x": 1000, "y": 350 },
-          "difficulty": "beginner",
-          "prerequisites": ["html", "css", "javascript"],
-          "resources": [
-            {
-              "title": "Static Site Tutorial",
-              "url": "https://www.freecodecamp.org/news/how-to-build-a-website-with-html-css-javascript/",
-              "type": "tutorial"
-            }
-          ]
-        },
-        {
-          "id": "interactivity",
-          "title": "Interactivity",
-          "description": "Add interactive features with JavaScript",
-          "position": { "x": 700, "y": 350 },
-          "difficulty": "beginner",
-          "prerequisites": ["javascript", "npm"],
-          "resources": [
-            {
-              "title": "DOM Manipulation",
-              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "collaborative-work",
-          "title": "Collaborative Work",
-          "description": "Version control with Git and GitHub",
-          "position": { "x": 400, "y": 350 },
-          "difficulty": "beginner",
-          "prerequisites": ["static-webpages"],
-          "resources": [
-            {
-              "title": "Git Handbook",
-              "url": "https://guides.github.com/introduction/git-handbook/",
-              "type": "tutorial"
-            }
-          ]
-        },
-        {
-          "id": "external-packages",
-          "title": "External Packages",
-          "description": "Using third-party libraries and frameworks",
-          "position": { "x": 100, "y": 350 },
-          "difficulty": "beginner",
-          "prerequisites": ["interactivity"],
-          "resources": [
-            {
-              "title": "Package Management Guide",
-              "url": "https://www.npmjs.com/",
-              "type": "documentation"
-            }
+            { "title": "npm Docs", "url": "https://docs.npmjs.com/", "type": "documentation" }
           ]
         },
         {
           "id": "react",
           "title": "React",
-          "description": "Build modern UIs with React",
-          "position": { "x": 100, "y": 600 },
+          "description": "Build interactive UIs with components, hooks, and a powerful ecosystem.",
+          "position": { "x": 0, "y": 500 },
           "difficulty": "intermediate",
-          "prerequisites": ["collaborative-work"],
+          "prerequisites": ["npm"],
+          "children": [
+            { "id": "fs-jsx", "title": "JSX & Components" },
+            { "id": "fs-state-props", "title": "State & Props" },
+            { "id": "fs-hooks", "title": "Hooks (useState, useEffect)" },
+            { "id": "fs-routing", "title": "Routing" }
+          ],
           "resources": [
-            {
-              "title": "React Official Tutorial",
-              "url": "https://react.dev/learn",
-              "type": "tutorial"
-            }
+            { "title": "React Docs", "url": "https://react.dev/", "type": "documentation" }
           ]
         },
         {
           "id": "tailwind-css",
           "title": "Tailwind CSS",
-          "description": "Utility-first CSS framework",
-          "position": { "x": 400, "y": 600 },
+          "description": "Utility-first CSS framework — compose UIs from pre-defined classes without writing custom CSS.",
+          "position": { "x": 0, "y": 600 },
           "difficulty": "intermediate",
-          "prerequisites": ["collaborative-work"],
+          "prerequisites": ["react"],
+          "children": [
+            { "id": "fs-tw-utilities", "title": "Utility classes" },
+            { "id": "fs-tw-responsive", "title": "Responsive design" },
+            { "id": "fs-tw-themes", "title": "Custom themes" }
+          ],
           "resources": [
-            {
-              "title": "Tailwind CSS Docs",
-              "url": "https://tailwindcss.com/docs",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "github",
-          "title": "GitHub",
-          "description": "Code hosting and collaboration",
-          "position": { "x": 700, "y": 600 },
-          "difficulty": "beginner",
-          "prerequisites": ["external-packages"],
-          "resources": [
-            {
-              "title": "GitHub Guides",
-              "url": "https://guides.github.com/",
-              "type": "tutorial"
-            }
+            { "title": "Tailwind CSS Docs", "url": "https://tailwindcss.com/docs", "type": "documentation" }
           ]
         },
         {
           "id": "git",
           "title": "Git",
-          "description": "Version control system",
-          "position": { "x": 1000, "y": 600 },
+          "description": "Distributed version control — track changes, branch, merge, and collaborate.",
+          "position": { "x": 0, "y": 700 },
           "difficulty": "beginner",
-          "prerequisites": ["external-packages"],
+          "prerequisites": ["tailwind-css"],
+          "children": [
+            { "id": "fs-git-basics", "title": "init, add, commit, push" },
+            { "id": "fs-branching", "title": "Branching and merging" },
+            { "id": "fs-rebase", "title": "Rebase vs merge" }
+          ],
           "resources": [
-            {
-              "title": "Pro Git Book",
-              "url": "https://git-scm.com/book",
-              "type": "book"
-            }
+            { "title": "Pro Git Book", "url": "https://git-scm.com/book/en/v2", "type": "documentation" }
           ]
         },
         {
-          "id": "frontend-apps",
-          "title": "Frontend Apps",
-          "description": "Build complete frontend applications",
-          "position": { "x": 1000, "y": 850 },
-          "difficulty": "intermediate",
-          "prerequisites": ["react", "tailwind-css"],
+          "id": "github",
+          "title": "GitHub",
+          "description": "Cloud Git hosting with issues, PRs, code review, and CI/CD via Actions.",
+          "position": { "x": 0, "y": 800 },
+          "difficulty": "beginner",
+          "prerequisites": ["git"],
+          "children": [
+            { "id": "fs-pr-flow", "title": "Pull request workflow" },
+            { "id": "fs-code-review", "title": "Code review" },
+            { "id": "fs-protected-branches", "title": "Branch protection" }
+          ],
           "resources": [
-            {
-              "title": "Frontend Project Ideas",
-              "url": "https://github.com/florinpop17/app-ideas",
-              "type": "repository"
-            }
+            { "title": "GitHub Skills", "url": "https://skills.github.com/", "type": "course" }
           ]
         },
         {
           "id": "nodejs",
           "title": "Node.js",
-          "description": "Server-side JavaScript runtime",
-          "position": { "x": 700, "y": 850 },
+          "description": "JavaScript runtime for building servers, CLIs, and tooling outside the browser.",
+          "position": { "x": 0, "y": 900 },
           "difficulty": "intermediate",
-          "prerequisites": ["github", "git"],
+          "prerequisites": ["github"],
+          "children": [
+            { "id": "fs-event-loop", "title": "Event loop" },
+            { "id": "fs-http-server", "title": "HTTP server (Express)" },
+            { "id": "fs-streams", "title": "Streams and Buffers" },
+            { "id": "fs-fs-module", "title": "File system module" }
+          ],
           "resources": [
-            {
-              "title": "Node.js Documentation",
-              "url": "https://nodejs.org/en/docs/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "cli-apps",
-          "title": "CLI Apps",
-          "description": "Build command line applications",
-          "position": { "x": 400, "y": 850 },
-          "difficulty": "intermediate",
-          "prerequisites": ["nodejs"],
-          "resources": [
-            {
-              "title": "Building CLI Apps with Node.js",
-              "url": "https://blog.logrocket.com/building-typescript-cli-node-js-commander/",
-              "type": "article"
-            }
+            { "title": "Node.js Docs", "url": "https://nodejs.org/en/docs/", "type": "documentation" }
           ]
         },
         {
           "id": "postgresql",
           "title": "PostgreSQL",
-          "description": "Relational database management",
-          "position": { "x": 100, "y": 850 },
+          "description": "Robust open-source relational database. Learn SQL, indexes, transactions, joins.",
+          "position": { "x": 0, "y": 1000 },
           "difficulty": "intermediate",
           "prerequisites": ["nodejs"],
+          "children": [
+            { "id": "fs-sql-basics", "title": "SQL CRUD" },
+            { "id": "fs-joins", "title": "Joins" },
+            { "id": "fs-indexes", "title": "Indexes" },
+            { "id": "fs-transactions", "title": "Transactions & ACID" }
+          ],
           "resources": [
-            {
-              "title": "PostgreSQL Tutorial",
-              "url": "https://www.postgresql.org/docs/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "simple-crud-apps",
-          "title": "Simple CRUD Apps",
-          "description": "Create, Read, Update, Delete applications",
-          "position": { "x": 100, "y": 1100 },
-          "difficulty": "intermediate",
-          "prerequisites": ["cli-apps", "postgresql"],
-          "resources": [
-            {
-              "title": "CRUD Operations Guide",
-              "url": "https://www.freecodecamp.org/news/crud-operations/",
-              "type": "tutorial"
-            }
-          ]
-        },
-        {
-          "id": "redis",
-          "title": "Redis",
-          "description": "In-memory data structure store",
-          "position": { "x": 400, "y": 1100 },
-          "difficulty": "intermediate",
-          "prerequisites": ["simple-crud-apps"],
-          "resources": [
-            {
-              "title": "Redis Documentation",
-              "url": "https://redis.io/documentation",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "jwt-auth",
-          "title": "JWT Auth",
-          "description": "JSON Web Token authentication",
-          "position": { "x": 700, "y": 1100 },
-          "difficulty": "intermediate",
-          "prerequisites": ["simple-crud-apps"],
-          "resources": [
-            {
-              "title": "JWT Introduction",
-              "url": "https://jwt.io/introduction/",
-              "type": "documentation"
-            }
+            { "title": "PostgreSQL Tutorial", "url": "https://www.postgresqltutorial.com/", "type": "tutorial" }
           ]
         },
         {
           "id": "restful-apis",
           "title": "RESTful APIs",
-          "description": "Build REST API endpoints",
-          "position": { "x": 1000, "y": 1100 },
+          "description": "Design and build HTTP APIs following REST conventions.",
+          "position": { "x": 0, "y": 1100 },
           "difficulty": "intermediate",
-          "prerequisites": ["simple-crud-apps"],
+          "prerequisites": ["postgresql"],
+          "children": [
+            { "id": "fs-http-methods", "title": "HTTP methods (GET/POST/PUT/DELETE)" },
+            { "id": "fs-status-codes", "title": "Status codes" },
+            { "id": "fs-rest-resources", "title": "Resource design" },
+            { "id": "fs-versioning", "title": "API versioning" }
+          ],
           "resources": [
-            {
-              "title": "REST API Tutorial",
-              "url": "https://restfulapi.net/",
-              "type": "tutorial"
-            }
+            { "title": "REST API Tutorial", "url": "https://restfulapi.net/", "type": "tutorial" }
           ]
         },
         {
-          "id": "complete-app",
-          "title": "Complete App",
-          "description": "Build full-stack applications",
-          "position": { "x": 1000, "y": 1350 },
-          "difficulty": "advanced",
-          "prerequisites": ["redis", "jwt-auth", "restful-apis"],
+          "id": "jwt-auth",
+          "title": "JWT Auth",
+          "description": "Stateless authentication with JSON Web Tokens. Sign, verify, refresh.",
+          "position": { "x": 0, "y": 1200 },
+          "difficulty": "intermediate",
+          "prerequisites": ["restful-apis"],
+          "children": [
+            { "id": "fs-jwt-structure", "title": "Header.Payload.Signature" },
+            { "id": "fs-access-refresh", "title": "Access + Refresh tokens" },
+            { "id": "fs-token-storage", "title": "Storage strategies" }
+          ],
           "resources": [
-            {
-              "title": "Full Stack Project Ideas",
-              "url": "https://github.com/florinpop17/app-ideas",
-              "type": "repository"
-            }
+            { "title": "Introduction to JWT", "url": "https://jwt.io/introduction", "type": "documentation" }
           ]
         },
         {
-          "id": "route53",
-          "title": "Route53",
-          "description": "DNS web service",
-          "position": { "x": 700, "y": 1350 },
-          "difficulty": "advanced",
-          "prerequisites": ["complete-app"],
+          "id": "redis",
+          "title": "Redis",
+          "description": "In-memory key-value store. Caching, pub/sub, queues, rate limiting.",
+          "position": { "x": 0, "y": 1300 },
+          "difficulty": "intermediate",
+          "prerequisites": ["jwt-auth"],
+          "children": [
+            { "id": "fs-redis-strings", "title": "Strings, Hashes, Lists, Sets" },
+            { "id": "fs-redis-cache", "title": "Caching patterns" },
+            { "id": "fs-redis-pubsub", "title": "Pub/Sub" }
+          ],
           "resources": [
-            {
-              "title": "Route53 Documentation",
-              "url": "https://docs.aws.amazon.com/route53/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "ses",
-          "title": "SES",
-          "description": "Simple Email Service",
-          "position": { "x": 400, "y": 1350 },
-          "difficulty": "advanced",
-          "prerequisites": ["complete-app"],
-          "resources": [
-            {
-              "title": "SES Documentation",
-              "url": "https://docs.aws.amazon.com/ses/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "s3",
-          "title": "S3",
-          "description": "Simple Storage Service",
-          "position": { "x": 100, "y": 1350 },
-          "difficulty": "advanced",
-          "prerequisites": ["complete-app"],
-          "resources": [
-            {
-              "title": "S3 Documentation",
-              "url": "https://docs.aws.amazon.com/s3/",
-              "type": "documentation"
-            }
+            { "title": "Redis Docs", "url": "https://redis.io/docs/latest/", "type": "documentation" }
           ]
         },
         {
           "id": "linux-basics",
           "title": "Linux Basics",
-          "description": "Command line and system administration",
-          "position": { "x": 100, "y": 1600 },
+          "description": "Command line, file system, processes, permissions, package managers — the OS your servers run on.",
+          "position": { "x": 0, "y": 1400 },
           "difficulty": "intermediate",
-          "prerequisites": ["route53"],
+          "prerequisites": ["redis"],
+          "children": [
+            { "id": "fs-shell", "title": "Bash basics" },
+            { "id": "fs-permissions", "title": "File permissions" },
+            { "id": "fs-systemd", "title": "Processes & systemd" },
+            { "id": "fs-ssh", "title": "SSH" }
+          ],
           "resources": [
-            {
-              "title": "Linux Command Line",
-              "url": "https://linuxcommand.org/",
-              "type": "tutorial"
-            }
+            { "title": "Linux Journey", "url": "https://linuxjourney.com/", "type": "tutorial" }
           ]
         },
         {
-          "id": "basic-aws-services",
+          "id": "aws-services",
           "title": "Basic AWS Services",
-          "description": "Core AWS services and concepts",
-          "position": { "x": 400, "y": 1600 },
+          "description": "Cloud fundamentals: compute, storage, networking, DNS, email — enough to deploy.",
+          "position": { "x": 0, "y": 1500 },
           "difficulty": "advanced",
-          "prerequisites": ["ses", "s3"],
+          "prerequisites": ["linux-basics"],
+          "children": [
+            { "id": "fs-ec2", "title": "EC2 (Compute)" },
+            { "id": "fs-s3", "title": "S3 (Object storage)" },
+            { "id": "fs-vpc", "title": "VPC (Networking)" },
+            { "id": "fs-route53", "title": "Route53 (DNS)" },
+            { "id": "fs-ses", "title": "SES (Email)" }
+          ],
           "resources": [
-            {
-              "title": "AWS Getting Started",
-              "url": "https://aws.amazon.com/getting-started/",
-              "type": "tutorial"
-            }
-          ]
-        },
-        {
-          "id": "deployment",
-          "title": "Deployment",
-          "description": "Deploy applications to production",
-          "position": { "x": 700, "y": 1600 },
-          "difficulty": "advanced",
-          "prerequisites": ["basic-aws-services"],
-          "resources": [
-            {
-              "title": "Deployment Best Practices",
-              "url": "https://12factor.net/",
-              "type": "documentation"
-            }
+            { "title": "AWS Free Tier", "url": "https://aws.amazon.com/free/", "type": "documentation" },
+            { "title": "AWS Getting Started", "url": "https://aws.amazon.com/getting-started/", "type": "tutorial" }
           ]
         },
         {
           "id": "monit",
-          "title": "Monit",
-          "description": "System monitoring and management",
-          "position": { "x": 1000, "y": 1600 },
-          "difficulty": "advanced",
-          "prerequisites": ["deployment"],
-          "resources": [
-            {
-              "title": "Monit Documentation",
-              "url": "https://mmonit.com/monit/documentation/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "automation",
-          "title": "Automation",
-          "description": "CI/CD and automated deployments",
-          "position": { "x": 1000, "y": 1850 },
-          "difficulty": "advanced",
-          "prerequisites": ["linux-basics"],
-          "resources": [
-            {
-              "title": "CI/CD Best Practices",
-              "url": "https://docs.github.com/en/actions",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "ci-cd",
-          "title": "CI / CD",
-          "description": "Continuous Integration and Deployment",
-          "position": { "x": 700, "y": 1850 },
-          "difficulty": "advanced",
-          "prerequisites": ["deployment"],
-          "resources": [
-            {
-              "title": "GitHub Actions",
-              "url": "https://docs.github.com/en/actions",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "monitoring",
           "title": "Monitoring",
-          "description": "Application and infrastructure monitoring",
-          "position": { "x": 400, "y": 1850 },
+          "description": "Observe system health: logs, metrics, alerts. Tools like Monit, Prometheus, Grafana.",
+          "position": { "x": 0, "y": 1600 },
           "difficulty": "advanced",
-          "prerequisites": ["monit"],
+          "prerequisites": ["aws-services"],
+          "children": [
+            { "id": "fs-logs", "title": "Centralized logging" },
+            { "id": "fs-metrics", "title": "Metrics" },
+            { "id": "fs-alerts", "title": "Alerts" }
+          ],
           "resources": [
-            {
-              "title": "Monitoring Best Practices",
-              "url": "https://prometheus.io/docs/",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "ansible",
-          "title": "Ansible",
-          "description": "Configuration management and automation",
-          "position": { "x": 100, "y": 1850 },
-          "difficulty": "advanced",
-          "prerequisites": ["automation", "ci-cd"],
-          "resources": [
-            {
-              "title": "Ansible Documentation",
-              "url": "https://docs.ansible.com/",
-              "type": "documentation"
-            }
+            { "title": "Monit Manual", "url": "https://mmonit.com/monit/documentation/monit.html", "type": "documentation" },
+            { "title": "Prometheus", "url": "https://prometheus.io/docs/introduction/overview/", "type": "documentation" }
           ]
         },
         {
           "id": "github-actions",
           "title": "GitHub Actions",
-          "description": "Workflow automation for GitHub",
-          "position": { "x": 100, "y": 2100 },
+          "description": "CI/CD platform built into GitHub. Run workflows on push, PR, schedule.",
+          "position": { "x": 0, "y": 1700 },
           "difficulty": "advanced",
-          "prerequisites": ["ci-cd", "monitoring"],
+          "prerequisites": ["monit"],
+          "children": [
+            { "id": "fs-workflows", "title": "Workflows YAML" },
+            { "id": "fs-runners", "title": "Runners" },
+            { "id": "fs-secrets", "title": "Secrets management" }
+          ],
           "resources": [
-            {
-              "title": "GitHub Actions Guide",
-              "url": "https://docs.github.com/en/actions/learn-github-actions",
-              "type": "tutorial"
-            }
+            { "title": "GitHub Actions Docs", "url": "https://docs.github.com/en/actions", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "ansible",
+          "title": "Ansible",
+          "description": "Agentless configuration management — provision and configure servers via YAML playbooks.",
+          "position": { "x": 0, "y": 1800 },
+          "difficulty": "advanced",
+          "prerequisites": ["github-actions"],
+          "children": [
+            { "id": "fs-playbooks", "title": "Playbooks" },
+            { "id": "fs-inventory", "title": "Inventory" },
+            { "id": "fs-roles", "title": "Roles" }
+          ],
+          "resources": [
+            { "title": "Ansible Docs", "url": "https://docs.ansible.com/", "type": "documentation" }
           ]
         },
         {
           "id": "terraform",
           "title": "Terraform",
-          "description": "Infrastructure as Code",
-          "position": { "x": 400, "y": 2100 },
+          "description": "Infrastructure as Code — declaratively provision cloud resources across providers.",
+          "position": { "x": 0, "y": 1900 },
           "difficulty": "advanced",
-          "prerequisites": ["ansible", "github-actions"],
+          "prerequisites": ["ansible"],
+          "children": [
+            { "id": "fs-hcl", "title": "HCL syntax" },
+            { "id": "fs-tf-state", "title": "State management" },
+            { "id": "fs-tf-modules", "title": "Modules" },
+            { "id": "fs-tf-providers", "title": "Providers" }
+          ],
           "resources": [
-            {
-              "title": "Terraform Documentation",
-              "url": "https://www.terraform.io/docs",
-              "type": "documentation"
-            }
-          ]
-        },
-        {
-          "id": "infrastructure",
-          "title": "Infrastructure",
-          "description": "Cloud infrastructure management",
-          "position": { "x": 700, "y": 2100 },
-          "difficulty": "advanced",
-          "prerequisites": ["terraform"],
-          "resources": [
-            {
-              "title": "Cloud Infrastructure Guide",
-              "url": "https://cloud.google.com/docs/overview",
-              "type": "documentation"
-            }
+            { "title": "Terraform Docs", "url": "https://developer.hashicorp.com/terraform/docs", "type": "documentation" }
           ]
         }
       ],
@@ -951,49 +2338,450 @@
         { "from": "html", "to": "css" },
         { "from": "css", "to": "javascript" },
         { "from": "javascript", "to": "npm" },
-        { "from": "html", "to": "static-webpages" },
-        { "from": "css", "to": "static-webpages" },
-        { "from": "javascript", "to": "static-webpages" },
-        { "from": "javascript", "to": "interactivity" },
-        { "from": "npm", "to": "interactivity" },
-        { "from": "static-webpages", "to": "collaborative-work" },
-        { "from": "interactivity", "to": "external-packages" },
-        { "from": "collaborative-work", "to": "react" },
-        { "from": "collaborative-work", "to": "tailwind-css" },
-        { "from": "external-packages", "to": "github" },
-        { "from": "external-packages", "to": "git" },
-        { "from": "react", "to": "frontend-apps" },
-        { "from": "tailwind-css", "to": "frontend-apps" },
+        { "from": "npm", "to": "react" },
+        { "from": "react", "to": "tailwind-css" },
+        { "from": "tailwind-css", "to": "git" },
+        { "from": "git", "to": "github" },
         { "from": "github", "to": "nodejs" },
-        { "from": "git", "to": "nodejs" },
-        { "from": "nodejs", "to": "cli-apps" },
         { "from": "nodejs", "to": "postgresql" },
-        { "from": "cli-apps", "to": "simple-crud-apps" },
-        { "from": "postgresql", "to": "simple-crud-apps" },
-        { "from": "simple-crud-apps", "to": "redis" },
-        { "from": "simple-crud-apps", "to": "jwt-auth" },
-        { "from": "simple-crud-apps", "to": "restful-apis" },
-        { "from": "redis", "to": "complete-app" },
-        { "from": "jwt-auth", "to": "complete-app" },
-        { "from": "restful-apis", "to": "complete-app" },
-        { "from": "complete-app", "to": "route53" },
-        { "from": "complete-app", "to": "ses" },
-        { "from": "complete-app", "to": "s3" },
-        { "from": "route53", "to": "linux-basics" },
-        { "from": "ses", "to": "basic-aws-services" },
-        { "from": "s3", "to": "basic-aws-services" },
-        { "from": "basic-aws-services", "to": "deployment" },
-        { "from": "deployment", "to": "monit" },
-        { "from": "linux-basics", "to": "automation" },
-        { "from": "deployment", "to": "ci-cd" },
-        { "from": "monit", "to": "monitoring" },
-        { "from": "automation", "to": "ansible" },
-        { "from": "ci-cd", "to": "ansible" },
-        { "from": "ci-cd", "to": "github-actions" },
-        { "from": "monitoring", "to": "github-actions" },
-        { "from": "ansible", "to": "terraform" },
-        { "from": "github-actions", "to": "terraform" },
-        { "from": "terraform", "to": "infrastructure" }
+        { "from": "postgresql", "to": "restful-apis" },
+        { "from": "restful-apis", "to": "jwt-auth" },
+        { "from": "jwt-auth", "to": "redis" },
+        { "from": "redis", "to": "linux-basics" },
+        { "from": "linux-basics", "to": "aws-services" },
+        { "from": "aws-services", "to": "monit" },
+        { "from": "monit", "to": "github-actions" },
+        { "from": "github-actions", "to": "ansible" },
+        { "from": "ansible", "to": "terraform" }
+      ]
+    },
+    {
+      "id": "backend-developer",
+      "title": "Backend Developer",
+      "description": "Step by step guide to becoming a modern backend developer in 2025. Data extracted from roadmap.sh/backend.",
+      "category": "role-based",
+      "subcategory": "Development",
+      "estimatedTime": "12-18 months",
+      "difficulty": "intermediate",
+      "tags": [
+        "backend",
+        "api",
+        "database",
+        "nodejs",
+        "python",
+        "java",
+        "devops",
+        "scaling"
+      ],
+      "createdAt": "2026-05-10",
+      "updatedAt": "2026-05-10",
+      "nodes": [
+        {
+          "id": "internet",
+          "title": "Internet",
+          "description": "Understand how the internet, browsers, and the web work end-to-end before writing any code.",
+          "position": { "x": 0, "y": 100 },
+          "difficulty": "beginner",
+          "children": [
+            { "id": "be-internet-1", "title": "How does the internet work?" },
+            { "id": "be-internet-2", "title": "What is HTTP?" },
+            { "id": "be-internet-3", "title": "What is a Domain Name?" },
+            { "id": "be-internet-4", "title": "What is hosting?" },
+            { "id": "be-internet-5", "title": "DNS and how it works" },
+            { "id": "be-internet-6", "title": "Browsers and how they work" }
+          ],
+          "resources": [
+            { "title": "How the Internet Works", "url": "https://roadmap.sh/guides/how-does-the-internet-work", "type": "article" },
+            { "title": "MDN: HTTP", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "backend-pick-language",
+          "title": "Pick a Language",
+          "description": "Choose a backend programming language. Pick one and learn it deeply before exploring others.",
+          "position": { "x": 0, "y": 200 },
+          "difficulty": "beginner",
+          "prerequisites": ["internet"],
+          "children": [
+            { "id": "be-lang-js", "title": "JavaScript / TypeScript (Node)" },
+            { "id": "be-lang-python", "title": "Python" },
+            { "id": "be-lang-go", "title": "Go" },
+            { "id": "be-lang-java", "title": "Java" },
+            { "id": "be-lang-cs", "title": "C#" },
+            { "id": "be-lang-ruby", "title": "Ruby" },
+            { "id": "be-lang-php", "title": "PHP" },
+            { "id": "be-lang-rust", "title": "Rust" }
+          ],
+          "resources": [
+            { "title": "Backend Languages", "url": "https://roadmap.sh/backend/languages", "type": "article" }
+          ]
+        },
+        {
+          "id": "version-control",
+          "title": "Version Control Systems",
+          "description": "Track changes, collaborate, and never lose work. Git is the de-facto standard.",
+          "position": { "x": 0, "y": 300 },
+          "difficulty": "beginner",
+          "prerequisites": ["backend-pick-language"],
+          "children": [
+            { "id": "be-vc-git", "title": "Git" }
+          ],
+          "resources": [
+            { "title": "Pro Git Book", "url": "https://git-scm.com/book/en/v2", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "vcs-hosting",
+          "title": "Repo Hosting Services",
+          "description": "Cloud Git hosting platforms — collaborate, review code, run CI.",
+          "position": { "x": 0, "y": 400 },
+          "difficulty": "beginner",
+          "prerequisites": ["version-control"],
+          "children": [
+            { "id": "be-host-github", "title": "GitHub" },
+            { "id": "be-host-gitlab", "title": "GitLab" },
+            { "id": "be-host-bitbucket", "title": "Bitbucket" }
+          ],
+          "resources": [
+            { "title": "GitHub Skills", "url": "https://skills.github.com/", "type": "course" }
+          ]
+        },
+        {
+          "id": "relational-databases",
+          "title": "Relational Databases",
+          "description": "Structured tables with rows and columns; SQL for querying. Foundation of most backend storage.",
+          "position": { "x": 0, "y": 500 },
+          "difficulty": "intermediate",
+          "prerequisites": ["vcs-hosting"],
+          "children": [
+            { "id": "be-rdb-postgres", "title": "PostgreSQL" },
+            { "id": "be-rdb-mysql", "title": "MySQL" },
+            { "id": "be-rdb-mariadb", "title": "MariaDB" },
+            { "id": "be-rdb-mssql", "title": "MS SQL" },
+            { "id": "be-rdb-oracle", "title": "Oracle" },
+            { "id": "be-rdb-sqlite", "title": "SQLite" }
+          ],
+          "resources": [
+            { "title": "PostgreSQL Tutorial", "url": "https://www.postgresqltutorial.com/", "type": "tutorial" },
+            { "title": "SQL Bolt", "url": "https://sqlbolt.com/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "apis",
+          "title": "Learn about APIs",
+          "description": "Design and build APIs — REST, GraphQL, gRPC, SOAP — and learn auth, OpenAPI, and HATEOAS.",
+          "position": { "x": 0, "y": 600 },
+          "difficulty": "intermediate",
+          "prerequisites": ["relational-databases"],
+          "children": [
+            { "id": "be-api-rest", "title": "REST" },
+            { "id": "be-api-json", "title": "JSON APIs" },
+            { "id": "be-api-soap", "title": "SOAP" },
+            { "id": "be-api-grpc", "title": "gRPC" },
+            { "id": "be-api-graphql", "title": "GraphQL" },
+            { "id": "be-api-openapi", "title": "OpenAPI Specs" },
+            { "id": "be-api-hateoas", "title": "HATEOAS" },
+            { "id": "be-api-authn", "title": "Authentication (JWT, OAuth, OpenID, SAML, Cookie)" }
+          ],
+          "resources": [
+            { "title": "REST API Tutorial", "url": "https://restfulapi.net/", "type": "tutorial" },
+            { "title": "OpenAPI Spec", "url": "https://www.openapis.org/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "caching",
+          "title": "Caching",
+          "description": "Reduce load and speed up responses with server-side caching, CDNs, and client-side strategies.",
+          "position": { "x": 0, "y": 700 },
+          "difficulty": "intermediate",
+          "prerequisites": ["apis"],
+          "children": [
+            { "id": "be-cache-server", "title": "Server-side (Redis, Memcached)" },
+            { "id": "be-cache-cdn", "title": "CDN" },
+            { "id": "be-cache-client", "title": "Client-side (HTTP cache headers)" }
+          ],
+          "resources": [
+            { "title": "Caching Strategies", "url": "https://aws.amazon.com/caching/best-practices/", "type": "article" }
+          ]
+        },
+        {
+          "id": "testing",
+          "title": "Testing",
+          "description": "Unit, integration, functional tests — confidence to ship and refactor.",
+          "position": { "x": 0, "y": 800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["caching"],
+          "children": [
+            { "id": "be-test-unit", "title": "Unit Testing" },
+            { "id": "be-test-int", "title": "Integration Testing" },
+            { "id": "be-test-func", "title": "Functional Testing" }
+          ],
+          "resources": [
+            { "title": "Testing Pyramid", "url": "https://martinfowler.com/articles/practical-test-pyramid.html", "type": "article" }
+          ]
+        },
+        {
+          "id": "web-security",
+          "title": "Web Security",
+          "description": "HTTPS/TLS, OWASP risks, CORS, CSP, hashing — protect users and data.",
+          "position": { "x": 0, "y": 900 },
+          "difficulty": "intermediate",
+          "prerequisites": ["testing"],
+          "children": [
+            { "id": "be-sec-https", "title": "HTTPS" },
+            { "id": "be-sec-ssltls", "title": "SSL / TLS" },
+            { "id": "be-sec-cors", "title": "CORS" },
+            { "id": "be-sec-csp", "title": "Content Security Policy" },
+            { "id": "be-sec-owasp", "title": "OWASP Risks" },
+            { "id": "be-sec-server", "title": "Server Security" },
+            { "id": "be-sec-hash", "title": "Hashing (bcrypt, scrypt, SHA, MD5)" }
+          ],
+          "resources": [
+            { "title": "OWASP Top 10", "url": "https://owasp.org/www-project-top-ten/", "type": "documentation" },
+            { "title": "MDN: HTTPS", "url": "https://developer.mozilla.org/en-US/docs/Glossary/HTTPS", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "ci-cd",
+          "title": "CI / CD",
+          "description": "Continuous integration and continuous deployment — automate testing, building, and releasing.",
+          "position": { "x": 0, "y": 1000 },
+          "difficulty": "intermediate",
+          "prerequisites": ["web-security"],
+          "children": [
+            { "id": "be-ci-pipelines", "title": "Pipelines (Actions, GitLab CI, Jenkins)" },
+            { "id": "be-ci-tests", "title": "Automated tests on PR" },
+            { "id": "be-ci-deploy", "title": "Automated deploy" }
+          ],
+          "resources": [
+            { "title": "GitHub Actions Docs", "url": "https://docs.github.com/en/actions", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "more-databases",
+          "title": "More about Databases",
+          "description": "ORMs, ACID, transactions, N+1 problem, normalization, profiling, migrations, indexes.",
+          "position": { "x": 0, "y": 1100 },
+          "difficulty": "intermediate",
+          "prerequisites": ["ci-cd"],
+          "children": [
+            { "id": "be-db-orm", "title": "ORMs" },
+            { "id": "be-db-acid", "title": "ACID" },
+            { "id": "be-db-tx", "title": "Transactions" },
+            { "id": "be-db-n1", "title": "N+1 Problem" },
+            { "id": "be-db-normal", "title": "Normalization" },
+            { "id": "be-db-failure", "title": "Failure Modes" },
+            { "id": "be-db-profile", "title": "Profiling Performance" },
+            { "id": "be-db-indexes", "title": "Database Indexes" },
+            { "id": "be-db-migrate", "title": "Migrations" }
+          ],
+          "resources": [
+            { "title": "Use The Index, Luke", "url": "https://use-the-index-luke.com/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "scaling-databases",
+          "title": "Scaling Databases",
+          "description": "Replication, sharding, CAP theorem — scaling data layer for huge workloads.",
+          "position": { "x": 0, "y": 1200 },
+          "difficulty": "advanced",
+          "prerequisites": ["more-databases"],
+          "children": [
+            { "id": "be-scale-replication", "title": "Data Replication" },
+            { "id": "be-scale-sharding", "title": "Sharding Strategies" },
+            { "id": "be-scale-cap", "title": "CAP Theorem" }
+          ],
+          "resources": [
+            { "title": "CAP Theorem", "url": "https://www.educative.io/blog/what-is-cap-theorem", "type": "article" }
+          ]
+        },
+        {
+          "id": "architectural-patterns",
+          "title": "Architectural Patterns",
+          "description": "Monolith, microservices, serverless, SOA, CQRS, event sourcing — different ways to organize systems.",
+          "position": { "x": 0, "y": 1300 },
+          "difficulty": "advanced",
+          "prerequisites": ["scaling-databases"],
+          "children": [
+            { "id": "be-arch-monolith", "title": "Monolithic Apps" },
+            { "id": "be-arch-micro", "title": "Microservices" },
+            { "id": "be-arch-soa", "title": "SOA" },
+            { "id": "be-arch-serverless", "title": "Serverless" },
+            { "id": "be-arch-mesh", "title": "Service Mesh" },
+            { "id": "be-arch-cqrs", "title": "CQRS" },
+            { "id": "be-arch-event", "title": "Event Sourcing" }
+          ],
+          "resources": [
+            { "title": "Microservices.io", "url": "https://microservices.io/patterns/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "design-principles",
+          "title": "Design and Development Principles",
+          "description": "GoF design patterns, DDD, TDD, Twelve-Factor App — principles for maintainable systems.",
+          "position": { "x": 0, "y": 1400 },
+          "difficulty": "advanced",
+          "prerequisites": ["architectural-patterns"],
+          "children": [
+            { "id": "be-design-gof", "title": "GoF Design Patterns" },
+            { "id": "be-design-ddd", "title": "Domain Driven Design" },
+            { "id": "be-design-tdd", "title": "Test Driven Development" },
+            { "id": "be-design-12factor", "title": "Twelve-Factor App" }
+          ],
+          "resources": [
+            { "title": "12-Factor App", "url": "https://12factor.net/", "type": "documentation" },
+            { "title": "Refactoring Guru: Patterns", "url": "https://refactoring.guru/design-patterns", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "containerization",
+          "title": "Containerization vs Virtualization",
+          "description": "Docker, LXC, VMs — how to package and isolate apps. Kubernetes for orchestration.",
+          "position": { "x": 0, "y": 1500 },
+          "difficulty": "advanced",
+          "prerequisites": ["design-principles"],
+          "children": [
+            { "id": "be-cont-docker", "title": "Docker" },
+            { "id": "be-cont-lxc", "title": "LXC" },
+            { "id": "be-cont-vm", "title": "Virtual Machines" },
+            { "id": "be-cont-k8s", "title": "Kubernetes (orchestration)" }
+          ],
+          "resources": [
+            { "title": "Docker Get Started", "url": "https://docs.docker.com/get-started/", "type": "documentation" },
+            { "title": "Kubernetes Basics", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "tutorial" }
+          ]
+        },
+        {
+          "id": "message-brokers",
+          "title": "Message Brokers",
+          "description": "Asynchronous messaging between services. Decouple producers and consumers.",
+          "position": { "x": 0, "y": 1600 },
+          "difficulty": "advanced",
+          "prerequisites": ["containerization"],
+          "children": [
+            { "id": "be-mq-rabbit", "title": "RabbitMQ" },
+            { "id": "be-mq-kafka", "title": "Kafka" }
+          ],
+          "resources": [
+            { "title": "RabbitMQ Tutorials", "url": "https://www.rabbitmq.com/tutorials.html", "type": "tutorial" },
+            { "title": "Kafka Documentation", "url": "https://kafka.apache.org/documentation/", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "search-engines",
+          "title": "Search Engines",
+          "description": "Full-text search at scale: Elasticsearch, Solr — for product catalogs, logs, content search.",
+          "position": { "x": 0, "y": 1700 },
+          "difficulty": "advanced",
+          "prerequisites": ["message-brokers"],
+          "children": [
+            { "id": "be-search-es", "title": "Elasticsearch" },
+            { "id": "be-search-solr", "title": "Solr" }
+          ],
+          "resources": [
+            { "title": "Elasticsearch Guide", "url": "https://www.elastic.co/guide/index.html", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "web-servers",
+          "title": "Web Servers",
+          "description": "Reverse proxies, load balancers, static file servers: Nginx, Apache, Caddy, IIS.",
+          "position": { "x": 0, "y": 1800 },
+          "difficulty": "intermediate",
+          "prerequisites": ["search-engines"],
+          "children": [
+            { "id": "be-ws-nginx", "title": "Nginx" },
+            { "id": "be-ws-apache", "title": "Apache" },
+            { "id": "be-ws-caddy", "title": "Caddy" },
+            { "id": "be-ws-iis", "title": "MS IIS" }
+          ],
+          "resources": [
+            { "title": "Nginx Beginner's Guide", "url": "https://nginx.org/en/docs/beginners_guide.html", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "real-time-data",
+          "title": "Real-Time Data",
+          "description": "WebSockets, Server-Sent Events, polling — push live updates to clients.",
+          "position": { "x": 0, "y": 1900 },
+          "difficulty": "advanced",
+          "prerequisites": ["web-servers"],
+          "children": [
+            { "id": "be-rt-ws", "title": "WebSockets" },
+            { "id": "be-rt-sse", "title": "Server-Sent Events" },
+            { "id": "be-rt-long", "title": "Long Polling" },
+            { "id": "be-rt-short", "title": "Short Polling" }
+          ],
+          "resources": [
+            { "title": "WebSockets MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API", "type": "documentation" }
+          ]
+        },
+        {
+          "id": "nosql-databases",
+          "title": "NoSQL Databases",
+          "description": "Document, key-value, graph, columnar, time-series — pick by access pattern.",
+          "position": { "x": 0, "y": 2000 },
+          "difficulty": "advanced",
+          "prerequisites": ["real-time-data"],
+          "children": [
+            { "id": "be-nosql-mongo", "title": "MongoDB" },
+            { "id": "be-nosql-redis", "title": "Redis" },
+            { "id": "be-nosql-dynamo", "title": "DynamoDB" },
+            { "id": "be-nosql-couch", "title": "CouchDB" },
+            { "id": "be-nosql-cassandra", "title": "Cassandra" },
+            { "id": "be-nosql-neo4j", "title": "Neo4j" },
+            { "id": "be-nosql-influx", "title": "InfluxDB" },
+            { "id": "be-nosql-firebase", "title": "Firebase" }
+          ],
+          "resources": [
+            { "title": "When to Use NoSQL", "url": "https://www.mongodb.com/nosql-explained", "type": "article" }
+          ]
+        },
+        {
+          "id": "building-for-scale",
+          "title": "Building For Scale",
+          "description": "Migration strategies, scaling types, observability, throttling, circuit breakers, graceful degradation.",
+          "position": { "x": 0, "y": 2100 },
+          "difficulty": "advanced",
+          "prerequisites": ["nosql-databases"],
+          "children": [
+            { "id": "be-scale-migration", "title": "Migration Strategies" },
+            { "id": "be-scale-types", "title": "Types of Scaling (Horizontal vs Vertical)" },
+            { "id": "be-scale-instr", "title": "Instrumentation" },
+            { "id": "be-scale-mon", "title": "Monitoring" },
+            { "id": "be-scale-tele", "title": "Telemetry" },
+            { "id": "be-scale-obs", "title": "Observability" },
+            { "id": "be-scale-graceful", "title": "Graceful Degradation" },
+            { "id": "be-scale-throttle", "title": "Throttling" },
+            { "id": "be-scale-back", "title": "Backpressure" },
+            { "id": "be-scale-cb", "title": "Circuit Breaker" }
+          ],
+          "resources": [
+            { "title": "Google SRE Book", "url": "https://sre.google/books/", "type": "documentation" }
+          ]
+        }
+      ],
+      "connections": [
+        { "from": "internet", "to": "backend-pick-language" },
+        { "from": "backend-pick-language", "to": "version-control" },
+        { "from": "version-control", "to": "vcs-hosting" },
+        { "from": "vcs-hosting", "to": "relational-databases" },
+        { "from": "relational-databases", "to": "apis" },
+        { "from": "apis", "to": "caching" },
+        { "from": "caching", "to": "testing" },
+        { "from": "testing", "to": "web-security" },
+        { "from": "web-security", "to": "ci-cd" },
+        { "from": "ci-cd", "to": "more-databases" },
+        { "from": "more-databases", "to": "scaling-databases" },
+        { "from": "scaling-databases", "to": "architectural-patterns" },
+        { "from": "architectural-patterns", "to": "design-principles" },
+        { "from": "design-principles", "to": "containerization" },
+        { "from": "containerization", "to": "message-brokers" },
+        { "from": "message-brokers", "to": "search-engines" },
+        { "from": "search-engines", "to": "web-servers" },
+        { "from": "web-servers", "to": "real-time-data" },
+        { "from": "real-time-data", "to": "nosql-databases" },
+        { "from": "nosql-databases", "to": "building-for-scale" }
       ]
     }
   ]

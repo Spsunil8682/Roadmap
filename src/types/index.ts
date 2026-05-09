@@ -1,9 +1,34 @@
+export interface RoadmapNodeChild {
+  id: string;
+  title: string;
+  description?: string;
+}
+
+export interface QuizQuestion {
+  id: string;
+  question: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string;
+}
+
+export type QuizMap = Record<string, QuizQuestion[]>;
+
+export interface LeetCodeProblem {
+  title: string;
+  url: string;
+  difficulty: 'Easy' | 'Medium' | 'Hard';
+}
+
+export type LeetCodeMap = Record<string, LeetCodeProblem[]>;
+
 export interface RoadmapNode {
   id: string;
   title: string;
   description: string;
   resources: Resource[];
   prerequisites?: string[];
+  children?: RoadmapNodeChild[];
   position: {
     x: number;
     y: number;

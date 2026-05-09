@@ -17,8 +17,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const themeInitScript = `
+    (function() {
+      try {
+        var t = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (t === 'dark' || (!t && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    })();
+  `;
+
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body className={`${inter.className} bg-gray-50 dark:bg-gray-900 transition-colors duration-300`}>
         <div className="min-h-screen flex flex-col">
           <Header />

@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "id": "interview",
+      "title": "Interview Prep",
+      "icon": "Briefcase",
+      "description": "Curated articles, blog posts, and guides for cracking technical interviews at top companies.",
+      "blogs": [
+        { "title": "How to Prepare for Coding Interviews — Tech Interview Handbook", "author": "Yangshun Tay", "description": "The most comprehensive free interview prep guide on the internet. Coding, system design, behavioral, salary negotiation — everything in one place.", "url": "https://www.techinterviewhandbook.org/", "readTime": "5+ hours", "level": "all", "tags": ["interview", "coding", "system-design"] },
+        { "title": "Salary Negotiation: Make More Money, Be More Valued", "author": "Patrick McKenzie (patio11)", "description": "The definitive guide on how to negotiate tech offers. Read this before any salary conversation — it pays for itself many times over.", "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/", "readTime": "30 min", "level": "all", "tags": ["career", "negotiation"] },
+        { "title": "How to Pass the Google Interview", "author": "Gergely Orosz", "description": "Inside view of how Google's interview loop works, from a former Google engineer. Practical and direct.", "url": "https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/", "readTime": "20 min", "level": "intermediate", "tags": ["faang", "interview"] },
+        { "title": "The Pragmatic Engineer Newsletter", "author": "Gergely Orosz", "description": "Insider analysis of tech companies, hiring trends, and engineer career paths. Best newsletter for senior engineers.", "url": "https://newsletter.pragmaticengineer.com/", "readTime": "Weekly", "level": "intermediate", "tags": ["career", "industry"] },
+        { "title": "Cracking the Coding Interview — Notes & Solutions", "author": "Various contributors", "description": "Open-source notes and solutions for problems from the iconic CTCI book.", "url": "https://github.com/careercup/CtCI-6th-Edition", "readTime": "Reference", "level": "intermediate", "tags": ["coding", "interview"] },
+        { "title": "How I Got a Job at Google as a Self-Taught Developer", "author": "Multiple authors", "description": "Real stories from devs who landed FAANG offers without CS degrees. Inspirational and tactical.", "url": "https://www.freecodecamp.org/news/tag/coding-interview/", "readTime": "Various", "level": "all", "tags": ["career", "self-taught"] },
+        { "title": "Behavioral Interviews — The STAR Method", "author": "Indeed Career Guide", "description": "How to structure answers using Situation, Task, Action, Result — the framework FAANG companies expect.", "url": "https://www.indeed.com/career-advice/interviewing/how-to-use-the-star-interview-response-technique", "readTime": "10 min", "level": "all", "tags": ["behavioral", "interview"] },
+        { "title": "Levels.fyi Salary Negotiation Tips", "author": "Levels.fyi", "description": "Concrete tactics for negotiating tech compensation, with real data on what's possible at each level.", "url": "https://www.levels.fyi/blog/", "readTime": "Various", "level": "all", "tags": ["career", "negotiation", "compensation"] }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend",
+      "icon": "Layout",
+      "description": "Best blogs and writers covering modern frontend — HTML, CSS, JavaScript, React, accessibility, performance.",
+      "blogs": [
+        { "title": "Josh W Comeau — Modern CSS, React, and More", "author": "Josh Comeau", "description": "Some of the best-written and visually delightful frontend articles online. Modern CSS, React patterns, animation.", "url": "https://www.joshwcomeau.com/", "readTime": "Various", "level": "intermediate", "tags": ["css", "react", "animation"] },
+        { "title": "CSS-Tricks", "author": "Chris Coyier and team", "description": "Decades-old reservoir of CSS knowledge. Almanac, articles, snippets — bookmark it.", "url": "https://css-tricks.com/", "readTime": "Various", "level": "all", "tags": ["css", "html", "frontend"] },
+        { "title": "web.dev (by Google)", "author": "Google Chrome Team", "description": "Modern web best practices: performance, accessibility, PWAs, Core Web Vitals — straight from the source.", "url": "https://web.dev/", "readTime": "Various", "level": "intermediate", "tags": ["performance", "web-vitals", "best-practices"] },
+        { "title": "Smashing Magazine", "author": "Smashing Editors", "description": "In-depth frontend articles from industry experts. Covers design, dev, UX, accessibility.", "url": "https://www.smashingmagazine.com/", "readTime": "Various", "level": "all", "tags": ["frontend", "design", "ux"] },
+        { "title": "Lydia Hallie — JS Visualized", "author": "Lydia Hallie", "description": "Stunning visual explanations of complex JS concepts: event loop, prototypes, hoisting. Best frontend educator on Twitter.", "url": "https://dev.to/lydiahallie", "readTime": "10–20 min", "level": "intermediate", "tags": ["javascript", "visual"] },
+        { "title": "Kent C. Dodds Blog", "author": "Kent C. Dodds", "description": "React, testing, and JavaScript by the creator of Testing Library and Epic React. Very practical.", "url": "https://kentcdodds.com/blog", "readTime": "Various", "level": "intermediate", "tags": ["react", "testing", "javascript"] },
+        { "title": "Dan Abramov — Overreacted", "author": "Dan Abramov (React core team)", "description": "Deep dives into React internals and JavaScript by a React core team member. Beautiful, thoughtful writing.", "url": "https://overreacted.io/", "readTime": "Various", "level": "advanced", "tags": ["react", "javascript"] },
+        { "title": "Smashing Frontend Newsletter", "author": "Smashing Magazine", "description": "Curated weekly digest of the best frontend articles, tools, and resources.", "url": "https://www.smashingmagazine.com/the-smashing-newsletter/", "readTime": "Weekly", "level": "all", "tags": ["frontend", "newsletter"] },
+        { "title": "Frontend Focus Newsletter", "author": "Cooperpress", "description": "Weekly newsletter with the best new HTML, CSS, browser, and design articles.", "url": "https://frontendfoc.us/", "readTime": "Weekly", "level": "all", "tags": ["css", "html", "newsletter"] }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend",
+      "icon": "Server",
+      "description": "Backend engineering, databases, APIs, scaling, and distributed systems blogs.",
+      "blogs": [
+        { "title": "ByteByteGo Newsletter", "author": "Alex Xu", "description": "Visual deep-dives into system design, databases, distributed systems. The most popular backend newsletter.", "url": "https://blog.bytebytego.com/", "readTime": "Weekly", "level": "intermediate", "tags": ["system-design", "backend"] },
+        { "title": "High Scalability", "author": "Todd Hoff and contributors", "description": "Real-world architectures of Netflix, Uber, Discord, etc. — how big systems were actually built.", "url": "http://highscalability.com/", "readTime": "Various", "level": "intermediate", "tags": ["scaling", "architecture", "case-studies"] },
+        { "title": "Martin Kleppmann's Blog", "author": "Martin Kleppmann", "description": "Author of 'Designing Data-Intensive Applications'. Deep, rigorous posts on distributed systems and databases.", "url": "https://martin.kleppmann.com/", "readTime": "Various", "level": "advanced", "tags": ["distributed-systems", "databases"] },
+        { "title": "The Morning Paper", "author": "Adrian Colyer", "description": "Daily summaries of important computer science papers — many about backend systems and databases.", "url": "https://blog.acolyer.org/", "readTime": "10–15 min", "level": "advanced", "tags": ["papers", "research", "distributed-systems"] },
+        { "title": "Hussein Nasser Blog & YouTube", "author": "Hussein Nasser", "description": "Backend, networking, and database engineering explained simply. Excellent depth without dumbing down.", "url": "https://husseinnasser.com/", "readTime": "Various", "level": "all", "tags": ["backend", "databases", "networking"] },
+        { "title": "AWS Architecture Blog", "author": "AWS Architects", "description": "Real architecture patterns and case studies from AWS engineers and customers.", "url": "https://aws.amazon.com/blogs/architecture/", "readTime": "Various", "level": "intermediate", "tags": ["aws", "cloud", "architecture"] },
+        { "title": "Netflix Tech Blog", "author": "Netflix Engineering", "description": "How Netflix builds and scales systems serving 250M+ users. Inspiration and patterns at extreme scale.", "url": "https://netflixtechblog.com/", "readTime": "Various", "level": "advanced", "tags": ["scaling", "case-studies", "netflix"] },
+        { "title": "Uber Engineering Blog", "author": "Uber Engineering", "description": "Detailed posts on real engineering problems Uber has solved at scale.", "url": "https://www.uber.com/blog/engineering/", "readTime": "Various", "level": "advanced", "tags": ["scaling", "uber", "engineering"] },
+        { "title": "Discord Engineering Blog", "author": "Discord Engineering", "description": "How Discord scaled to billions of messages. Excellent posts on Cassandra, Rust, and real-time systems.", "url": "https://discord.com/blog/category/engineering", "readTime": "Various", "level": "advanced", "tags": ["scaling", "real-time", "discord"] }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript",
+      "icon": "Code2",
+      "description": "Deep JavaScript, TypeScript, and ECMAScript content — from beginner to V8 internals.",
+      "blogs": [
+        { "title": "JavaScript.info", "author": "Ilya Kantor", "description": "The modern JavaScript tutorial. Beginner to advanced — clearly written and constantly updated.", "url": "https://javascript.info/", "readTime": "Reference", "level": "all", "tags": ["javascript", "tutorial"] },
+        { "title": "2ality — JavaScript and More", "author": "Dr. Axel Rauschmayer", "description": "Deep, technical posts about JS specifications, new features, and how they really work.", "url": "https://2ality.com/", "readTime": "Various", "level": "advanced", "tags": ["javascript", "ecmascript", "spec"] },
+        { "title": "v8.dev — Behind V8", "author": "V8 Team", "description": "How the V8 engine (Chrome, Node) optimizes JavaScript. For deep performance enthusiasts.", "url": "https://v8.dev/", "readTime": "Various", "level": "advanced", "tags": ["javascript", "v8", "performance"] },
+        { "title": "Mathias Bynens Blog", "author": "Mathias Bynens (V8 team)", "description": "JavaScript internals, Unicode, regex, and performance. Hardcore but rewarding.", "url": "https://mathiasbynens.be/notes/", "readTime": "Various", "level": "advanced", "tags": ["javascript", "internals"] },
+        { "title": "Lea Verou Blog", "author": "Lea Verou", "description": "Web standards, CSS, and JavaScript by an Invited Expert at W3C CSS Working Group.", "url": "https://lea.verou.me/blog/", "readTime": "Various", "level": "intermediate", "tags": ["javascript", "css", "standards"] },
+        { "title": "JavaScript Weekly", "author": "Cooperpress", "description": "The most popular JS newsletter — weekly roundup of articles, tools, releases.", "url": "https://javascriptweekly.com/", "readTime": "Weekly", "level": "all", "tags": ["javascript", "newsletter"] },
+        { "title": "TypeScript Weekly", "author": "Marius Schulz", "description": "Curated weekly TypeScript articles, releases, and tips.", "url": "https://www.typescript-weekly.com/", "readTime": "Weekly", "level": "intermediate", "tags": ["typescript", "newsletter"] },
+        { "title": "Marius Schulz — TypeScript Evolution", "author": "Marius Schulz", "description": "Detailed series on every major TypeScript release. Great way to keep up with new features.", "url": "https://mariusschulz.com/blog/series/typescript-evolution", "readTime": "Various", "level": "intermediate", "tags": ["typescript", "evolution"] },
+        { "title": "Jake Archibald's Blog", "author": "Jake Archibald", "description": "Service workers, performance, and modern JavaScript by a Google Chrome DevRel.", "url": "https://jakearchibald.com/", "readTime": "Various", "level": "intermediate", "tags": ["javascript", "performance", "service-workers"] }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "title": "Full Stack",
+      "icon": "Workflow",
+      "description": "End-to-end development blogs covering frontend, backend, infrastructure, and product.",
+      "blogs": [
+        { "title": "Pragmatic Engineer", "author": "Gergely Orosz", "description": "Best newsletter on tech industry, careers, and engineering practice. Read by 700k+ engineers.", "url": "https://blog.pragmaticengineer.com/", "readTime": "Weekly", "level": "all", "tags": ["industry", "career", "engineering"] },
+        { "title": "Lee Robinson — Vercel & Next.js", "author": "Lee Robinson", "description": "Full-stack with Next.js, Vercel, and modern frontend. Practical posts from the VP of Vercel.", "url": "https://leerob.io/blog", "readTime": "Various", "level": "intermediate", "tags": ["nextjs", "react", "fullstack"] },
+        { "title": "Theo's Blog (Ping Labs)", "author": "Theo Browne", "description": "Modern JS/TS stack opinions, tooling, T3 Stack, and trends in fullstack.", "url": "https://t3.gg/", "readTime": "Various", "level": "intermediate", "tags": ["typescript", "fullstack", "trpc"] },
+        { "title": "Tania Rascia", "author": "Tania Rascia", "description": "Beautifully written tutorials on React, Node, databases — full-stack basics done right.", "url": "https://www.taniarascia.com/", "readTime": "Various", "level": "beginner", "tags": ["fullstack", "tutorial"] },
+        { "title": "GitHub Engineering Blog", "author": "GitHub Engineering", "description": "How GitHub builds and operates one of the world's most-used developer platforms.", "url": "https://github.blog/category/engineering/", "readTime": "Various", "level": "advanced", "tags": ["fullstack", "engineering"] },
+        { "title": "Stripe Engineering Blog", "author": "Stripe Engineering", "description": "Excellent posts on payments, APIs, scaling, and infrastructure from one of the best eng teams.", "url": "https://stripe.com/blog/engineering", "readTime": "Various", "level": "intermediate", "tags": ["api", "payments", "engineering"] },
+        { "title": "Joel on Software", "author": "Joel Spolsky (Stack Overflow co-founder)", "description": "Classic essays on software engineering, management, and careers. Timeless wisdom.", "url": "https://www.joelonsoftware.com/", "readTime": "Various", "level": "all", "tags": ["software", "career"] },
+        { "title": "Coding Horror — Jeff Atwood", "author": "Jeff Atwood (Stack Overflow co-founder)", "description": "One of the longest-running developer blogs. Opinionated and thought-provoking.", "url": "https://blog.codinghorror.com/", "readTime": "Various", "level": "all", "tags": ["software", "career"] }
+      ]
+    },
+    {
+      "id": "dsa",
+      "title": "DSA & Algorithms",
+      "icon": "Network",
+      "description": "Blogs about data structures, algorithms, problem-solving, and competitive programming.",
+      "blogs": [
+        { "title": "GeeksforGeeks — Data Structures", "author": "GeeksforGeeks Community", "description": "The largest free repository of DSA articles, tutorials, and problem walkthroughs.", "url": "https://www.geeksforgeeks.org/data-structures/", "readTime": "Reference", "level": "all", "tags": ["dsa", "tutorial"] },
+        { "title": "NeetCode Blog & YouTube", "author": "NeetCode (Navi)", "description": "Hand-picked LeetCode patterns explained clearly. Best free interview prep on YouTube.", "url": "https://neetcode.io/", "readTime": "Various", "level": "intermediate", "tags": ["leetcode", "interview", "patterns"] },
+        { "title": "Topcoder Algorithm Tutorials", "author": "Topcoder Editors", "description": "Classic competitive programming tutorials. Algorithms in real depth.", "url": "https://www.topcoder.com/community/competitive-programming/tutorials/", "readTime": "Various", "level": "intermediate", "tags": ["competitive", "algorithms"] },
+        { "title": "CP-Algorithms", "author": "e-maxx Community", "description": "Thorough, well-organized algorithms reference for competitive programming.", "url": "https://cp-algorithms.com/", "readTime": "Reference", "level": "advanced", "tags": ["competitive", "algorithms"] },
+        { "title": "Big-O Cheat Sheet", "author": "Eric Rowell", "description": "Quick reference for time/space complexity of common operations and algorithms.", "url": "https://www.bigocheatsheet.com/", "readTime": "5 min", "level": "all", "tags": ["complexity", "reference"] },
+        { "title": "InterviewBit — Algorithms", "author": "InterviewBit Team", "description": "Curated interview-style problems with explanations, organized by topic.", "url": "https://www.interviewbit.com/courses/programming/", "readTime": "Various", "level": "intermediate", "tags": ["interview", "algorithms"] },
+        { "title": "Codeforces Tutorials & Editorials", "author": "Codeforces community", "description": "Editorials for past contests teach you patterns and tricks competitive programmers use.", "url": "https://codeforces.com/blog/entry/57282", "readTime": "Various", "level": "advanced", "tags": ["competitive", "algorithms"] },
+        { "title": "GitHub: awesome-coding-interviews", "author": "Various", "description": "Curated list of resources, books, and problem sets for interview prep.", "url": "https://github.com/DopplerHQ/awesome-interview-questions", "readTime": "Reference", "level": "all", "tags": ["interview", "resources"] }
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design",
+      "icon": "Boxes",
+      "description": "How big systems are built — distributed systems, scaling, architecture.",
+      "blogs": [
+        { "title": "System Design Primer (GitHub)", "author": "Donne Martin", "description": "The most-starred system design resource on GitHub. Comprehensive curriculum, free.", "url": "https://github.com/donnemartin/system-design-primer", "readTime": "Reference", "level": "intermediate", "tags": ["system-design", "interview"] },
+        { "title": "ByteByteGo — Architecture Patterns", "author": "Alex Xu", "description": "Visual explanations of architecture patterns from the author of System Design Interview books.", "url": "https://bytebytego.com/", "readTime": "Various", "level": "intermediate", "tags": ["system-design", "patterns"] },
+        { "title": "Designing Data-Intensive Applications — Notes", "author": "Various", "description": "Community notes summarizing Martin Kleppmann's seminal book on distributed systems.", "url": "https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md", "readTime": "1 hour", "level": "advanced", "tags": ["distributed-systems", "databases"] },
+        { "title": "InfoQ Architecture & Design", "author": "InfoQ", "description": "Real architecture write-ups from large-scale companies. Very high signal.", "url": "https://www.infoq.com/architecture-design/", "readTime": "Various", "level": "advanced", "tags": ["architecture", "case-studies"] },
+        { "title": "Microservices.io", "author": "Chris Richardson", "description": "Definitive guide to microservices patterns by one of the field's leading authors.", "url": "https://microservices.io/patterns/", "readTime": "Reference", "level": "advanced", "tags": ["microservices", "patterns"] },
+        { "title": "AWS Well-Architected Framework", "author": "AWS", "description": "Free framework with hundreds of pages of architecture best practices for the cloud.", "url": "https://aws.amazon.com/architecture/well-architected/", "readTime": "Reference", "level": "intermediate", "tags": ["aws", "architecture"] },
+        { "title": "Google SRE Books (Free)", "author": "Google SRE Team", "description": "Free books on production engineering, monitoring, and reliability — gold standard.", "url": "https://sre.google/books/", "readTime": "Various", "level": "advanced", "tags": ["sre", "production"] }
+      ]
+    },
+    {
+      "id": "general",
+      "title": "Best Dev Newsletters",
+      "icon": "Newspaper",
+      "description": "Stay up-to-date with the best curated weekly newsletters in tech.",
+      "blogs": [
+        { "title": "Hacker News", "author": "Y Combinator", "description": "The pulse of tech industry — daily front page is a must-skim for any engineer.", "url": "https://news.ycombinator.com/", "readTime": "Daily", "level": "all", "tags": ["news", "industry"] },
+        { "title": "DEV Community", "author": "DEV Community", "description": "Largest open developer blogging platform. Posts on every topic, by everyone from juniors to staff+.", "url": "https://dev.to/", "readTime": "Various", "level": "all", "tags": ["community", "blogs"] },
+        { "title": "freeCodeCamp News", "author": "freeCodeCamp", "description": "Beginner-friendly tutorials and articles on every web topic. Great for learning anything.", "url": "https://www.freecodecamp.org/news/", "readTime": "Various", "level": "beginner", "tags": ["tutorial", "beginner"] },
+        { "title": "Medium — Better Programming", "author": "Better Programming", "description": "Quality programming articles curated by Medium publication editors.", "url": "https://betterprogramming.pub/", "readTime": "Various", "level": "all", "tags": ["programming", "general"] },
+        { "title": "Pointer.io", "author": "Suraj Patil", "description": "Hand-curated weekly newsletter for engineering managers and senior engineers.", "url": "https://www.pointer.io/", "readTime": "Weekly", "level": "advanced", "tags": ["leadership", "newsletter"] },
+        { "title": "Console.dev", "author": "Console", "description": "Curated weekly newsletter highlighting the best new tools for developers.", "url": "https://console.dev/", "readTime": "Weekly", "level": "all", "tags": ["tools", "newsletter"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "id": "dsa-roadmap",
+  "title": "Data Structures & Algorithms",
+  "description": "Complete roadmap to master DSA from foundations to advanced problem solving",
+  "category": "skill-based",
+  "subcategory": "Computer Science",
+  "estimatedTime": "8-12 months",
+  "difficulty": "intermediate",
+  "tags": [
+    "algorithms",
+    "data-structures",
+    "problem-solving",
+    "coding-interviews",
+    "competitive-programming"
+  ],
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01",
+  "nodes": [
+    {
+      "id": "pick-language",
+      "title": "Pick a Language",
+      "description": "Choose a programming language to implement DSA concepts (C#, JavaScript, C++, Java, Python, Go, Rust, Ruby)",
+      "position": { "x": 400, "y": 100 },
+      "difficulty": "beginner",
+      "resources": [
+        {
+          "title": "Programming Languages for DSA",
+          "url": "https://www.geeksforgeeks.org/programming-languages-for-competitive-programming/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "programming-fundamentals",
+      "title": "Programming Fundamentals",
+      "description": "Basic programming concepts, syntax, and control structures",
+      "position": { "x": 400, "y": 200 },
+      "difficulty": "beginner",
+      "prerequisites": ["pick-language"],
+      "resources": [
+        {
+          "title": "Programming Basics",
+          "url": "https://www.codecademy.com/learn/learn-how-to-code",
+          "type": "course"
+        }
+      ]
+    },
+    {
+      "id": "language-syntax",
+      "title": "Language Syntax",
+      "description": "Master the syntax of your chosen programming language",
+      "position": { "x": 650, "y": 150 },
+      "difficulty": "beginner",
+      "prerequisites": ["pick-language"],
+      "resources": [
+        {
+          "title": "Python Syntax Guide",
+          "url": "https://docs.python.org/3/tutorial/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "control-structures",
+      "title": "Control Structures",
+      "description": "If-else statements, loops, switch statements",
+      "position": { "x": 650, "y": 250 },
+      "difficulty": "beginner",
+      "prerequisites": ["language-syntax"],
+      "resources": [
+        {
+          "title": "Control Flow Statements",
+          "url": "https://www.programiz.com/python-programming/if-elif-else",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "pseudo-code",
+      "title": "Pseudo Code",
+      "description": "Writing algorithm logic in pseudo code",
+      "position": { "x": 650, "y": 350 },
+      "difficulty": "beginner",
+      "prerequisites": ["control-structures"],
+      "resources": [
+        {
+          "title": "Pseudocode Guide",
+          "url": "https://www.khanacademy.org/computing/computer-programming/programming/good-practices/a/planning-with-pseudo-code",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "description": "Function definition, parameters, return values, scope",
+      "position": { "x": 650, "y": 450 },
+      "difficulty": "beginner",
+      "prerequisites": ["pseudo-code"],
+      "resources": [
+        {
+          "title": "Functions in Programming",
+          "url": "https://www.programiz.com/python-programming/function",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "oop-basics",
+      "title": "OOP Basics",
+      "description": "Object-oriented programming concepts: classes, objects, inheritance",
+      "position": { "x": 650, "y": 550 },
+      "difficulty": "intermediate",
+      "prerequisites": ["functions"],
+      "resources": [
+        {
+          "title": "OOP Concepts",
+          "url": "https://www.programiz.com/python-programming/object-oriented-programming",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "what-are-data-structures",
+      "title": "What are Data Structures?",
+      "description": "Introduction to data structures and their importance in programming",
+      "position": { "x": 400, "y": 350 },
+      "difficulty": "beginner",
+      "prerequisites": ["programming-fundamentals"],
+      "resources": [
+        {
+          "title": "Introduction to Data Structures",
+          "url": "https://www.geeksforgeeks.org/data-structures/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "why-data-structures-important",
+      "title": "Why are Data Structures Important?",
+      "description": "Understanding the significance and benefits of using proper data structures",
+      "position": { "x": 400, "y": 450 },
+      "difficulty": "beginner",
+      "prerequisites": ["what-are-data-structures"],
+      "resources": [
+        {
+          "title": "Importance of Data Structures",
+          "url": "https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "basic-data-structures",
+      "title": "Basic Data Structures",
+      "description": "Foundation data structures: Arrays, Linked Lists, Stacks, Queues, Hash Tables",
+      "position": { "x": 400, "y": 550 },
+      "difficulty": "beginner",
+      "prerequisites": ["why-data-structures-important"],
+      "resources": [
+        {
+          "title": "Basic Data Structures Guide",
+          "url": "https://www.programiz.com/dsa",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "array",
+      "title": "Array",
+      "description": "Linear data structure with elements stored in contiguous memory",
+      "position": { "x": 150, "y": 650 },
+      "difficulty": "beginner",
+      "prerequisites": ["basic-data-structures"],
+      "resources": [
+        {
+          "title": "Array Data Structure",
+          "url": "https://www.programiz.com/dsa/array",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "linked-lists",
+      "title": "Linked Lists",
+      "description": "Dynamic linear data structure with nodes containing data and pointers",
+      "position": { "x": 250, "y": 650 },
+      "difficulty": "beginner",
+      "prerequisites": ["basic-data-structures"],
+      "resources": [
+        {
+          "title": "Linked List Tutorial",
+          "url": "https://www.programiz.com/dsa/linked-list",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "queues",
+      "title": "Queues",
+      "description": "FIFO (First In First Out) linear data structure",
+      "position": { "x": 350, "y": 650 },
+      "difficulty": "beginner",
+      "prerequisites": ["basic-data-structures"],
+      "resources": [
+        {
+          "title": "Queue Data Structure",
+          "url": "https://www.programiz.com/dsa/queue",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "stacks",
+      "title": "Stacks",
+      "description": "LIFO (Last In First Out) linear data structure",
+      "position": { "x": 450, "y": 650 },
+      "difficulty": "beginner",
+      "prerequisites": ["basic-data-structures"],
+      "resources": [
+        {
+          "title": "Stack Data Structure",
+          "url": "https://www.programiz.com/dsa/stack",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "hash-tables",
+      "title": "Hash Tables",
+      "description": "Key-value pair data structure with O(1) average access time",
+      "position": { "x": 400, "y": 750 },
+      "difficulty": "intermediate",
+      "prerequisites": ["array", "linked-lists", "queues", "stacks"],
+      "resources": [
+        {
+          "title": "Hash Table Implementation",
+          "url": "https://www.programiz.com/dsa/hash-table",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "algorithmic-complexity",
+      "title": "Algorithmic Complexity",
+      "description": "Time and space complexity analysis of algorithms",
+      "position": { "x": 400, "y": 900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["hash-tables"],
+      "resources": [
+        {
+          "title": "Big O Notation Cheat Sheet",
+          "url": "https://www.bigocheatsheet.com/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "time-space-complexity",
+      "title": "Time vs Space Complexity",
+      "description": "Understanding trade-offs between time and space efficiency",
+      "position": { "x": 150, "y": 1000 },
+      "difficulty": "intermediate",
+      "prerequisites": ["algorithmic-complexity"],
+      "resources": [
+        {
+          "title": "Time and Space Complexity Guide",
+          "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "calculate-complexity",
+      "title": "How to Calculate Complexity?",
+      "description": "Methods and techniques to analyze algorithm complexity",
+      "position": { "x": 150, "y": 1100 },
+      "difficulty": "intermediate",
+      "prerequisites": ["time-space-complexity"],
+      "resources": [
+        {
+          "title": "Complexity Analysis Methods",
+          "url": "https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "asymptotic-notation",
+      "title": "Asymptotic Notation",
+      "description": "Mathematical notation for describing algorithm complexity",
+      "position": { "x": 150, "y": 1200 },
+      "difficulty": "intermediate",
+      "prerequisites": ["calculate-complexity"],
+      "resources": [
+        {
+          "title": "Asymptotic Analysis",
+          "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "big-o-notation",
+      "title": "Big-O Notation",
+      "description": "Upper bound complexity analysis - worst case scenario",
+      "position": { "x": 100, "y": 1300 },
+      "difficulty": "intermediate",
+      "prerequisites": ["asymptotic-notation"],
+      "resources": [
+        {
+          "title": "Big O Notation Explained",
+          "url": "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "big-theta-notation",
+      "title": "Big-θ Notation",
+      "description": "Tight bound complexity analysis - average case",
+      "position": { "x": 150, "y": 1300 },
+      "difficulty": "intermediate",
+      "prerequisites": ["asymptotic-notation"],
+      "resources": [
+        {
+          "title": "Big Theta Notation",
+          "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "big-omega-notation",
+      "title": "Big-Ω Notation",
+      "description": "Lower bound complexity analysis - best case scenario",
+      "position": { "x": 200, "y": 1300 },
+      "difficulty": "intermediate",
+      "prerequisites": ["asymptotic-notation"],
+      "resources": [
+        {
+          "title": "Big Omega Notation",
+          "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "common-runtimes",
+      "title": "Common Runtimes",
+      "description": "Understanding different time complexity categories",
+      "position": { "x": 650, "y": 1000 },
+      "difficulty": "intermediate",
+      "prerequisites": ["algorithmic-complexity"],
+      "resources": [
+        {
+          "title": "Common Time Complexities",
+          "url": "https://www.bigocheatsheet.com/",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "id": "constant",
+      "title": "Constant",
+      "description": "O(1) - Constant time complexity, independent of input size",
+      "position": { "x": 650, "y": 1100 },
+      "difficulty": "beginner",
+      "prerequisites": ["common-runtimes"],
+      "resources": [
+        {
+          "title": "Constant Time Operations",
+          "url": "https://stackoverflow.com/questions/1592649/examples-of-algorithms-which-has-o1-on-and-olog-n-complexities",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "logarithmic",
+      "title": "Logarithmic",
+      "description": "O(log n) - Logarithmic time complexity, divides problem in half",
+      "position": { "x": 650, "y": 1200 },
+      "difficulty": "intermediate",
+      "prerequisites": ["constant"],
+      "resources": [
+        {
+          "title": "Logarithmic Time Complexity",
+          "url": "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "title": "Linear",
+      "description": "O(n) - Linear time complexity, proportional to input size",
+      "position": { "x": 650, "y": 1300 },
+      "difficulty": "beginner",
+      "prerequisites": ["logarithmic"],
+      "resources": [
+        {
+          "title": "Linear Time Algorithms",
+          "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "polynomial",
+      "title": "Polynomial",
+      "description": "O(n²), O(n³) - Polynomial time complexity with nested loops",
+      "position": { "x": 650, "y": 1400 },
+      "difficulty": "intermediate",
+      "prerequisites": ["linear"],
+      "resources": [
+        {
+          "title": "Polynomial Time Complexity",
+          "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "exponential",
+      "title": "Exponential",
+      "description": "O(2ⁿ) - Exponential time complexity, doubles with each input increase",
+      "position": { "x": 650, "y": 1500 },
+      "difficulty": "advanced",
+      "prerequisites": ["polynomial"],
+      "resources": [
+        {
+          "title": "Exponential Time Algorithms",
+          "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "factorial",
+      "title": "Factorial",
+      "description": "O(n!) - Factorial time complexity, extremely slow growth",
+      "position": { "x": 650, "y": 1600 },
+      "difficulty": "advanced",
+      "prerequisites": ["exponential"],
+      "resources": [
+        {
+          "title": "Factorial Time Complexity",
+          "url": "https://www.geeksforgeeks.org/time-complexity-and-space-complexity/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "sorting-algorithms",
+      "title": "Sorting Algorithms",
+      "description": "Various algorithms to arrange data in order",
+      "position": { "x": 400, "y": 1700 },
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "big-o-notation",
+        "big-theta-notation",
+        "big-omega-notation"
+      ],
+      "resources": [
+        {
+          "title": "Sorting Algorithms Overview",
+          "url": "https://www.geeksforgeeks.org/sorting-algorithms/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "bubble-sort",
+      "title": "Bubble Sort",
+      "description": "Simple comparison-based sorting algorithm with O(n²) complexity",
+      "position": { "x": 300, "y": 1800 },
+      "difficulty": "beginner",
+      "prerequisites": ["sorting-algorithms"],
+      "resources": [
+        {
+          "title": "Bubble Sort Algorithm",
+          "url": "https://www.programiz.com/dsa/bubble-sort",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "merge-sort",
+      "title": "Merge Sort",
+      "description": "Efficient divide and conquer sorting algorithm with O(n log n) complexity",
+      "position": { "x": 400, "y": 1800 },
+      "difficulty": "intermediate",
+      "prerequisites": ["sorting-algorithms"],
+      "resources": [
+        {
+          "title": "Merge Sort Algorithm",
+          "url": "https://www.programiz.com/dsa/merge-sort",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "insertion-sort",
+      "title": "Insertion Sort",
+      "description": "Simple sorting algorithm that builds sorted array one element at a time",
+      "position": { "x": 300, "y": 1900 },
+      "difficulty": "beginner",
+      "prerequisites": ["bubble-sort"],
+      "resources": [
+        {
+          "title": "Insertion Sort Algorithm",
+          "url": "https://www.programiz.com/dsa/insertion-sort",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "quick-sort",
+      "title": "Quick Sort",
+      "description": "Efficient divide and conquer sorting with average O(n log n) complexity",
+      "position": { "x": 400, "y": 1900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["merge-sort"],
+      "resources": [
+        {
+          "title": "Quick Sort Algorithm",
+          "url": "https://www.programiz.com/dsa/quick-sort",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "selection-sort",
+      "title": "Selection Sort",
+      "description": "Simple sorting algorithm that selects minimum element repeatedly",
+      "position": { "x": 400, "y": 2000 },
+      "difficulty": "beginner",
+      "prerequisites": ["insertion-sort", "quick-sort"],
+      "resources": [
+        {
+          "title": "Selection Sort Algorithm",
+          "url": "https://www.programiz.com/dsa/selection-sort",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "heap-sort",
+      "title": "Heap Sort",
+      "description": "Comparison-based sorting using heap data structure",
+      "position": { "x": 400, "y": 2100 },
+      "difficulty": "intermediate",
+      "prerequisites": ["selection-sort"],
+      "resources": [
+        {
+          "title": "Heap Sort Algorithm",
+          "url": "https://www.programiz.com/dsa/heap-sort",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "search-algorithms",
+      "title": "Search Algorithms",
+      "description": "Algorithms to find specific elements in data structures",
+      "position": { "x": 750, "y": 1700 },
+      "difficulty": "intermediate",
+      "prerequisites": ["factorial"],
+      "resources": [
+        {
+          "title": "Search Algorithms Guide",
+          "url": "https://www.geeksforgeeks.org/searching-algorithms/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search",
+      "description": "Efficient O(log n) search algorithm for sorted arrays",
+      "position": { "x": 750, "y": 1800 },
+      "difficulty": "intermediate",
+      "prerequisites": ["search-algorithms"],
+      "resources": [
+        {
+          "title": "Binary Search Algorithm",
+          "url": "https://www.programiz.com/dsa/binary-search",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "linear-search",
+      "title": "Linear Search",
+      "description": "Simple O(n) search algorithm that checks every element",
+      "position": { "x": 750, "y": 1900 },
+      "difficulty": "beginner",
+      "prerequisites": ["binary-search"],
+      "resources": [
+        {
+          "title": "Linear Search Algorithm",
+          "url": "https://www.programiz.com/dsa/linear-search",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "tree-data-structures",
+      "title": "Tree Data Structures",
+      "description": "Hierarchical data structures with parent-child relationships",
+      "position": { "x": 1000, "y": 1700 },
+      "difficulty": "intermediate",
+      "prerequisites": ["search-algorithms"],
+      "resources": [
+        {
+          "title": "Tree Data Structure Guide",
+          "url": "https://www.programiz.com/dsa/trees",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "binary-trees",
+      "title": "Binary Trees",
+      "description": "Tree structure where each node has at most two children",
+      "position": { "x": 900, "y": 1800 },
+      "difficulty": "intermediate",
+      "prerequisites": ["tree-data-structures"],
+      "resources": [
+        {
+          "title": "Binary Tree Implementation",
+          "url": "https://www.programiz.com/dsa/binary-tree",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "tree-traversal",
+      "title": "Tree Traversal",
+      "description": "Methods to visit all nodes: In-order, Pre-order, Post-order",
+      "position": { "x": 1000, "y": 1800 },
+      "difficulty": "intermediate",
+      "prerequisites": ["tree-data-structures"],
+      "resources": [
+        {
+          "title": "Tree Traversal Methods",
+          "url": "https://www.programiz.com/dsa/tree-traversal",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "tree-search-algorithms",
+      "title": "Search Algorithms",
+      "description": "BFS and DFS search algorithms for trees",
+      "position": { "x": 1100, "y": 1800 },
+      "difficulty": "intermediate",
+      "prerequisites": ["tree-data-structures"],
+      "resources": [
+        {
+          "title": "Tree Search Algorithms",
+          "url": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "breadth-first-search",
+      "title": "Breadth First Search",
+      "description": "Level-by-level tree/graph traversal algorithm",
+      "position": { "x": 1100, "y": 1900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["tree-search-algorithms"],
+      "resources": [
+        {
+          "title": "BFS Algorithm",
+          "url": "https://www.programiz.com/dsa/graph-bfs",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "depth-first-search",
+      "title": "Depth First Search",
+      "description": "Deep exploration tree/graph traversal algorithm",
+      "position": { "x": 1150, "y": 1900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["tree-search-algorithms"],
+      "resources": [
+        {
+          "title": "DFS Algorithm",
+          "url": "https://www.programiz.com/dsa/graph-dfs",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "advanced-data-structures",
+      "title": "Advanced Data Structures",
+      "description": "Complex data structures for specialized use cases",
+      "position": { "x": 1300, "y": 1700 },
+      "difficulty": "advanced",
+      "prerequisites": ["tree-data-structures"],
+      "resources": [
+        {
+          "title": "Advanced Data Structures",
+          "url": "https://www.geeksforgeeks.org/advanced-data-structures/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "trie",
+      "title": "Trie",
+      "description": "Tree-like data structure for storing strings efficiently",
+      "position": { "x": 1250, "y": 1800 },
+      "difficulty": "advanced",
+      "prerequisites": ["advanced-data-structures"],
+      "resources": [
+        {
+          "title": "Trie Data Structure",
+          "url": "https://www.geeksforgeeks.org/trie-insert-and-search/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "segment-trees",
+      "title": "Segment Trees",
+      "description": "Tree data structure for range queries and updates",
+      "position": { "x": 1300, "y": 1800 },
+      "difficulty": "advanced",
+      "prerequisites": ["advanced-data-structures"],
+      "resources": [
+        {
+          "title": "Segment Tree",
+          "url": "https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "fenwick-trees",
+      "title": "Fenwick Trees",
+      "description": "Binary Indexed Tree for efficient prefix sum queries",
+      "position": { "x": 1350, "y": 1800 },
+      "difficulty": "advanced",
+      "prerequisites": ["advanced-data-structures"],
+      "resources": [
+        {
+          "title": "Fenwick Tree (BIT)",
+          "url": "https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "disjoint-set",
+      "title": "Disjoint Set (Union-Find)",
+      "description": "Data structure for tracking disjoint sets with union operations",
+      "position": { "x": 1400, "y": 1800 },
+      "difficulty": "advanced",
+      "prerequisites": ["advanced-data-structures"],
+      "resources": [
+        {
+          "title": "Disjoint Set Union",
+          "url": "https://www.geeksforgeeks.org/union-find/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "suffix-trees",
+      "title": "Suffix Trees and Arrays",
+      "description": "Advanced string processing data structures",
+      "position": { "x": 1450, "y": 1800 },
+      "difficulty": "advanced",
+      "prerequisites": ["advanced-data-structures"],
+      "resources": [
+        {
+          "title": "Suffix Array",
+          "url": "https://www.geeksforgeeks.org/suffix-array-set-1-introduction/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "complex-data-structures",
+      "title": "Complex Data Structures",
+      "description": "Highly specialized and complex data structures",
+      "position": { "x": 1000, "y": 2200 },
+      "difficulty": "advanced",
+      "prerequisites": [
+        "trie",
+        "segment-trees",
+        "fenwick-trees",
+        "disjoint-set",
+        "suffix-trees"
+      ],
+      "resources": [
+        {
+          "title": "Complex Data Structures",
+          "url": "https://www.geeksforgeeks.org/advanced-data-structures/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "indexing",
+      "title": "Indexing",
+      "description": "Database indexing techniques and data structures",
+      "position": { "x": 1200, "y": 2200 },
+      "difficulty": "advanced",
+      "prerequisites": ["complex-data-structures"],
+      "resources": [
+        {
+          "title": "Database Indexing",
+          "url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "linear-indexing",
+      "title": "Linear",
+      "description": "Linear indexing methods",
+      "position": { "x": 1150, "y": 2300 },
+      "difficulty": "advanced",
+      "prerequisites": ["indexing"],
+      "resources": [
+        {
+          "title": "Linear Indexing",
+          "url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "tree-based-indexing",
+      "title": "Tree-Based",
+      "description": "Tree-based indexing structures like B+ trees",
+      "position": { "x": 1250, "y": 2300 },
+      "difficulty": "advanced",
+      "prerequisites": ["indexing"],
+      "resources": [
+        {
+          "title": "B+ Tree Indexing",
+          "url": "https://www.geeksforgeeks.org/introduction-of-b-tree/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "problem-solving-techniques",
+      "title": "Problem Solving Techniques",
+      "description": "Advanced problem-solving strategies and techniques",
+      "position": { "x": 800, "y": 2400 },
+      "difficulty": "advanced",
+      "prerequisites": ["heap-sort", "linear-search"],
+      "resources": [
+        {
+          "title": "Problem Solving Strategies",
+          "url": "https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "brute-force",
+      "title": "Brute Force",
+      "description": "Exhaustive search approach to solve problems",
+      "position": { "x": 700, "y": 2500 },
+      "difficulty": "beginner",
+      "prerequisites": ["problem-solving-techniques"],
+      "resources": [
+        {
+          "title": "Brute Force Algorithms",
+          "url": "https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "backtracking",
+      "title": "Backtracking",
+      "description": "Systematic method for solving constraint satisfaction problems",
+      "position": { "x": 800, "y": 2500 },
+      "difficulty": "intermediate",
+      "prerequisites": ["problem-solving-techniques"],
+      "resources": [
+        {
+          "title": "Backtracking Algorithm",
+          "url": "https://www.geeksforgeeks.org/backtracking-algorithms/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "greedy-algorithms",
+      "title": "Greedy Algorithms",
+      "description": "Algorithms that make locally optimal choices",
+      "position": { "x": 700, "y": 2600 },
+      "difficulty": "intermediate",
+      "prerequisites": ["brute-force"],
+      "resources": [
+        {
+          "title": "Greedy Algorithms",
+          "url": "https://www.geeksforgeeks.org/greedy-algorithms/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "randomised-algorithms",
+      "title": "Randomised Algorithms",
+      "description": "Algorithms that use random choices during execution",
+      "position": { "x": 800, "y": 2600 },
+      "difficulty": "advanced",
+      "prerequisites": ["backtracking"],
+      "resources": [
+        {
+          "title": "Randomized Algorithms",
+          "url": "https://www.geeksforgeeks.org/randomized-algorithms/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "divide-and-conquer",
+      "title": "Divide and Conquer",
+      "description": "Problem-solving approach that breaks problems into subproblems",
+      "position": { "x": 900, "y": 2600 },
+      "difficulty": "intermediate",
+      "prerequisites": ["backtracking"],
+      "resources": [
+        {
+          "title": "Divide and Conquer",
+          "url": "https://www.geeksforgeeks.org/divide-and-conquer/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "kth-element",
+      "title": "Kth Element",
+      "description": "Finding the kth smallest/largest element efficiently",
+      "position": { "x": 850, "y": 2700 },
+      "difficulty": "intermediate",
+      "prerequisites": ["divide-and-conquer"],
+      "resources": [
+        {
+          "title": "Kth Smallest Element",
+          "url": "https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "description": "Function calling itself to solve smaller subproblems",
+      "position": { "x": 950, "y": 2700 },
+      "difficulty": "intermediate",
+      "prerequisites": ["divide-and-conquer"],
+      "resources": [
+        {
+          "title": "Recursion in Programming",
+          "url": "https://www.programiz.com/java-programming/recursion",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-programming",
+      "title": "Dynamic Programming",
+      "description": "Optimization technique using overlapping subproblems",
+      "position": { "x": 900, "y": 2800 },
+      "difficulty": "advanced",
+      "prerequisites": ["kth-element", "recursion"],
+      "resources": [
+        {
+          "title": "Dynamic Programming",
+          "url": "https://www.geeksforgeeks.org/dynamic-programming/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "two-pointer-technique",
+      "title": "Two Pointer Technique",
+      "description": "Efficient technique using two pointers to solve array problems",
+      "position": { "x": 800, "y": 2900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["dynamic-programming"],
+      "resources": [
+        {
+          "title": "Two Pointer Technique",
+          "url": "https://www.geeksforgeeks.org/two-pointers-technique/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "sliding-window-technique",
+      "title": "Sliding Window Technique",
+      "description": "Technique for solving subarray/substring problems efficiently",
+      "position": { "x": 1000, "y": 2900 },
+      "difficulty": "intermediate",
+      "prerequisites": ["dynamic-programming"],
+      "resources": [
+        {
+          "title": "Sliding Window Technique",
+          "url": "https://www.geeksforgeeks.org/window-sliding-technique/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "platforms-to-practice",
+      "title": "Platforms to Practice",
+      "description": "Online platforms for practicing DSA problems",
+      "position": { "x": 900, "y": 3000 },
+      "difficulty": "beginner",
+      "prerequisites": ["two-pointer-technique", "sliding-window-technique"],
+      "resources": [
+        {
+          "title": "Best Coding Practice Platforms",
+          "url": "https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "leetcode",
+      "title": "Leetcode",
+      "description": "Popular platform for coding interview preparation",
+      "position": { "x": 850, "y": 3100 },
+      "difficulty": "beginner",
+      "prerequisites": ["platforms-to-practice"],
+      "resources": [
+        {
+          "title": "LeetCode Platform",
+          "url": "https://leetcode.com/",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "edabit",
+      "title": "Edabit",
+      "description": "Interactive coding challenges platform",
+      "position": { "x": 950, "y": 3100 },
+      "difficulty": "beginner",
+      "prerequisites": ["platforms-to-practice"],
+      "resources": [
+        {
+          "title": "Edabit Platform",
+          "url": "https://edabit.com/",
+          "type": "tutorial"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    { "from": "pick-language", "to": "programming-fundamentals" },
+    { "from": "pick-language", "to": "language-syntax" },
+    { "from": "programming-fundamentals", "to": "what-are-data-structures" },
+    { "from": "language-syntax", "to": "control-structures" },
+    { "from": "control-structures", "to": "pseudo-code" },
+    { "from": "pseudo-code", "to": "functions" },
+    { "from": "functions", "to": "oop-basics" },
+    {
+      "from": "what-are-data-structures",
+      "to": "why-data-structures-important"
+    },
+    { "from": "why-data-structures-important", "to": "basic-data-structures" },
+    { "from": "basic-data-structures", "to": "array" },
+    { "from": "basic-data-structures", "to": "linked-lists" },
+    { "from": "basic-data-structures", "to": "queues" },
+    { "from": "basic-data-structures", "to": "stacks" },
+    { "from": "array", "to": "hash-tables" },
+    { "from": "linked-lists", "to": "hash-tables" },
+    { "from": "queues", "to": "hash-tables" },
+    { "from": "stacks", "to": "hash-tables" },
+    { "from": "hash-tables", "to": "algorithmic-complexity" },
+    { "from": "algorithmic-complexity", "to": "time-space-complexity" },
+    { "from": "algorithmic-complexity", "to": "common-runtimes" },
+    { "from": "time-space-complexity", "to": "calculate-complexity" },
+    { "from": "calculate-complexity", "to": "asymptotic-notation" },
+    { "from": "asymptotic-notation", "to": "big-o-notation" },
+    { "from": "asymptotic-notation", "to": "big-theta-notation" },
+    { "from": "asymptotic-notation", "to": "big-omega-notation" },
+    { "from": "common-runtimes", "to": "constant" },
+    { "from": "constant", "to": "logarithmic" },
+    { "from": "logarithmic", "to": "linear" },
+    { "from": "linear", "to": "polynomial" },
+    { "from": "polynomial", "to": "exponential" },
+    { "from": "exponential", "to": "factorial" },
+    { "from": "big-o-notation", "to": "sorting-algorithms" },
+    { "from": "big-theta-notation", "to": "sorting-algorithms" },
+    { "from": "big-omega-notation", "to": "sorting-algorithms" },
+    { "from": "factorial", "to": "search-algorithms" },
+    { "from": "sorting-algorithms", "to": "bubble-sort" },
+    { "from": "sorting-algorithms", "to": "merge-sort" },
+    { "from": "bubble-sort", "to": "insertion-sort" },
+    { "from": "merge-sort", "to": "quick-sort" },
+    { "from": "insertion-sort", "to": "selection-sort" },
+    { "from": "quick-sort", "to": "selection-sort" },
+    { "from": "selection-sort", "to": "heap-sort" },
+    { "from": "search-algorithms", "to": "binary-search" },
+    { "from": "search-algorithms", "to": "tree-data-structures" },
+    { "from": "binary-search", "to": "linear-search" },
+    { "from": "tree-data-structures", "to": "binary-trees" },
+    { "from": "tree-data-structures", "to": "tree-traversal" },
+    { "from": "tree-data-structures", "to": "tree-search-algorithms" },
+    { "from": "tree-data-structures", "to": "advanced-data-structures" },
+    { "from": "tree-search-algorithms", "to": "breadth-first-search" },
+    { "from": "tree-search-algorithms", "to": "depth-first-search" },
+    { "from": "advanced-data-structures", "to": "trie" },
+    { "from": "advanced-data-structures", "to": "segment-trees" },
+    { "from": "advanced-data-structures", "to": "fenwick-trees" },
+    { "from": "advanced-data-structures", "to": "disjoint-set" },
+    { "from": "advanced-data-structures", "to": "suffix-trees" },
+    { "from": "trie", "to": "complex-data-structures" },
+    { "from": "segment-trees", "to": "complex-data-structures" },
+    { "from": "fenwick-trees", "to": "complex-data-structures" },
+    { "from": "disjoint-set", "to": "complex-data-structures" },
+    { "from": "suffix-trees", "to": "complex-data-structures" },
+    { "from": "complex-data-structures", "to": "indexing" },
+    { "from": "indexing", "to": "linear-indexing" },
+    { "from": "indexing", "to": "tree-based-indexing" },
+    { "from": "heap-sort", "to": "problem-solving-techniques" },
+    { "from": "linear-search", "to": "problem-solving-techniques" },
+    { "from": "problem-solving-techniques", "to": "brute-force" },
+    { "from": "problem-solving-techniques", "to": "backtracking" },
+    { "from": "brute-force", "to": "greedy-algorithms" },
+    { "from": "backtracking", "to": "randomised-algorithms" },
+    { "from": "backtracking", "to": "divide-and-conquer" },
+    { "from": "divide-and-conquer", "to": "kth-element" },
+    { "from": "divide-and-conquer", "to": "recursion" },
+    { "from": "kth-element", "to": "dynamic-programming" },
+    { "from": "recursion", "to": "dynamic-programming" },
+    { "from": "dynamic-programming", "to": "two-pointer-technique" },
+    { "from": "dynamic-programming", "to": "sliding-window-technique" },
+    { "from": "two-pointer-technique", "to": "platforms-to-practice" },
+    { "from": "sliding-window-technique", "to": "platforms-to-practice" },
+    { "from": "platforms-to-practice", "to": "leetcode" },
+    { "from": "platforms-to-practice", "to": "edabit" }
+  ]
+}
