@@ -1,7 +1,4 @@
-'use client';
-
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 import aboutData from '@/data/about.json';
 
@@ -53,24 +50,22 @@ export default function Footer() {
             <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-md">
               Interactive roadmaps, guides, and projects to help developers learn new skills and advance their careers. Join thousands of developers on their learning journey.
             </p>
-            
-            {/* Social links */}
+
+            {/* Social links — plain anchor tags with CSS transitions */}
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
                 const Icon = social.icon;
                 return (
-                  <motion.a
+                  <a
                     key={social.label}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="p-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600"
                     aria-label={social.label}
+                    className="p-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:-translate-y-0.5 hover:scale-110 transition-all duration-200 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600"
                   >
                     <Icon size={20} />
-                  </motion.a>
+                  </a>
                 );
               })}
             </div>

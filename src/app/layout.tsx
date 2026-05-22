@@ -3,8 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import ServiceWorkerRegistration from "@/components/ServiceWorkerRegistration";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
@@ -115,8 +116,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className={`${inter.className} bg-gray-50 dark:bg-gray-900 transition-colors duration-300`}>
+      <body className={`${inter.variable} ${inter.className} bg-gray-50 dark:bg-gray-900 transition-colors duration-300`}>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
@@ -124,6 +126,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <ServiceWorkerRegistration />
       </body>
     </html>
   );
