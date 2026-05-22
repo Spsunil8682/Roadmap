@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Clock, BookOpen, ArrowRight, Filter } from 'lucide-react';
+import { Search, Clock, BookOpen, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { Guide } from '@/types';
 import guidesData from '@/data/guides.json';

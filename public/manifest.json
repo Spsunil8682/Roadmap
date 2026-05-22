@@ -1,0 +1,44 @@
+{
+  "name": "Developer Roadmaps",
+  "short_name": "Roadmaps",
+  "description": "Interactive roadmaps, topic-locked quizzes, and curated LeetCode problems to help you grow as a developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/easyroadmap_logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/easyroadmap_logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Frontend Roadmap",
+      "url": "/roadmap/frontend-roadmap",
+      "description": "Start the Frontend Developer learning path"
+    },
+    {
+      "name": "DSA Roadmap",
+      "url": "/roadmap/dsa-roadmap",
+      "description": "Start the Data Structures & Algorithms path"
+    },
+    {
+      "name": "All Roadmaps",
+      "url": "/roadmaps",
+      "description": "Browse all available roadmaps"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
